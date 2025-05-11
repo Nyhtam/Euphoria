@@ -1,0 +1,49 @@
+{
+  "id": "fabric-loader-0.16.9-1.20.1",
+  "time": "2024-10-30T16:42:25+01:00",
+  "releaseTime": "2024-10-30T16:42:25+01:00",
+  "type": "release",
+  "minimumLauncherVersion": 0,
+  "inheritsFrom": "1.20.1",
+  "libraries": [
+    {
+      "name": "org.ow2.asm:asm:9.7.1",
+      "url": "https://fabricmc.forgecdn.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-analysis:9.7.1",
+      "url": "https://fabricmc.forgecdn.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-commons:9.7.1",
+      "url": "https://fabricmc.forgecdn.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:9.7.1",
+      "url": "https://fabricmc.forgecdn.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-util:9.7.1",
+      "url": "https://fabricmc.forgecdn.net/"
+    },
+    {
+      "name": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+      "url": "https://fabricmc.forgecdn.net/"
+    },
+    {
+      "name": "net.fabricmc:intermediary:1.20.1",
+      "url": "https://fabricmc.forgecdn.net/"
+    },
+    {
+      "name": "net.fabricmc:fabric-loader:0.16.9",
+      "url": "https://fabricmc.forgecdn.net/"
+    }
+  ],
+  "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+  "arguments": {
+    "game": [],
+    "jvm": [
+      "-DFabricMcEmu= net.minecraft.client.main.Main "
+    ]
+  }
+}

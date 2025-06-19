@@ -1,0 +1,658 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "6CE50F1BA3E6325C"
+	hide_quest_details_until_startable: true
+	icon: "minecraft:grass_block"
+	id: "6774616096ABA0EF"
+	images: [{
+		height: 10.0d
+		image: "ad_astra:textures/sky/earth.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&bBackground Image is from the Ad Astra mod!"]
+			icon: "minecraft:grass_block"
+			id: "7A66A9B1EBFD1035"
+			subtitle: "Shouldnt be too hard. Background is from Ad_Astra mod!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "60B6D44C4B75CEA2"
+				type: "dimension"
+			}]
+			title: "Visit the Overworld"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			id: "2DEE8A2A8BF03E27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "765C2E8AA7D473A9"
+				table_id: 5528517002567052919L
+				type: "random"
+			}]
+			subtitle: "Raids are started the same way as in vanilla minecraft!"
+			tasks: [{
+				icon: "minecraft:totem_of_undying"
+				id: "2410EC4F2D5FF28D"
+				stat: "minecraft:raid_win"
+				type: "stat"
+				value: 1
+			}]
+			title: "Win a Raid!"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "01DA193FD275AE85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E1FB5EFB57F8616"
+				table_id: 786281147796979401L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Look out for Void Lillys "
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "0249EE592AB62C4C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Void Blossom"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["497AD7EC058214AC"]
+			hide: true
+			id: "3CCFE985948DF7E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19E99E5B51F99424"
+				table_id: 2302775707721680995L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "adventurez:amethyst_golem"
+				icon: "minecraft:amethyst_cluster"
+				id: "73CF7B3648EBB1C8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat an Amethyst Golem"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			id: "463D62DF364A49EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A8E04F9C49A25C2"
+				table_id: 5528517002567052919L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "adventurez:orc"
+				icon: "minecraft:emerald"
+				id: "07AA4382F737AE35"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat an Orc"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			id: "2E0564BCEE31DA7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E712168766E8724"
+					table_id: 4463141527018344467L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FF4B1D62672C5E7"
+					table_id: 2302775707721680995L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					entity: "graveyard:ghoul"
+					icon: "minecraft:rotten_flesh"
+					id: "07F4D3929818BAC3"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "7D7047BFDD8DB3DD"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "4746044902C089A9"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Kill 20 Skeletons, Ghouls and Zombies!"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			id: "51F112A7C1734FC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "031DFD609D8B11E7"
+				table_id: 2302775707721680995L
+				type: "random"
+			}]
+			tasks: [
+				{
+					entity: "rottencreatures:swampy"
+					icon: "minecraft:vine"
+					id: "31053652E2B80E9E"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "rottencreatures:undead_miner"
+					icon: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6BC1F62812DE776A"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "rottencreatures:mummy"
+					icon: "minecraft:chiseled_sandstone"
+					id: "70589F9F58EB1CE4"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Defeat 3 Swampys, 3 Undead miners and 3 mummys!"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E0564BCEE31DA7F"]
+			hide: true
+			icon: "minecraft:creeper_head"
+			id: "10EFFCADE811BD5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "362EFA1981620579"
+				table_id: 4755951580404142649L
+				type: "random"
+			}]
+			subtitle: "Creepers by Creeper Overhaul"
+			tasks: [
+				{
+					entity: "creeperoverhaul:jungle_creeper"
+					id: "2BEA9E1E7FBAF892"
+					title: "Kill a jungle creeper"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:bamboo_creeper"
+					id: "34A59E75A9DFED7C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					id: "706DCE6CA90D6966"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					id: "252B6B232EE60C72"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:hills_creeper"
+					id: "5A7661296CDC875E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:savannah_creeper"
+					id: "638660FA4EEADE2B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:mushroom_creeper"
+					id: "560A10E08CD8BFAC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:swamp_creeper"
+					id: "2E1CF003ABB020CF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dripstone_creeper"
+					id: "58BCE67C2B620547"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:cave_creeper"
+					id: "0910F52446BA7071"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dark_oak_creeper"
+					id: "7CE68E97948BBDC4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:spruce_creeper"
+					id: "5F88C5C74F230CC2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:beach_creeper"
+					id: "455F48B62BECA37A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					id: "0423EA21A1C8DEE1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill every type of custom creeper"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D41BE79FC1C4BC3"]
+			hide: true
+			id: "0337A1483DE4C8FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2749643FFEE5E407"
+				table_id: 4755951580404142649L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "2B328C7FC74C8B63"
+				title: "Defeat The Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			hide: true
+			id: "1C2F81BD3910497E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18CAFD69518DEEF4"
+				table_id: 5528517002567052919L
+				type: "random"
+			}]
+			tasks: [
+				{
+					entity: "graveyard:revenant"
+					icon: "graveyard:corruption"
+					id: "1721808190718A29"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "graveyard:nightmare"
+					icon: "graveyard:dark_iron_ingot"
+					id: "2434DA98FE105774"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "graveyard:reaper"
+					icon: "graveyard:dark_iron_block"
+					id: "3AB23EAF8ED99D0A"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "kill 5 Reapers, 5 Revenenants and 5 Nightmares"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			hide: true
+			id: "7A820EDEB1F1BA0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79D5AA52D4C8B173"
+				table_id: 2302775707721680995L
+				type: "random"
+			}]
+			tasks: [
+				{
+					entity: "graveyard:corrupted_vindicator"
+					icon: "graveyard:corruption"
+					id: "3DCC2BE28D59FBC8"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "graveyard:corrupted_pillager"
+					icon: "graveyard:corruption"
+					id: "19170B1A952D9BED"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Kill 10 Corrupted Pillagers and 5 Corrupted Villagers"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51F112A7C1734FC7"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3370170248B72B10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C7EA2AD7FFA0C4"
+				table_id: 5528517002567052919L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "rottencreatures:immortal"
+				id: "08A6892E0BADCFD9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill an Immortal"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			id: "5D41BE79FC1C4BC3"
+			tasks: [{
+				icon: "minecraft:infested_stone_bricks"
+				id: "0658EC47B8A5E1FE"
+				structure: "bossesofmassdestruction:lich_tower"
+				type: "structure"
+			}]
+			title: "Discover the lich tower"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01DA193FD275AE85"]
+			hide: true
+			id: "447D45965A4AA2EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39688A719E95AD10"
+					table_id: 786281147796979401L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5548C468BD2BC580"
+					table_id: 5528517002567052919L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BBC70FEDB1E8F3F"
+				item: "bosses_of_mass_destruction:charged_ender_pearl"
+				type: "item"
+			}]
+			title: "Obtain a Charged Enderpearl"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BCB9D7380DCF1A2"]
+			hide: true
+			icon: "graveyard:upper_bone_staff"
+			id: "7D8B1927476CAF7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C1A1F4FDE9EA262"
+				table_id: 4755951580404142649L
+				type: "random"
+			}]
+			subtitle: "To summon this dangerous Foe, Obtain the 3 Pieces of the Omnious Bone Fragment found in Ruins. Place them on the Corrupted Deepslate Center. Obtain a Vial of Blood and fill it by killing Villagers with a  bone Dagger. Wait until its Night and pour the Vial of Blood on the Altar."
+			tasks: [{
+				entity: "graveyard:lich"
+				id: "5AEA28DA71962079"
+				title: "Defeat the Corrupted Champion"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			description: ["A floating Island that spawns over Oceans"]
+			hide: true
+			id: "1BCB9D7380DCF1A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D5B8FD28B778D2C"
+				table_id: 5528517002567052919L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "graveyard:altar_center"
+				id: "4EB37FB572CC26A9"
+				structure: "graveyard:lich_prison"
+				type: "structure"
+			}]
+			title: "Discover a Lich Prison"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			id: "2053DC59D524DBEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C52CB147DC8A0AE"
+				table_id: 5528517002567052919L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "soulsweapons:draugr"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "006746EEF08B3CFD"
+				title: "Defeat the Old Champions Remains"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2053DC59D524DBEB"]
+			hide: true
+			hide_text_until_complete: false
+			id: "24F2BDCF489E5449"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "635418B4BAB8739D"
+				table_id: 4755951580404142649L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "soulsweapons:night_shade"
+				icon: "soulsweapons:lost_soul"
+				id: "0B20C78E9C7C68F1"
+				title: "Defeat the Frenzied Shade"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12515B2284BCF9BF"]
+			hide: true
+			id: "0BFB875934A75406"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "043DAA3B2C48EA27"
+					table_id: 4755951580404142649L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03CB360CFAFFDE5E"
+					table_id: 2302775707721680995L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "254BA3EA6504E02B"
+					table_id: 2302775707721680995L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				icon: {
+					Count: 1
+					id: "simplyswords:iron_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "20670374081F9A34"
+				title: "Defeat the Returning Knight"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			id: "12515B2284BCF9BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79284BB4DEB7E08A"
+					table_id: 5528517002567052919L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CEC17C85C7A2BF6"
+					table_id: 5528517002567052919L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:chaos_monarch"
+				icon: {
+					Count: 1
+					id: "soulsweapons:soul_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1F04C22F32F022B5"
+				title: "Defeat the Monarch of Chaos"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A66A9B1EBFD1035"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "endermanoverhaul:corrupted_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "497AD7EC058214AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "269CFB079B5090EE"
+				table_id: 5528517002567052919L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				id: "698A955B92D9B7AB"
+				title: "Defeat the fallen Icon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["&3The Overworld: upgraded, overhauled and expanded!"]
+	title: "&bOverworld"
+}

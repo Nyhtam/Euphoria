@@ -1,0 +1,23 @@
+{
+	id: "180E55DD003DA6FC"
+	loot_size: 1
+	order_index: 97
+	rewards: [
+		{ item: "croptopia:nectarine" }
+		{ item: "croptopia:persimmon" }
+		{ item: "croptopia:plum" }
+		{ count: 2, item: "croptopia:peach" }
+		{ count: 2, item: "croptopia:fig" }
+		{ count: 2, item: "croptopia:kumquat" }
+		{ count: 3, item: "croptopia:grapefruit" }
+		{ count: 3, item: "croptopia:cherry" }
+		{ count: 3, item: "croptopia:lemon" }
+		{ count: 4, item: "croptopia:honeydew" }
+		{ count: 4, item: "croptopia:orange" }
+		{ count: 4, item: "croptopia:blackberry" }
+		{ count: 5, item: "croptopia:cantaloupe" }
+		{ count: 5, item: "croptopia:banana" }
+		{ count: 5, item: "croptopia:currant" }
+	]
+	title: "Crop Loot Crate 17"
+}

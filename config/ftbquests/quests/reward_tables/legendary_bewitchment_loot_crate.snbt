@@ -1,0 +1,18 @@
+{
+	id: "77850B208577C571"
+	loot_size: 1
+	order_index: 58
+	rewards: [
+		{ count: 2, item: "bewitchment:demon_heart" }
+		{ count: 16, item: "bewitchment:garlic" }
+		{ count: 24, item: "bewitchment:demon_horn" }
+		{ count: 24, item: "bewitchment:ectoplasm" }
+		{ count: 6, item: "bewitchment:bottle_of_blood" }
+		{ count: 6, item: "bewitchment:salt_block" }
+		{ count: 6, item: "bewitchment:silver_block" }
+		{ count: 16, item: "bewitchment:aconite" }
+		{ count: 16, item: "bewitchment:belladonna" }
+		{ item: "bewitchment:grotesque_stew" }
+	]
+	title: "Legendary Bewitchment Loot Crate"
+}

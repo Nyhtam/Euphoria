@@ -1,0 +1,30 @@
+{
+	id: "0AE96E89BC067EC9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "inmis:plated_backpack"
+				tag: { }
+			}
+		}
+		{ count: 2, item: "minecraft:diamond_block" }
+		{ item: "origins:orb_of_origin" }
+		{
+			item: {
+				Count: 1
+				id: "nyfsquiver:diamond_quiver"
+				tag: { }
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 15
+		}
+		{ count: 3, item: "mythicmetals:orichalcum_ingot" }
+		{ item: "spirit:soul_steel_block" }
+	]
+	title: "Rare OW Loot Crate"
+}

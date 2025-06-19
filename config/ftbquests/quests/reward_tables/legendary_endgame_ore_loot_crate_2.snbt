@@ -1,0 +1,14 @@
+{
+	id: "5EEF2D8669817375"
+	loot_size: 1
+	order_index: 77
+	rewards: [
+		{ item: "mythicmetals:celestium_block" }
+		{ count: 6, item: "mythicmetals:metallurgium_ingot" }
+		{ count: 8, item: "mythicmetals:adamantite_block" }
+		{ count: 8, item: "mythicmetals:orichalcum_block" }
+		{ count: 8, item: "mythicmetals:mythril_block" }
+		{ item: "mythicmetals:unobtainium_block" }
+	]
+	title: "Legendary Endgame Ore Loot Crate 2"
+}

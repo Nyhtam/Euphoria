@@ -1,0 +1,20 @@
+{
+	id: "1FF51A4E38264863"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 7, item: "minecraft:iron_ingot" }
+		{ count: 2, item: "minecraft:diamond" }
+		{ count: 10, item: "minecraft:book" }
+		{ count: 15, item: "minecraft:arrow" }
+		{
+			type: "xp"
+			xp: 7
+		}
+		{ count: 15, item: "minecraft:bread" }
+		{ count: 2, item: "minecraft:redstone_block" }
+		{ count: 32, item: "minecraft:oak_log" }
+		{ item: "minecraft:emerald_block" }
+	]
+	title: "Uncommon OW Loot Crate"
+}

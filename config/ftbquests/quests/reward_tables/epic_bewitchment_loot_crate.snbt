@@ -1,0 +1,18 @@
+{
+	id: "647BFE12916BB6FE"
+	loot_size: 1
+	order_index: 57
+	rewards: [
+		{ count: 10, item: "bewitchment:aconite" }
+		{ count: 16, item: "bewitchment:aconite_seeds" }
+		{ count: 16, item: "bewitchment:belladonna_seeds" }
+		{ count: 10, item: "bewitchment:belladonna" }
+		{ count: 20, item: "bewitchment:mandrake_root" }
+		{ count: 3, item: "bewitchment:salt_block" }
+		{ count: 3, item: "bewitchment:silver_block" }
+		{ count: 14, item: "bewitchment:demon_horn" }
+		{ count: 9, item: "bewitchment:heaven_extract" }
+		{ count: 16, item: "bewitchment:dragons_blood_resin" }
+	]
+	title: "Epic Bewitchment Loot Crate"
+}

@@ -1,0 +1,23 @@
+{
+	id: "73F329D1A92E9725"
+	loot_size: 1
+	order_index: 101
+	rewards: [
+		{ item: "croptopia:walnut" }
+		{ item: "croptopia:nutmeg" }
+		{ item: "croptopia:starfruit" }
+		{ count: 2, item: "croptopia:pear" }
+		{ count: 2, item: "croptopia:pecan" }
+		{ count: 2, item: "croptopia:coconut" }
+		{ count: 3, item: "croptopia:apricot" }
+		{ count: 3, item: "croptopia:lime" }
+		{ count: 3, item: "croptopia:date" }
+		{ count: 4, item: "croptopia:mango" }
+		{ count: 4, item: "croptopia:dragonfruit" }
+		{ count: 4, item: "croptopia:avocado" }
+		{ count: 5, item: "croptopia:nectarine" }
+		{ count: 5, item: "croptopia:plum" }
+		{ count: 5, item: "croptopia:persimmon" }
+	]
+	title: "Ore Loot Crate 21"
+}

@@ -1,0 +1,20 @@
+{
+	id: "05E44ABE13CA0526"
+	loot_size: 1
+	order_index: 53
+	rewards: [
+		{ count: 8, item: "amethyst_imbuement:garnet" }
+		{ count: 8, item: "minecraft:lapis_block" }
+		{ count: 4, item: "amethyst_imbuement:lustrous_sphere" }
+		{ count: 8, item: "amethyst_imbuement:energetic_opal" }
+		{ count: 20, item: "amethyst_imbuement:imbued_quartz" }
+		{ count: 20, item: "amethyst_imbuement:imbued_lapis" }
+		{ count: 12, item: "minecraft:bookshelf" }
+		{ count: 12, item: "minecraft:gold_block" }
+		{ count: 32, item: "minecraft:amethyst_shard" }
+		{ count: 9, item: "amethyst_imbuement:danburite" }
+		{ count: 9, item: "amethyst_imbuement:moonstone" }
+		{ count: 40, item: "minecraft:experience_bottle" }
+	]
+	title: "Legendary Magic Loot Crate"
+}

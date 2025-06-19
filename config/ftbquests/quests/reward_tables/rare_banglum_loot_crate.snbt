@@ -1,0 +1,15 @@
+{
+	id: "48123C00BE4F3FFA"
+	loot_size: 1
+	order_index: 65
+	rewards: [
+		{ count: 5, item: "mythicmetals:carmot_ingot" }
+		{ count: 5, item: "mythicmetals:prometheum_ingot" }
+		{ count: 5, item: "mythicmetals:kyber_ingot" }
+		{ count: 5, item: "mythicmetals:osmium_ingot" }
+		{ count: 2, item: "mythicmetals:aquarium_block" }
+		{ count: 5, item: "mythicmetals:banglum_ingot" }
+		{ count: 5, item: "mythicmetals:runite_ingot" }
+	]
+	title: "Rare Banglum Loot Crate"
+}

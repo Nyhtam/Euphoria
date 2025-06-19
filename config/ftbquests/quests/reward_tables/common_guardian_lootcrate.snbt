@@ -1,0 +1,29 @@
+{
+	id: "0E3464F6E433FDD6"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 32, item: "minecraft:prismarine_crystals" }
+		{ item: "minecraft:prismarine_shard" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "goblintraders:extended_water_breathing"
+				}
+			}
+		}
+		{ count: 10, item: "minecraft:sponge" }
+	]
+	title: "common guardian lootcrate"
+}

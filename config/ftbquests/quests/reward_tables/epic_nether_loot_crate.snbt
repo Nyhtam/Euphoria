@@ -1,0 +1,21 @@
+{
+	id: "76B57E6FAF1EF0D5"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 10, item: "minecraft:netherite_scrap" }
+		{ count: 32, item: "minecraft:blaze_rod" }
+		{ count: 8, item: "betternether:nether_ruby" }
+		{ count: 24, item: "betternether:cincinnasite_ingot" }
+		{ count: 32, item: "betternether:nether_reed_stem" }
+		{
+			item: {
+				Count: 1
+				id: "inmis:withered_backpack"
+				tag: { }
+			}
+		}
+		{ count: 2, item: "minecraft:wither_skeleton_skull" }
+	]
+	title: "Epic Nether Loot Crate"
+}

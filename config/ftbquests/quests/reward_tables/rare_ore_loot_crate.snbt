@@ -1,0 +1,19 @@
+{
+	id: "40EB624518B44130"
+	loot_size: 1
+	order_index: 62
+	rewards: [
+		{ count: 2, item: "mythicmetals:bronze_block" }
+		{ count: 2, item: "minecraft:copper_block" }
+		{ count: 3, item: "mythicmetals:morkite_block" }
+		{ item: "mythicmetals:durasteel_block" }
+		{ count: 2, item: "mythicmetals:tin_block" }
+		{ count: 6, item: "minecraft:diamond" }
+		{ count: 2, item: "minecraft:gold_block" }
+		{ count: 3, item: "mythicmetals:silver_block" }
+		{ count: 3, item: "mythicmetals:manganese_block" }
+		{ count: 4, item: "minecraft:coal_block" }
+		{ item: "mythicmetals:aquarium_block" }
+	]
+	title: "Rare Ore Loot Crate"
+}

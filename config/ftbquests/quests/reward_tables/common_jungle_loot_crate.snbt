@@ -1,0 +1,15 @@
+{
+	id: "24A63E70E8F96DE7"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ count: 8, item: "minecraft:jungle_sapling" }
+		{ count: 32, item: "minecraft:jungle_log" }
+		{ count: 16, item: "croptopia:banana" }
+		{ count: 16, item: "xtraarrows:iron_slime_arrow" }
+		{ count: 8, item: "minecraft:slime_ball" }
+		{ count: 16, item: "naturalist:snail_shell" }
+		{ count: 16, item: "minecraft:spider_eye" }
+	]
+	title: "Common Jungle loot Crate"
+}

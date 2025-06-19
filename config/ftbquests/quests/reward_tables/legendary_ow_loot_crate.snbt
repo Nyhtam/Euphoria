@@ -1,0 +1,15 @@
+{
+	id: "420088C3A6F25239"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 8, item: "mythicmetals:raw_stormyx" }
+		{
+			type: "xp_levels"
+			xp_levels: 25
+		}
+		{ item: "origins:orb_of_origin" }
+		{ item: "moretotems:explosive_totem_of_undying" }
+	]
+	title: "Legendary OW Loot Crate"
+}

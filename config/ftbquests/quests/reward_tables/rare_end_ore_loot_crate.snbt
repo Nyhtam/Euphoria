@@ -1,0 +1,13 @@
+{
+	id: "0E615C5AB23EE5F3"
+	loot_size: 1
+	order_index: 71
+	rewards: [
+		{ count: 4, item: "mythicmetals:star_platinum" }
+		{ item: "mythicmetals:starrite_block" }
+		{ item: "mythicmetals:platinum_block" }
+		{ count: 4, item: "betterend:aeternium_ingot" }
+		{ count: 3, item: "betterend:terminite_block" }
+	]
+	title: "Rare End Ore Loot Crate"
+}

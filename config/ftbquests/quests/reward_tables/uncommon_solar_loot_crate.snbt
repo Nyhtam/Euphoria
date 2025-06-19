@@ -1,0 +1,19 @@
+{
+	id: "513EFE042570962C"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{ item: "ad_astra:oil_bucket" }
+		{ item: "ad_astra:fuel_bucket" }
+		{ item: "ad_astra:oxygen_bucket" }
+		{ count: 4, item: "ad_astra:engine_fan" }
+		{ count: 5, item: "ad_astra:iron_rod" }
+		{ count: 7, item: "ad_astra:steel_plate" }
+		{ count: 3, item: "ad_astra:steel_ingot" }
+		{ count: 3, item: "ad_astra:steel_cable" }
+		{ item: "ad_astra:rocket_fin" }
+		{ item: "ad_astra:oxygen_gear" }
+		{ count: 2, item: "ad_astra:wheel" }
+	]
+	title: "Uncommon Solar Loot Crate"
+}

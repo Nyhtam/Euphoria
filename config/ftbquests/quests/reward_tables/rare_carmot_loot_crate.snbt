@@ -1,0 +1,13 @@
+{
+	id: "100509B1F9644785"
+	loot_size: 1
+	order_index: 64
+	rewards: [
+		{ count: 4, item: "mythicmetals:carmot_ingot" }
+		{ count: 4, item: "mythicmetals:prometheum_ingot" }
+		{ count: 4, item: "mythicmetals:kyber_ingot" }
+		{ count: 4, item: "mythicmetals:osmium_ingot" }
+		{ count: 8, item: "mythicmetals:aquarium_ingot" }
+	]
+	title: "Rare Carmot Loot Crate"
+}

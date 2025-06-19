@@ -1,0 +1,28 @@
+{
+	id: "24D98A1E4FBCF079"
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{ item: "minecraft:lapis_block" }
+		{ count: 2, item: "amethyst_imbuement:opal" }
+		{ count: 8, item: "amethyst_imbuement:imbued_quartz" }
+		{ count: 8, item: "amethyst_imbuement:imbued_lapis" }
+		{ count: 3, item: "minecraft:bookshelf" }
+		{ item: "minecraft:gold_block" }
+		{ count: 9, item: "minecraft:amethyst_shard" }
+		{ count: 10, item: "minecraft:experience_bottle" }
+		{ count: 14, item: "minecraft:quartz" }
+		{ count: 14, item: "amethyst_imbuement:gem_dust" }
+		{ count: 6, item: "spirit:soul_steel_ingot" }
+		{
+			item: {
+				Count: 1
+				id: "amethyst_imbuement:gem_of_promise"
+				tag: { }
+			}
+		}
+		{ count: 3, item: "amethyst_imbuement:danburite" }
+		{ count: 3, item: "amethyst_imbuement:moonstone" }
+	]
+	title: "Uncommon Magic Loot Crate"
+}

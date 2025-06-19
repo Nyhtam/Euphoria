@@ -1,0 +1,26 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = fancymenu_data/2022-10-14_16.11.04.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  x = 1
+  action = editlogo
+  y = 5
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  action = editprogressbar
+  y = -50
+  barcolor = #201F20
+}
+

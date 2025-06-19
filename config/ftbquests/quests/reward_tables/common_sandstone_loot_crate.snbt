@@ -1,0 +1,29 @@
+{
+	id: "7422CCEE3D2D5740"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 32, item: "minecraft:sandstone" }
+		{ count: 24, item: "minecraft:white_terracotta" }
+		{
+			item: {
+				Count: 1
+				id: "nyfsquiver:basic_quiver"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "inmis:frayed_backpack"
+				tag: { }
+			}
+		}
+		{ count: 16, item: "minecraft:arrow" }
+		{ count: 24, item: "minecraft:gunpowder" }
+		{ count: 14, item: "minecraft:bone" }
+		{ count: 24, item: "minecraft:sand" }
+		{ count: 16, item: "minecraft:glass_bottle" }
+	]
+	title: "Common Sandstone Loot Crate"
+}

@@ -1,0 +1,27 @@
+{
+	id: "00462E79D70F6BA4"
+	loot_size: 1
+	order_index: 106
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecells:vine_rune"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecells:blank_rune" }
+		{ item: "minecells:sewage_bucket" }
+		{ count: 6, item: "minecells:monsters_eye" }
+		{ count: 8, item: "minecells:guts" }
+		{ count: 16, item: "minecells:prison_cobblestone" }
+		{ count: 20, item: "minecells:putrid_log" }
+		{ count: 3, item: "minecells:cage" }
+		{ count: 2, item: "minecells:spikes" }
+		{ count: 4, item: "minecells:broken_cage" }
+		{ count: 5, item: "minecells:chain_pile" }
+	]
+	title: "Uncommon Minecells Loot Crate"
+}

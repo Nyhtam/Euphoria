@@ -1,0 +1,23 @@
+{
+	id: "4A993A09035E6454"
+	loot_size: 1
+	order_index: 55
+	rewards: [
+		{ count: 3, item: "bewitchment:juniper_sapling" }
+		{ count: 3, item: "bewitchment:cypress_sapling" }
+		{ count: 3, item: "bewitchment:elder_sapling" }
+		{ count: 3, item: "bewitchment:dragons_blood_sapling" }
+		{ count: 3, item: "bewitchment:taglock" }
+		{ count: 5, item: "bewitchment:snake_tongue" }
+		{ count: 3, item: "bewitchment:demon_horn" }
+		{ count: 4, item: "bewitchment:ectoplasm" }
+		{ count: 8, item: "bewitchment:wood_ash" }
+		{ count: 6, item: "bewitchment:juniper_bark" }
+		{ count: 6, item: "bewitchment:cypress_bark" }
+		{ count: 6, item: "bewitchment:elder_bark" }
+		{ count: 8, item: "bewitchment:salt" }
+		{ item: "bewitchment:belladonna" }
+		{ item: "bewitchment:aconite" }
+	]
+	title: "Uncommon Bewitchment Loot Crate"
+}

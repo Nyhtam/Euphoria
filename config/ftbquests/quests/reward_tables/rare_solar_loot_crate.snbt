@@ -1,0 +1,22 @@
+{
+	id: "15F7F6A8C5CEFEE2"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{ count: 15, item: "ad_astra:cheese" }
+		{ count: 8, item: "ad_astra:iron_rod" }
+		{ count: 2, item: "ad_astra:rocket_nose_cone" }
+		{ count: 3, item: "ad_astra:engine_frame" }
+		{ count: 3, item: "ad_astra:wheel" }
+		{ count: 6, item: "ad_astra:steel_ingot" }
+		{ count: 9, item: "ad_astra:iron_plate" }
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:oxygen_tank"
+				tag: { }
+			}
+		}
+	]
+	title: "Rare solar loot crate"
+}

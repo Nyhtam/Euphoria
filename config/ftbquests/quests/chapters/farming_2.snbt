@@ -1,0 +1,1213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "farming_2"
+	group: "1408391CC7993B8A"
+	icon: "minecraft:wheat"
+	id: "79B4DD9158452BB5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "441FCDACBFC7AF41"
+			subtitle: "Craft this Item to unlock the Food and Farming Chapter"
+			tasks: [{
+				id: "47DCFB23BF7BF5D4"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Iron Hoe"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["441FCDACBFC7AF41"]
+			hide: true
+			id: "020D8B1D14A0A2AC"
+			subtitle: "Craft this Item to unlock the Blocks and Items Path"
+			tasks: [{
+				id: "3F42568A9B3AF96C"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			title: "Craft a Composter"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["441FCDACBFC7AF41"]
+			hide: true
+			id: "73141038E20B1B10"
+			rewards: [{
+				id: "1431D95F4CD75517"
+				item: "croptopia:guide"
+				type: "item"
+			}]
+			subtitle: "Obtain this Item to unlock the Foodstuff Path"
+			tasks: [{
+				id: "202D92C2F6A25F0D"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Obtain a Carrot"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["020D8B1D14A0A2AC"]
+			hide: true
+			id: "35A00498D5DB861D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D09765A08164C56"
+					table_id: 1706188529117234370L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "551687E9632F79C6"
+					table_id: 5833436294020189028L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "74ECA6CB75632B2E"
+				item: "croptopia:cooking_pot"
+				type: "item"
+			}]
+			title: "Craft a small Cooking Pot"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35A00498D5DB861D"]
+			hide: true
+			id: "19C824F0CCA3A557"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DA81027EC05D018"
+				table_id: 5833436294020189028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2DAD9A06E08001CE"
+				item: "croptopia:frying_pan"
+				type: "item"
+			}]
+			title: "Craft a Frying Pan"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19C824F0CCA3A557"]
+			hide: true
+			id: "0A7CE4ED9564E140"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "568D9324CA9C39C5"
+				table_id: 5833436294020189028L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58756B6232F4E0C2"
+				item: "croptopia:food_press"
+				type: "item"
+			}]
+			title: "Craft an All Purpose Food Press"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["020D8B1D14A0A2AC"]
+			id: "21F74057F72562A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06F1D4B612272124"
+				table_id: 5833436294020189028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E4E56A636954BF3"
+				item: "croptopia:knife"
+				type: "item"
+			}]
+			title: "Craft a Knife"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73141038E20B1B10"]
+			hide: true
+			id: "04852A11F4C99855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15E6CA7DF83C9446"
+				table_id: 3392388714022186299L
+				type: "random"
+			}]
+			subtitle: "Obtain this Item to unlock the Crops Subpath"
+			tasks: [{
+				id: "0BE6E7D2CAE067B7"
+				item: "croptopia:corn"
+				type: "item"
+			}]
+			title: "Harvest Corn"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04852A11F4C99855"]
+			hide: true
+			id: "3044151EC8782730"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19018A3D6844D520"
+				table_id: 8498689517530795014L
+				type: "random"
+			}]
+			subtitle: "Yes, there is quite alot of Onions in this modpack"
+			tasks: [{
+				id: "257B77C58CBB28BF"
+				item: "croptopia:onion"
+				type: "item"
+			}]
+			title: "Harvest an Onion"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3044151EC8782730"]
+			hide: true
+			id: "21722D8CAE972171"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04FAE2F690CABF0B"
+				table_id: 9061720402209511922L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DF640961C48637C"
+				item: "croptopia:leek"
+				type: "item"
+			}]
+			title: "Harvest Leek"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21722D8CAE972171"]
+			hide: true
+			id: "76A247493289F4E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D4AA07EE2313B3B"
+				table_id: 6405929213602512108L
+				type: "random"
+			}]
+			tasks: [{
+				id: "237357C61113BB03"
+				item: "croptopia:lettuce"
+				type: "item"
+			}]
+			title: "Harvest Lettuce"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["76A247493289F4E9"]
+			hide: true
+			id: "00E3ABC584213F2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A804E2E48FEE63"
+				table_id: 6405929213602512108L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F9F6998F16FC3F4"
+				item: "croptopia:greenonion"
+				type: "item"
+			}]
+			title: "Harvest a Green Onion"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00E3ABC584213F2C"]
+			hide: true
+			id: "13FF5129CBC6DFBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DD0D7C913096AA7"
+				table_id: 6405929213602512108L
+				type: "random"
+			}]
+			tasks: [{
+				id: "310226E982BD3A27"
+				item: "croptopia:greenbean"
+				type: "item"
+			}]
+			title: "Harvest a Green Bean"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00E3ABC584213F2C"]
+			hide: true
+			id: "13F43C5252371058"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01096589BD754FAC"
+				table_id: 8012648843340353702L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47380EA0A73AF637"
+				item: "croptopia:celery"
+				type: "item"
+			}]
+			title: "Harvest Celery"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["13F43C5252371058"]
+			hide: true
+			id: "26CF55C19FD24EDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1525353A82704FF4"
+				table_id: 8012648843340353702L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FC1343D446E1003"
+				item: "croptopia:zucchini"
+				type: "item"
+			}]
+			title: "Harvest Zucchini"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["26CF55C19FD24EDF"]
+			hide: true
+			id: "5B7F0929DA5BE05B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AA0518312F8DABF"
+				table_id: 8012648843340353702L
+				type: "random"
+			}]
+			tasks: [{
+				id: "706F6EB7DF4F8917"
+				item: "croptopia:vanilla"
+				type: "item"
+			}]
+			title: "Harvest Vanilla"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B7F0929DA5BE05B"]
+			hide: true
+			id: "71276925A40E2056"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "583A307B286A2492"
+				table_id: 7237147278159313281L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6308609737C2F836"
+				item: "croptopia:tea_leaves"
+				type: "item"
+			}]
+			title: "Harvest Tea Leaves"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71276925A40E2056"]
+			hide: true
+			id: "3F9237289E60A5AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2373EF5E63468737"
+				table_id: 7237147278159313281L
+				type: "random"
+			}]
+			tasks: [{
+				id: "724C2A192A9D69BA"
+				item: "croptopia:squash"
+				type: "item"
+			}]
+			title: "Harvest Squash"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3F9237289E60A5AD"]
+			hide: true
+			id: "3E4C172A1824AC4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3883A3FBBA918E89"
+				table_id: 7237147278159313281L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39E8049492BE2AD7"
+				item: "croptopia:cucumber"
+				type: "item"
+			}]
+			title: "Harvest Cucumber"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3E4C172A1824AC4F"]
+			hide: true
+			id: "016A2170B2C12FA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D7153BF66059384"
+				table_id: 3514366493671646628L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19D25008E19CD224"
+				item: "croptopia:radish"
+				type: "item"
+			}]
+			title: "Harvest Radish"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["016A2170B2C12FA3"]
+			hide: true
+			id: "075A134E3BA31659"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B5E768845071EFA"
+				table_id: 3514366493671646628L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38A32C7EA28A0741"
+				item: "croptopia:basil"
+				type: "item"
+			}]
+			title: "Harvest Basil"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["075A134E3BA31659"]
+			hide: true
+			id: "5FD66C7EF5F19773"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1300185E93DFD248"
+				table_id: 3514366493671646628L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BCAD43EB4582F72"
+				item: "croptopia:kale"
+				type: "item"
+			}]
+			title: "Harvest Kale"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5FD66C7EF5F19773"]
+			hide: true
+			id: "44AA498CED31A262"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EC18051C75ABD40"
+				table_id: 3514366493671646628L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05CDEFAD537DEAA2"
+				item: "croptopia:spinach"
+				type: "item"
+			}]
+			title: "Harvest Spinach"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["44AA498CED31A262"]
+			hide: true
+			id: "15FA7E8657317CF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2634DD854188CFBD"
+				table_id: 3514366493671646628L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65FCA5DD65154DBE"
+				item: "croptopia:turnip"
+				type: "item"
+			}]
+			title: "Harvest Turnip"
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["15FA7E8657317CF1"]
+			hide: true
+			id: "1CF3912DF29FCF26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50489EB429C3ED41"
+				table_id: 3514366493671646628L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35F9A938AF7D14DB"
+				item: "croptopia:tomatillo"
+				type: "item"
+			}]
+			title: "Harvest Tomatillo"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1CF3912DF29FCF26"]
+			hide: true
+			id: "7B14050AD90EE155"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E15DB67DBC60A30"
+				table_id: 1826063945767902049L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C1452378E0BCACC"
+				item: "croptopia:mustard"
+				type: "item"
+			}]
+			title: "Harvest Mustard"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7B14050AD90EE155"]
+			hide: true
+			id: "05A520D6505DDB7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "352CAB401A3D4C50"
+				table_id: 1826063945767902049L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BD44F2D837E9DE5"
+				item: "croptopia:olive"
+				type: "item"
+			}]
+			title: "Harvest an Olive"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["05A520D6505DDB7A"]
+			hide: true
+			id: "306D01E174F63D14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07B24027BE08210C"
+				table_id: 1826063945767902049L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6046074D9295A709"
+				item: "croptopia:eggplant"
+				type: "item"
+			}]
+			title: "Harvest an Eggplant"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7B14050AD90EE155"]
+			hide: true
+			id: "50D2DE46C6D4D8FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0594471990D804D5"
+				table_id: 5489109190512688353L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C6F9ADB073D0332"
+				item: "croptopia:pepper"
+				type: "item"
+			}]
+			title: "Harvest Pepper"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BF82C7B0FFAFA83"]
+			hide: true
+			id: "144C724675F8965F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DBCE3D98F1C14CF"
+				table_id: 5576299754224456723L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A7D91D5AE79A79D"
+				item: "croptopia:elderberry"
+				type: "item"
+			}]
+			title: "Harvest Elderberry"
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["144C724675F8965F"]
+			hide: true
+			id: "13FB9800795196D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09CC4C81F0F193C3"
+				table_id: 5576299754224456723L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1183CBABADAD7C5A"
+				item: "croptopia:raspberry"
+				type: "item"
+			}]
+			title: "Harvest Raspberry"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["13FB9800795196D9"]
+			hide: true
+			id: "5466A850DCC8DEFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D369F3E1941199A"
+				table_id: 5576299754224456723L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29D60F8389E0BB7D"
+				item: "croptopia:grape"
+				type: "item"
+			}]
+			title: "Harvest a Grape"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5466A850DCC8DEFE"]
+			hide: true
+			id: "54BB90CEF0CEC5C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AB24243ADF6D2FD"
+				table_id: 5576299754224456723L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62C746F0531C5A1A"
+				item: "croptopia:strawberry"
+				type: "item"
+			}]
+			title: "Harvest a Strawberry"
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["54BB90CEF0CEC5C9"]
+			hide: true
+			id: "14DD7242F53503B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7103E1E051B592F3"
+				table_id: 5576299754224456723L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E21C9FCBE925192"
+				item: "croptopia:pineapple"
+				type: "item"
+			}]
+			title: "Harvest a Pineapple"
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["14DD7242F53503B1"]
+			hide: true
+			id: "427A89AE9E92E40C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6638480ECE438F4A"
+				table_id: 5576299754224456723L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DD9DA3548253826"
+				item: "croptopia:saguaro"
+				type: "item"
+			}]
+			title: "Harvest a Saguaro"
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["427A89AE9E92E40C"]
+			hide: true
+			id: "5BB9554298E6C238"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69B85A51BC5765AD"
+				table_id: 2705022459897399016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37211AFDF72BC5E4"
+				item: "croptopia:cantaloupe"
+				type: "item"
+			}]
+			title: "Harvest a Cantaloupe"
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50D2DE46C6D4D8FB"]
+			hide: true
+			id: "324D40364B247470"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3235646E2379F7B7"
+				table_id: 5489109190512688353L
+				type: "random"
+			}]
+			tasks: [{
+				id: "657DFFBE192810D8"
+				item: "croptopia:chile_pepper"
+				type: "item"
+			}]
+			title: "Harvest Chile Pepper"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["324D40364B247470"]
+			hide: true
+			id: "1BF82C7B0FFAFA83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CEDB1BFB0FE905B"
+				table_id: 5489109190512688353L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25174F5839C73C74"
+				item: "croptopia:asparagus"
+				type: "item"
+			}]
+			title: "Harvest Asparagus"
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5BB9554298E6C238"]
+			hide: true
+			id: "6CF9AE9DCC5B2DD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F69090EFA3FBC2"
+				table_id: 2705022459897399016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "270A5986CE608249"
+				item: "croptopia:currant"
+				type: "item"
+			}]
+			title: "Harvest Currant"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6CF9AE9DCC5B2DD9"]
+			hide: true
+			id: "602539D3E48AEC8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D7C0A883A1AA21D"
+				table_id: 2705022459897399016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "592352349FBCB7C2"
+				item: "croptopia:banana"
+				type: "item"
+			}]
+			title: "Harvest a Banana"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["602539D3E48AEC8D"]
+			hide: true
+			id: "71E6412732059422"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56EA01750CB551AC"
+				table_id: 4414528853535193605L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B2F5DD826912730"
+				item: "croptopia:honeydew"
+				type: "item"
+			}]
+			title: "Harvest Honeydew"
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["71E6412732059422"]
+			hide: true
+			id: "238EABC42D383286"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25F3B2BDBAAAF1E6"
+				table_id: 4414528853535193605L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23BE605E9F19A41B"
+				item: "croptopia:blackberry"
+				type: "item"
+			}]
+			title: "Harvest Blackberry"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["238EABC42D383286"]
+			hide: true
+			id: "5EDD285787885AFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27118A2C875631AD"
+				table_id: 4414528853535193605L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29773A75BCA81050"
+				item: "croptopia:orange"
+				type: "item"
+			}]
+			title: "Harvest an Orange"
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5EDD285787885AFD"]
+			hide: true
+			id: "53C97C3D09D830B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C4FB54C43493960"
+				table_id: 3123301049072248398L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F07EDE2767CEDDD"
+				item: "croptopia:grapefruit"
+				type: "item"
+			}]
+			title: "Harvest Grapefruit"
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["53C97C3D09D830B1"]
+			hide: true
+			id: "08420BDE49622580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159EA6E01B1C9E62"
+				table_id: 3123301049072248398L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F86CAFD52104648"
+				item: "croptopia:cherry"
+				type: "item"
+			}]
+			title: "Harvest Cherry"
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["08420BDE49622580"]
+			hide: true
+			id: "477D0E94F5EEBDF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5196CE751DDA48A9"
+				table_id: 3123301049072248398L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22E97BFED03CA082"
+				item: "croptopia:lemon"
+				type: "item"
+			}]
+			title: "Harvest a Lemon"
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["477D0E94F5EEBDF9"]
+			hide: true
+			id: "5BCA158FFF0C9321"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "491812B668CB0B7D"
+				table_id: 2147403650218926597L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F4C519B95D91084"
+				item: "croptopia:kumquat"
+				type: "item"
+			}]
+			title: "Harvest a Kumquat"
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5BCA158FFF0C9321"]
+			hide: true
+			id: "509D5F85FB692F2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "290E7D6ED93EA4E6"
+				table_id: 2147403650218926597L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D0DC6FCE4AA8039"
+				item: "croptopia:peach"
+				type: "item"
+			}]
+			title: "Harvest a Peach"
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["509D5F85FB692F2E"]
+			hide: true
+			id: "4FCC5EF9445AC481"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CDE0F9112414BA1"
+				table_id: 2147403650218926597L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C051737E53ABFC5"
+				item: "croptopia:fig"
+				type: "item"
+			}]
+			title: "Harvest a Fig"
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4FCC5EF9445AC481"]
+			hide: true
+			id: "6E6EE254ADF22C21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A605914528135D7"
+				table_id: 1733417314264393468L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6043A2A40F46EC65"
+				item: "croptopia:nectarine"
+				type: "item"
+			}]
+			title: "Harvest a Nectarine"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6E6EE254ADF22C21"]
+			hide: true
+			id: "13F3DDC9438AD9E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62501E29CFF9AEBC"
+				table_id: 1733417314264393468L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69BFC74D6874D9F1"
+				item: "croptopia:persimmon"
+				type: "item"
+			}]
+			title: "Harvest a Persimmon"
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["13F3DDC9438AD9E6"]
+			hide: true
+			id: "6CEC7E578F94ED68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "612D1FC18F6B6BDB"
+				table_id: 1733417314264393468L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A5019401E826DE4"
+				item: "croptopia:plum"
+				type: "item"
+			}]
+			title: "Harvest a Plum"
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6CEC7E578F94ED68"]
+			hide: true
+			id: "70EBBA8C142B7231"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "252F9442B904861A"
+				table_id: 3751965282219039522L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77F1F9ACBD4279C5"
+				item: "promenade:mango"
+				type: "item"
+			}]
+			title: "Harvest a Mango"
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["70EBBA8C142B7231"]
+			hide: true
+			id: "1455A80C0488C6D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23AB3F9A742B7904"
+				table_id: 3751965282219039522L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B5F945BF3AA1157"
+				item: "croptopia:dragonfruit"
+				type: "item"
+			}]
+			title: "Harvest a Dragon fruit"
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1455A80C0488C6D6"]
+			hide: true
+			id: "50B80C7DA6F0F6A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D67AE6029614580"
+				table_id: 3751965282219039522L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34B1785C8903639E"
+				item: "croptopia:avocado"
+				type: "item"
+			}]
+			title: "Harvest an Avocado"
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50B80C7DA6F0F6A1"]
+			hide: true
+			id: "2DA11D44CB60E31A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "253B1C5D8A2D8170"
+				table_id: 3457255292121011675L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31EDE95B823E5DF6"
+				item: "croptopia:apricot"
+				type: "item"
+			}]
+			title: "Harvest an Apricot"
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2DA11D44CB60E31A"]
+			hide: true
+			id: "5E8C7B36851C451B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EDEFC65DDC88EDB"
+				table_id: 3457255292121011675L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1291E0579DEB5B80"
+				item: "croptopia:date"
+				type: "item"
+			}]
+			title: "Harvest a Date"
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5E8C7B36851C451B"]
+			hide: true
+			id: "618C85F6C2B14444"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AFCD14056AC9726"
+				table_id: 3457255292121011675L
+				type: "random"
+			}]
+			tasks: [{
+				id: "093BF69939729172"
+				item: "croptopia:lime"
+				type: "item"
+			}]
+			title: "Harvest a Lime"
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["618C85F6C2B14444"]
+			hide: true
+			id: "527E9904B11459A2"
+			tasks: [{
+				id: "460B4D8D9166EF9F"
+				item: "croptopia:pear"
+				type: "item"
+			}]
+			title: "Harvest a Pear"
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["527E9904B11459A2"]
+			hide: true
+			id: "678C38E3DE3C0EBD"
+			tasks: [{
+				id: "494E8F9F379D2638"
+				item: "croptopia:pecan"
+				type: "item"
+			}]
+			title: "Harvest a Pecan"
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["678C38E3DE3C0EBD"]
+			hide: true
+			id: "07A09824E273EEF3"
+			tasks: [{
+				id: "74C8FE71A730DF57"
+				item: "croptopia:coconut"
+				type: "item"
+			}]
+			title: "Harvest a Coconut"
+			x: 0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["07A09824E273EEF3"]
+			hide: true
+			id: "2D6E5BA776DD18CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DD40832F56AB241"
+				table_id: 8355067714165708581L
+				type: "random"
+			}]
+			tasks: [{
+				id: "201284A36A876DD9"
+				item: "croptopia:walnut"
+				type: "item"
+			}]
+			title: "Harvest a Walnut"
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5107BE88F5BA2253"]
+			hide: true
+			id: "26F6A3107C2CCDE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F7E67E23C16034F"
+				table_id: 8355067714165708581L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3158EDF230EF5E5C"
+				item: "croptopia:starfruit"
+				type: "item"
+			}]
+			title: "Harvest a Star Fruit"
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2D6E5BA776DD18CB"]
+			id: "5107BE88F5BA2253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DEAECF107017AC2"
+				table_id: 8355067714165708581L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B33AB930EA9BCEA"
+				item: "croptopia:nutmeg"
+				type: "item"
+			}]
+			title: "Harvest a Nutmeg"
+			x: -1.5d
+			y: -13.5d
+		}
+	]
+	title: "&aFood and Farming"
+}

@@ -1,0 +1,874 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "6CE50F1BA3E6325C"
+	icon: "betterend:end_mycelium"
+	id: "43D55E8CDE8D4F69"
+	images: [{
+		height: 50.0d
+		image: "betterend:textures/sky/nebula_2.png"
+		rotation: 0.0d
+		width: 50.0d
+		x: 4.5d
+		y: -5.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{image:#FFFFFF width:100 height:100 align:1}"
+				"&4Background Image is from the Ad Astra mod!"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:end_portal_frame"
+			id: "7B73C69FA1882483"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E71244735B33CAB"
+				table_id: 8076093917996320017L
+				type: "random"
+			}]
+			subtitle: "Background Image is from the Betterend mod!"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "67559DDDAA39FD18"
+				type: "dimension"
+			}]
+			title: "Enter The End Dimension"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "2F214CAB77F520FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E2D56E70219BA62"
+				table_id: 8261886949558497873L
+				type: "random"
+			}]
+			subtitle: "Might be contained by burried chests"
+			tasks: [{
+				id: "111F74183FDEA810"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			title: "Obtain a Black Eye"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "7617AE2D3EADA9BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D30B202CC8DFC3"
+				table_id: 3112865283791263201L
+				type: "random"
+			}]
+			subtitle: "Icy houses might be the place you are searching for"
+			tasks: [{
+				id: "5858390C7B745C1A"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			title: "Obtain a Cold Eye"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "30EFBB1352FABBB6"
+			rewards: [{
+				id: "5E5B4539BA1970E3"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "You may have noticed by now, entering the end dimension is different from the vanilla game. Instead of collecting the same, boring ender eye 12 times you are now given the mission to collect 12 (or more) unique ender eyes, all with their own, unique way of obtaining."
+			tasks: [{
+				id: "14449AC33EE7DC90"
+				title: "Entering The End"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "678EDA5EFC60F3FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E64F0A58ED26B41"
+				table_id: 590282222005949039L
+				type: "random"
+			}]
+			subtitle: "Found in Outposts of the corrupted Pillager king"
+			tasks: [{
+				id: "34C1C64FE1FB3B5A"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			title: "Obtain a Corrupted Eye"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "0E7A53E5E141688E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "093929426BAB9B2B"
+				table_id: 8237133470066305907L
+				type: "random"
+			}]
+			subtitle: "Found in the deepest tunnels far underground"
+			tasks: [{
+				id: "04B2F9373F551459"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			title: "Obtain the Lost eye"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "3F2BCAE775032361"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D7E77C184FBD530"
+				table_id: 1768898690409740926L
+				type: "random"
+			}]
+			subtitle: "Look out for it in ancient fortresses"
+			tasks: [{
+				id: "6F32C5ADB517F966"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			title: "Obtain the Nether Eye"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "4236ACA3B4E60BD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A98ABEA937DCFB0"
+				table_id: 8368476381208467264L
+				type: "random"
+			}]
+			subtitle: "Found in Old sandy Structures"
+			tasks: [{
+				id: "09709D5DC227B965"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			title: "Obtain an Old Eye"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "57DE2BD561DEC5CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "131EE37305D6D1A2"
+				table_id: 2640866886165294567L
+				type: "random"
+			}]
+			subtitle: "Found in ancient, mossy temples"
+			tasks: [{
+				id: "71BDAB31639135DA"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			title: "Obtain a Rogue Eye"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "0E8DAF17E2C8F91D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "510C6002E8630BF3"
+				table_id: 786281147796979401L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75BC5B6F286F19FC"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			title: "Obtain a Cursed Eye"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "6239CA26A63CDDBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73AF3CF092E1ED9C"
+				table_id: 786281147796979401L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EF82C1BACEE9AB5"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			title: "Obtain an Evil Eye"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "23C4385181107A73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "775A7FEC3F6FE0B5"
+				table_id: 1023554026873290198L
+				type: "random"
+			}]
+			subtitle: "Search for it in ancient structures deep underwater"
+			tasks: [{
+				id: "390D9E7219F4221D"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			title: "Obtain a Guardian Eye"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "72691B52E97CFBAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A81080C4D79E4C2"
+				table_id: 8455309380969985636L
+				type: "random"
+			}]
+			subtitle: "Dropped by powerful, magical creatures which are said to be able to bypass Death"
+			tasks: [{
+				id: "70D22CF562A50DFB"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			title: "Obtain a Magical Eye"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "50BB42994958981C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "777DAA99C7B58DC7"
+				table_id: 1771162081414417183L
+				type: "random"
+			}]
+			subtitle: "Obtained by slaying a wither"
+			tasks: [{
+				id: "6E42F13C6D0FAD75"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			title: "Obtain a Wither Eye"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "6D937E183F55C14C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24FCB62378E6AA17"
+				table_id: 6077018323516188185L
+				type: "random"
+			}]
+			subtitle: "Crafted by the remains of a magical creature"
+			tasks: [{
+				id: "08C85C2FD0B80581"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			title: "Obtain a Witch Eye"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "1F8406A3186D76E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A7DF52CF64FBBD4"
+				table_id: 4837790658890696855L
+				type: "random"
+			}]
+			subtitle: "Crafted with the remains of undead monsters"
+			tasks: [{
+				id: "2898976E6525EAB3"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			title: "Obtain an Undead Eye"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "53BB96112FD0C8AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52D579FE7967205A"
+				table_id: 7380369628984395103L
+				type: "random"
+			}]
+			subtitle: "Crafted with the Treasures of the ocean"
+			tasks: [{
+				id: "2DA865585076B0A1"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			title: "Obtain an Exotic Eye"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D17BB72ADF8D8D9"]
+			hide: true
+			icon: "minecraft:obsidian"
+			id: "5CF2E0E957C450AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7454FF65AB76241E"
+					table_id: 8076093917996320017L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46C12255998A71D9"
+					table_id: 326653638007387489L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "12C3FF8AC64024B7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Osidilith"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "adventurez:prime_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62F9A3EB5077EBA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "602DA5AD9B76FF91"
+				table_id: 5902914793692077994L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "adventurez:the_eye"
+				id: "458D6388E6A6F340"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat The Eye"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["742DC6B525744027"]
+			icon: "adventurez:warthog_meat"
+			id: "7FAFACBEE854D0B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0543686A3BB2AFB6"
+					table_id: 7662397523765973541L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42D7466128111515"
+					table_id: 8887496969610500717L
+					type: "random"
+				}
+			]
+			subtitle: "Careful, they might knock you off"
+			tasks: [{
+				entity: "adventurez:enderwarthog"
+				id: "0BF8B407620F665B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Defeat 5 Ender Warthogs"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			id: "742DC6B525744027"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0533DB54444C7F59"
+				table_id: 326653638007387489L
+				type: "random"
+			}]
+			subtitle: "Right click a Waystone to bind it"
+			tasks: [{
+				id: "7737354A8968B6AD"
+				item: "fwaystones:void_totem"
+				type: "item"
+			}]
+			title: "Obtain a Void Totem"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CF2E0E957C450AE"]
+			hide: true
+			id: "15065B8D4F32F163"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71274E5893D6BC94"
+				table_id: 7662397523765973541L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2DF37B9793F649B1"
+				item: {
+					Count: 1
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Earthdive Spear"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5CF2E0E957C450AE"]
+			hide: true
+			id: "1FD02E5409340808"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DC5C53FD3617395"
+				table_id: 7662397523765973541L
+				type: "random"
+			}]
+			tasks: [{
+				id: "301C8463AE54C07E"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
+			}]
+			title: "Obtain a Staff of Suppresion"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			icon: "minecraft:slime_ball"
+			id: "1C8217E86BF901F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BF4DA605385180F"
+				table_id: 326653638007387489L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "betterend:end_slime"
+				id: "5D79064CB61812E0"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill 5 End Slimes"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C8217E86BF901F4"]
+			hide: true
+			icon: "betterend:shadow_berry_raw"
+			id: "4810314526683AF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35A8FA81AC68CD38"
+				table_id: 326653638007387489L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "betterend:shadow_walker"
+				id: "0639316B7369749D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill 5 Shadow Walker"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			id: "0030207123B31C44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "769776EC44AFFB5D"
+				table_id: 326653638007387489L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "121B78A46E17076C"
+				type: "advancement"
+			}]
+			title: "Revive The Ender Dragon"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			id: "6762D7EFD331F85A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40BB1D6C5752B6EC"
+				table_id: 7662397523765973541L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DA74571861ECCF8"
+				item: {
+					Count: 1
+					id: "betterend:elytra_armored"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Armored Elytra"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6762D7EFD331F85A"]
+			hide: true
+			id: "17C48A10E5CF6AD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FE013771EB0A036"
+				table_id: 5902914793692077994L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7F6AE9E26525E9CD"
+					item: {
+						Count: 1
+						id: "betterend:crystalite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AC1499F4F3AE97D"
+					item: {
+						Count: 1
+						id: "betterend:crystalite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "414B51C356B82FC2"
+					item: {
+						Count: 1
+						id: "betterend:crystalite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39FD9A08028C5B86"
+					item: {
+						Count: 1
+						id: "betterend:crystalite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Crystalite Armor set"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0030207123B31C44"]
+			hide: true
+			id: "17AFAFF6D3A3D64E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54AC1D709BB71E8D"
+				table_id: 5902914793692077994L
+				type: "random"
+			}]
+			subtitle: "Worth it "
+			tasks: [
+				{
+					id: "02513F3657997145"
+					item: {
+						Count: 1
+						id: "dragonloot:dragon_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E44DF0659EABBA8"
+					item: {
+						Count: 1
+						id: "dragonloot:dragon_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FB5A61DBF8A0BB8"
+					item: {
+						Count: 1
+						id: "dragonloot:dragon_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37D00A2C387E3E03"
+					item: {
+						Count: 1
+						id: "dragonloot:upgraded_dragon_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Dragon Armor"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30EFBB1352FABBB6"]
+			id: "7B606197DDD87240"
+			subtitle: "Do i need to explain"
+			tasks: [{
+				id: "23642F98EF0315D3"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Obtain an Ender Eye"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			id: "118DEC4A0D51B13B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "463DE5615D287164"
+				table_id: 7662397523765973541L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:purpur_block"
+				id: "0B7A26B2368353A1"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "Dicover an End City"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["62F9A3EB5077EBA9"]
+			id: "72955045158B572F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "765CF77ECA3F18A4"
+				table_id: 8076093917996320017L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EE80EE7C174CE1A"
+				item: {
+					Count: 1
+					id: "adventurez:prime_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain the Prime eye"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			id: "4D17BB72ADF8D8D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C3C78FEA56185BC"
+					table_id: 7662397523765973541L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76373B22A6C9BBBA"
+					table_id: 326653638007387489L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:purpur_pillar"
+				id: "6123885F3DB10F00"
+				structure: "bossesofmassdestruction:osidilith_arena"
+				type: "structure"
+			}]
+			title: "Discover the Osidilith Arena"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["118DEC4A0D51B13B"]
+			id: "648FE7B7313792C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ACEDE7C371F21FA"
+				table_id: 7662397523765973541L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:purpur_slab"
+				id: "0EF114AB3E813EF5"
+				structure: "repurposed_structures:mineshaft_end"
+				title: "Discover an End mineshaft"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CF2E0E957C450AE"]
+			icon: "amethyst_imbuement:crystallized_light_purple"
+			id: "0CD4A0E5B0F55E55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AA0F73F17034384"
+				table_id: 7662397523765973541L
+				type: "random"
+			}]
+			subtitle: "You may find the portal on an obsidian tower in the end"
+			tasks: [{
+				dimension: "voidz:void"
+				id: "049AF2F62BAA36CD"
+				type: "dimension"
+			}]
+			title: "Visit the Void Dimension"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CD4A0E5B0F55E55"]
+			id: "55C9BEBC9B588177"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F873DF16086630B"
+					table_id: 5902914793692077994L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DCE92FDA5BEF45F"
+					table_id: 8076093917996320017L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E236C3DA61DB428"
+					table_id: 8076093917996320017L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:void_shadow"
+				id: "1902AFF5E9B9B2FD"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Defeat The Void Shadow"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7B73C69FA1882483"]
+			hide: true
+			id: "2A83C5DAF3B57A30"
+			subtitle: "A gigantic dungeons with powerful foes and greatly rewarding treasures"
+			tasks: [{
+				icon: "minecraft:chorus_flower"
+				id: "1A1E966A11032D8F"
+				structure: "dungeons_arise:aviary"
+				type: "structure"
+			}]
+			title: "Discover an aviary"
+			x: 1.0d
+			y: -5.5d
+		}
+	]
+	subtitle: ["&bThe End with a stunning new World Generation. Can you collect all the Eyes?"]
+	title: "&6The End"
+}

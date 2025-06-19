@@ -1,0 +1,14 @@
+{
+	id: "4737A52EA48CED51"
+	loot_size: 1
+	order_index: 74
+	rewards: [
+		{ item: "mythicmetals:celestium_ingot" }
+		{ count: 8, item: "mythicmetals:platinum_ingot" }
+		{ count: 3, item: "mythicmetals:unobtainium" }
+		{ count: 8, item: "mythicmetals:kyber_ingot" }
+		{ count: 3, item: "mythicmetals:starrite_block" }
+		{ count: 8, item: "mythicmetals:carmot_ingot" }
+	]
+	title: "Epic Endgame Loot Crate"
+}

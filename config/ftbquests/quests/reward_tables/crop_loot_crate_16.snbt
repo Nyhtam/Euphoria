@@ -1,0 +1,23 @@
+{
+	id: "1DCD1C3E10AD2205"
+	loot_size: 1
+	order_index: 96
+	rewards: [
+		{ item: "croptopia:peach" }
+		{ item: "croptopia:kumquat" }
+		{ item: "croptopia:fig" }
+		{ count: 2, item: "croptopia:grapefruit" }
+		{ count: 2, item: "croptopia:cherry" }
+		{ count: 2, item: "croptopia:lemon" }
+		{ count: 3, item: "croptopia:honeydew" }
+		{ count: 3, item: "croptopia:orange" }
+		{ count: 3, item: "croptopia:blackberry" }
+		{ count: 4, item: "croptopia:cantaloupe" }
+		{ count: 4, item: "croptopia:banana" }
+		{ count: 4, item: "croptopia:currant" }
+		{ count: 5, item: "croptopia:pineapple" }
+		{ count: 5, item: "croptopia:saguaro" }
+		{ count: 5, item: "croptopia:strawberry" }
+	]
+	title: "Crop Loot Crate 16"
+}

@@ -1,0 +1,38 @@
+{
+	id: "08311A8DAFE4926F"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "xtraarrows:iron_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "morevanillapotions:bad_omen_potion"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "morevanillapotions:bad_omen_potion"
+				}
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+	]
+	title: "Common Pillager Loot Crate"
+}

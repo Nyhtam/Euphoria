@@ -1,0 +1,3204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "magic"
+	group: "1408391CC7993B8A"
+	icon: "minecraft:lapis_lazuli"
+	id: "64DB716EC5790A54"
+	images: [{
+		height: 45.0d
+		image: "betterend:textures/sky/nebula_3.png"
+		rotation: 0.0d
+		width: 45.0d
+		x: 40.5d
+		y: -4.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&cBackground Image is from the Betterend mod!"]
+			id: "0DCFE4644A88CED0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5415F9D6393B3290"
+				table_id: 2655305318103052409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DF380B703EC8496"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Obtain an Enchanting Table"
+			x: 39.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56132FC5E64E48D9"]
+			hide: true
+			id: "1811202ECE6C8D86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D0C053CD60EA6E3"
+				table_id: 2655305318103052409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67F6FFDF578DF5EB"
+				item: "amethyst_imbuement:imbuing_table"
+				type: "item"
+			}]
+			title: "Obtain an Imbuing Table"
+			x: 42.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69F30915AC1D354E"]
+			hide: true
+			id: "46F98A03903C5F4B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ED04D81E427AF2E"
+					table_id: 2655305318103052409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12AACBC2EC010F3F"
+					table_id: 2655305318103052409L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "654F7DAA064CA7EE"
+				item: "amethyst_imbuement:disenchanting_table"
+				type: "item"
+			}]
+			title: "Obtain a Disenchanting Table"
+			x: 45.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46F98A03903C5F4B"]
+			hide: true
+			id: "75DD14FA8F990B68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "404BB3D91C91E516"
+					table_id: 2655305318103052409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20CF7618DCCD30E8"
+					table_id: 2655305318103052409L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16E098C3869D8B5F"
+				item: "amethyst_imbuement:altar_of_experience"
+				type: "item"
+			}]
+			title: "Obtain an Altar of experience"
+			x: 47.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1811202ECE6C8D86"]
+			hide: true
+			id: "69F30915AC1D354E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CDF0C393CB8EA1E"
+				table_id: 8604603303435114895L
+				type: "random"
+			}]
+			subtitle: "Can be used as a workstation for villagers"
+			tasks: [{
+				id: "52D31A96CB1D885B"
+				item: "amethyst_imbuement:crystal_altar"
+				type: "item"
+			}]
+			title: "Obtain a crystal altar"
+			x: 44.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56132FC5E64E48D9"]
+			hide: true
+			id: "45C9AB7FB6373EF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15B0F2AEC8860146"
+				table_id: 2655305318103052409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60AD36D06E5B01B2"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:opaline_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Opeline Scepter"
+			x: 42.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45C9AB7FB6373EF4"]
+			hide: true
+			id: "233CA38423DA7459"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33842B3262D0CB42"
+					table_id: 2655305318103052409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28EEE63DDCF8909D"
+					table_id: 2655305318103052409L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4E982D699BD81DAE"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:iridescent_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Iridescent scepter"
+			x: 44.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["233CA38423DA7459"]
+			hide: true
+			id: "2492E78EA109F5F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B8182135CDA0557"
+				table_id: 3057734630064567054L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5491007676FD6D0E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:lustrous_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Lustrous Scepter"
+			x: 45.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DCFE4644A88CED0"]
+			hide: true
+			id: "0433B8CDCFE00FCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0427FDF37297C579"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Obtain this item to unlock the bewitchment path"
+			tasks: [{
+				id: "1C8CD14F474B80B5"
+				item: "bewitchment:book_of_shadows"
+				type: "item"
+			}]
+			title: "Obtain a book of shadows"
+			x: 39.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DCFE4644A88CED0"]
+			hide: true
+			id: "56132FC5E64E48D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06B95E7029C51943"
+				table_id: 8604603303435114895L
+				type: "random"
+			}]
+			subtitle: "Obtain this item to unlock the imbuement path"
+			tasks: [{
+				id: "6FDB27FCD9745847"
+				item: "amethyst_imbuement:glistering_tome"
+				type: "item"
+			}]
+			title: "Obtain a glistering tome"
+			x: 41.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56132FC5E64E48D9"]
+			hide: true
+			id: "3CE8BAED81C21B73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "332E329CD27AF31C"
+				table_id: 2655305318103052409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "57B8EA9DCC152014"
+				item: "amethyst_imbuement:mana_potion"
+				type: "item"
+			}]
+			title: "Obtain a mana potion"
+			x: 42.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CE8BAED81C21B73"]
+			hide: true
+			id: "0CE289E09E47877E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47F528D0AD2118C3"
+				table_id: 2655305318103052409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18EFB25AA5A300B4"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_lore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Book of Lore"
+			x: 44.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CE289E09E47877E"]
+			hide: true
+			id: "76E05C0947F7112F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BC4A22EDEA69D84"
+				table_id: 2655305318103052409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4955C1D4C869A6E8"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Book of Mythos"
+			x: 45.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76E05C0947F7112F"]
+			hide: true
+			id: "703A7EF044A32FB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56871B1E2B4B0ABF"
+				table_id: 2655305318103052409L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0E0B0C8BB4D89EA9"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:copper_ring"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "58CB2276BE4AF05A"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:copper_headband"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "15969A447BB46EEA"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:copper_amulet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain every copper trinket"
+			x: 47.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["703A7EF044A32FB0"]
+			hide: true
+			id: "3A95803C9E6E19C5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "596985FF8321F539"
+					table_id: 1582667776523642424L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F35ACC9801595A0"
+					table_id: 1582667776523642424L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7D10C286A4DA4E80"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:imbued_ring"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71A18A69535573F2"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:imbued_headband"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B1D583BDEA0F08A"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:imbued_amulet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain every Imbued Trinket"
+			x: 48.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2492E78EA109F5F2"]
+			hide: true
+			id: "5B0E19B16EFAEAC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08CF2FB8BEAEBA48"
+					table_id: 3057734630064567054L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "052164BBE95E8E3E"
+					table_id: 2655305318103052409L
+					type: "random"
+				}
+			]
+			subtitle: "Rarity of scepters is shown by their tooltips"
+			tasks: [
+				{
+					id: "1901AA7393A7E665"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:furious_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.furious_scepter: 1b
+							item_stack_id: 3775983191264268288L
+							mod_init_item.amethyst_imbuement.furious_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:enraged"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05F4E86238920542"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:witty_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.witty_scepter: 1b
+							item_stack_id: 7797689522076255232L
+							mod_init_item.amethyst_imbuement.witty_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:genius"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C7757545C75AB7A"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:graceful_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.graceful_scepter: 1b
+							item_stack_id: 8728969260358506496L
+							mod_init_item.amethyst_imbuement.graceful_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:elegant"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "148939DC2BDAF5BD"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:dangerous_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.dangerous_scepter: 1b
+							item_stack_id: 4321045794703149056L
+							mod_init_item.amethyst_imbuement.dangerous_scepter: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:lethal"
+								}
+								{
+									modifier_id: "amethyst_imbuement:pact_of_lethality"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61CC6CE790ACE417"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:skillful_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.skillful_scepter: 1b
+							item_stack_id: 7871139635153084416L
+							mod_init_item.amethyst_imbuement.skillful_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:masterful"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BFF9438964917AC"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:enduring_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.enduring_scepter: 1b
+							item_stack_id: 3988464761264776192L
+							mod_init_item.amethyst_imbuement.enduring_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:enduring"
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain every basic scepter"
+			x: 47.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B0E19B16EFAEAC9"]
+			hide: true
+			id: "15078FDF3482DF05"
+			tasks: [
+				{
+					id: "017DB0CEE1B69C17"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:blazing_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.blazing_scepter: 1b
+							item_stack_id: 3116121331387755520L
+							mod_init_item.amethyst_imbuement.blazing_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:fire_aspect"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CAE227AE3D2CCAB"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:sparking_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.sparking_scepter: 1b
+							item_stack_id: 5889281846946416640L
+							mod_init_item.amethyst_imbuement.sparking_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:fulgurous"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BBD46FB738D841E"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:frosted_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.frosted_scepter: 1b
+							item_stack_id: 5223787391003864064L
+							mod_init_item.amethyst_imbuement.frosted_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:ice_aspect"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FFB1B1AB104FA79"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:scepter_of_blades"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.scepter_of_blades: 1b
+							item_stack_id: 5719592917381434368L
+							mod_init_item.amethyst_imbuement.scepter_of_blades: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:blade_aspect"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D3662D22FF88368"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:corrupted_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.corrupted_scepter: 1b
+							item_stack_id: 9043380260445552640L
+							mod_init_item.amethyst_imbuement.corrupted_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:necrotic"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02F52176723AC95E"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:scepter_of_insight"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.scepter_of_insight: 1b
+							item_stack_id: 7400515266918595584L
+							mod_init_item.amethyst_imbuement.scepter_of_insight: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:insightful"
+								}
+								{
+									modifier_id: "amethyst_imbuement:reach"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "432F2927B7C9197A"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:scepter_of_summoning"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.scepter_of_summoning: 1b
+							item_stack_id: 6049268693797442560L
+							mod_init_item.amethyst_imbuement.scepter_of_summoning: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:summoners_aspect"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74157A5075D4FAE9"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:travelers_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.travelers_scepter: 1b
+							item_stack_id: 6201680005210569728L
+							mod_init_item.amethyst_imbuement.travelers_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:sojourner"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AC54B3BDCEC3962"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:scepter_of_recall"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.scepter_of_recall: 1b
+							item_stack_id: 4362124765167908864L
+							mod_init_item.amethyst_imbuement.scepter_of_recall: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:greater_reach"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F5D226663B7EB4A"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:builders_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.builders_scepter: 1b
+							item_stack_id: 4261884996271850496L
+							mod_init_item.amethyst_imbuement.builders_scepter: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:builders_aspect"
+								}
+								{
+									modifier_id: "amethyst_imbuement:reach"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73F2731BD6EA35C2"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:scepter_of_the_vanguard"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.scepter_of_the_vanguard: 1b
+							item_stack_id: 4708138836350157824L
+							mod_init_item.amethyst_imbuement.scepter_of_the_vanguard: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:warrior_of_light"
+								}
+								{
+									modifier_id: "amethyst_imbuement:elegant"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E612C866FA6F79D"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:scepter_of_the_paladin"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.scepter_of_the_paladin: 1b
+							item_stack_id: 3875619272325448704L
+							mod_init_item.amethyst_imbuement.scepter_of_the_paladin: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:champion_of_the_meek"
+								}
+								{
+									modifier_id: "amethyst_imbuement:enduring"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37EE331D1E767330"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:clerics_scepter"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.clerics_scepter: 1b
+							item_stack_id: 66661173350112256L
+							mod_init_item.amethyst_imbuement.clerics_scepter: 1b
+							modifiers: [{
+								modifier_id: "amethyst_imbuement:healing"
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain every Epic scepter"
+			x: 48.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15078FDF3482DF05"
+				"3A95803C9E6E19C5"
+				"75DD14FA8F990B68"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "615B0D9F4FE8862F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7EAC614C0EC642F1"
+					table_id: 424546445115917606L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "776A96670B9439EB"
+					table_id: 424546445115917606L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B36BEF32C1A8D52"
+					table_id: 424546445115917606L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "22DD01DC87E29121"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:equinox"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.equinox: 1b
+							item_stack_id: 3235618477708738560L
+							mod_init_item.amethyst_imbuement.equinox: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:elemental"
+								}
+								{
+									modifier_id: "amethyst_imbuement:enraged"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15F91D5D33BEB7C6"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:lethality"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.lethality: 1b
+							item_stack_id: 6000066865024238592L
+							mod_init_item.amethyst_imbuement.lethality: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:lethal"
+								}
+								{
+									modifier_id: "amethyst_imbuement:pact_of_lethality"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "608ED4F2BEA8030D"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:resonance"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.resonance: 1b
+							item_stack_id: 3185559035201349632L
+							mod_init_item.amethyst_imbuement.resonance: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:echoing"
+								}
+								{
+									modifier_id: "amethyst_imbuement:masterful"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FF97E7F5F14F1E8"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:sojourn"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.sojourn: 1b
+							item_stack_id: 2577293850282853376L
+							mod_init_item.amethyst_imbuement.sojourn: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:genius"
+								}
+								{
+									modifier_id: "amethyst_imbuement:sojourner"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671EF0C189EEA74A"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:aegis"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.aegis: 1b
+							item_stack_id: 2615826533410489344L
+							mod_init_item.amethyst_imbuement.aegis: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:champion_of_the_meek"
+								}
+								{
+									modifier_id: "amethyst_imbuement:warrior_of_light"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1683E91FB236B255"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:redemption"
+						tag: {
+							Damage: 0
+							FURY_lvl: 1
+							FURY_xp: 0
+							GRACE_lvl: 1
+							GRACE_xp: 0
+							WIT_lvl: 1
+							WIT_xp: 0
+							ac_item.amethyst_imbuement.redemption: 1b
+							item_stack_id: 8380366624363153408L
+							mod_init_item.amethyst_imbuement.redemption: 1b
+							modifiers: [
+								{
+									modifier_id: "amethyst_imbuement:saints_pact"
+								}
+								{
+									modifier_id: "amethyst_imbuement:saints_grace"
+								}
+								{
+									modifier_id: "amethyst_imbuement:enduring"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain every legendary scepter"
+			x: 50.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0433B8CDCFE00FCD"]
+			hide: true
+			id: "0D0940B77D80ACD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72D5F8FD815516CA"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "33DD6190B9E2DFD6"
+				item: "bewitchment:silver_ingot"
+				type: "item"
+			}]
+			title: "Obtain 5 Silver Ingots"
+			x: 39.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0433B8CDCFE00FCD"]
+			hide: true
+			id: "38D8B8A085F3F1B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19CED9DCF028A3BA"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "1E7A455D7EE492E9"
+				item: "bewitchment:salt"
+				type: "item"
+			}]
+			title: "Obtain 5 Salt"
+			x: 37.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0433B8CDCFE00FCD"]
+			hide: true
+			id: "47163FBA27D0D5CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13D13FFC2DB4B558"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Dropped by Demons in the Nether"
+			tasks: [{
+				id: "39E0579A6B9D77A4"
+				item: "bewitchment:demon_horn"
+				type: "item"
+			}]
+			title: "Obtain a Demon Horn"
+			x: 40.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38D8B8A085F3F1B6"]
+			hide: true
+			id: "0060FEF0139EA190"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75795EA980D922F9"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			tasks: [{
+				id: "028CD9875CE2CC7C"
+				item: "bewitchment:snake_tongue"
+				type: "item"
+			}]
+			title: "Obtain a Snakes Tongue"
+			x: 37.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["47163FBA27D0D5CF"]
+			hide: true
+			id: "763526D41DF91E7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C3D4835C2C86514"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Dropped by Ghosts"
+			tasks: [{
+				id: "4D3701740AE00551"
+				item: "bewitchment:ectoplasm"
+				type: "item"
+			}]
+			title: "Obtain ectoplasm"
+			x: 40.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0D0940B77D80ACD4"]
+			hide: true
+			id: "6A3BCEFA309084CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A8A674A5F1E27B0"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Right click a tree from the Bewitchment mod to gain its Bark. If you use it on a Dragons blood Tree, the Logs will drop Dragon`s Blood Resin over time."
+			tasks: [{
+				id: "7DBC1C644F47EAD0"
+				item: {
+					Count: 1
+					id: "bewitchment:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Athame"
+			x: 39.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6A3BCEFA309084CF"
+				"763526D41DF91E7A"
+				"0060FEF0139EA190"
+			]
+			description: [
+				"              Cypress: Swamps"
+				"              Elder Sapplings: Oak forests"
+				"             Juniper: Cold Environments"
+				"             Dragonsblood Sappling: Nether fortresses"
+			]
+			hide: true
+			id: "0F37D26CFB40DA85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "176470772E14706E"
+					table_id: 5375391440629032020L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE04204A6A929D9"
+					table_id: 9129293313276846442L
+					type: "random"
+				}
+			]
+			subtitle: "Have a look at the description for information on how to find these sapplings"
+			tasks: [
+				{
+					id: "4909B30EC78F2FAF"
+					item: "bewitchment:juniper_sapling"
+					type: "item"
+				}
+				{
+					id: "38AB0715BCEE165E"
+					item: "bewitchment:cypress_sapling"
+					type: "item"
+				}
+				{
+					id: "229206A66E5AAF88"
+					item: "bewitchment:elder_sapling"
+					type: "item"
+				}
+				{
+					id: "0065049FA6E32DD7"
+					item: "bewitchment:dragons_blood_sapling"
+					type: "item"
+				}
+			]
+			title: "Obtain the custom tree Sapplings from the Bewitchment mod"
+			x: 39.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0F37D26CFB40DA85"]
+			hide: true
+			id: "31AD0C1E007141D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D4810EBBEB8F457"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Obtained by putting Bark on a campfire"
+			tasks: [{
+				count: 5L
+				id: "54FD722BE7DEB230"
+				item: "bewitchment:wood_ash"
+				type: "item"
+			}]
+			title: "Obtain 5 Wood Ash"
+			x: 40.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0F37D26CFB40DA85"]
+			hide: true
+			id: "11B828D1E71840F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "251DB3DC820833AF"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Right click it with any carpet to transform it into an Altar. Place it near nature and your bed to higher its potential. Additionally certain items like torches will increase the altars potential when  placed on it."
+			tasks: [{
+				id: "240CB3A4C14E23DF"
+				item: "bewitchment:stone_witch_altar"
+				type: "item"
+			}]
+			title: "Obtain a Stone Witch Altar"
+			x: 39.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["11B828D1E71840F3"]
+			hide: true
+			id: "4FFF0A67B63EB3A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "148E53A676597C10"
+				table_id: 5375391440629032020L
+				type: "random"
+			}]
+			subtitle: "Requires a sort of heat"
+			tasks: [{
+				id: "3484211841771AD1"
+				item: "bewitchment:witch_cauldron"
+				type: "item"
+			}]
+			title: "Obtain a Witch cauldron"
+			x: 37.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0F37D26CFB40DA85"]
+			hide: true
+			id: "4CE60C18EEB59D74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59050567E9A50399"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4293A41902630B6C"
+				item: {
+					Count: 1
+					id: "bewitchment:chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Chalk"
+			x: 37.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11B828D1E71840F3"]
+			hide: true
+			id: "1DB23A61F645B7D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0041380F97CE1FF4"
+				table_id: 5375391440629032020L
+				type: "random"
+			}]
+			subtitle: "The Brazier allows you to cast powerful curses. Have a look in the book of shadows for further explanation"
+			tasks: [{
+				id: "6C031D13346AB5BE"
+				item: "bewitchment:brazier"
+				type: "item"
+			}]
+			title: "Obtain a Brazier"
+			x: 40.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["11B828D1E71840F3"]
+			hide: true
+			id: "3CB4750928BDEE3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28D4C3281E0D8A9D"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2886DF0342AA838A"
+				item: "bewitchment:crystal_ball"
+				type: "item"
+			}]
+			title: "Obtain a Crystal Ball"
+			x: 39.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3CB4750928BDEE3B"]
+			hide: true
+			id: "537F00B2B74FA589"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2634522C9134A790"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Click on a players bed to save their DNA. Alternatively you can sneak up behind them an entity to get its DNA."
+			tasks: [{
+				id: "5E8015BFA50E8F52"
+				item: "bewitchment:taglock"
+				type: "item"
+			}]
+			title: "Obtain a Taglock"
+			x: 40.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3CB4750928BDEE3B"]
+			hide: true
+			id: "3289CF91C151AFE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD58060AE99A3C4"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			subtitle: "Can be used to sleep in while in Vampire form"
+			tasks: [{
+				id: "369B119F3DA31FD2"
+				item: "bewitchment:white_coffin"
+				type: "item"
+			}]
+			title: "Obtain a White Coffin"
+			x: 37.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["284E0C875F7463FE"]
+			hide: true
+			id: "2A601E64AF6E1CF3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C259DBD15821744"
+					table_id: 7240660181630826238L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2298EC074CB43854"
+					table_id: 7240660181630826238L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F2A8640248EC4F1"
+					table_id: 7240660181630826238L
+					type: "random"
+				}
+			]
+			subtitle: "Use such on any interactable Dragonblood Wooden Object to give it certain effects"
+			tasks: [
+				{
+					id: "5B81A9975F69B09C"
+					item: "bewitchment:mending_sigil"
+					type: "item"
+				}
+				{
+					id: "76FBC57CD4732490"
+					item: "bewitchment:cleansing_sigil"
+					type: "item"
+				}
+				{
+					id: "0B91D123CBB6E4C7"
+					item: "bewitchment:judgment_sigil"
+					type: "item"
+				}
+				{
+					id: "7C0812730ECA4015"
+					item: "bewitchment:decay_sigil"
+					type: "item"
+				}
+				{
+					id: "27B42C69F7AFF65A"
+					item: "bewitchment:shrieking_sigil"
+					type: "item"
+				}
+				{
+					id: "357E76BE97EFE9DD"
+					item: "bewitchment:sentinel_sigil"
+					type: "item"
+				}
+				{
+					id: "3B6D080D54A259C8"
+					item: "bewitchment:slippery_sigil"
+					type: "item"
+				}
+				{
+					id: "33ABD27BC324D22F"
+					item: "bewitchment:shadows_sigil"
+					type: "item"
+				}
+				{
+					id: "273FEA80BD85439D"
+					item: "bewitchment:extending_sigil"
+					type: "item"
+				}
+				{
+					id: "251ED1509BCEE8C6"
+					item: "bewitchment:smelly_sigil"
+					type: "item"
+				}
+				{
+					id: "490D9B8549C733E3"
+					item: "bewitchment:ruin_sigil"
+					type: "item"
+				}
+				{
+					id: "73E262BFC78DAB5F"
+					item: "bewitchment:heavy_sigil"
+					type: "item"
+				}
+			]
+			title: "Obtain every Dragonblood Cigil"
+			x: 40.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["284E0C875F7463FE"]
+			hide: true
+			id: "269E4AD48A7B6D50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0554C15FBFC37A0E"
+				table_id: 8612302096722019697L
+				type: "random"
+			}]
+			subtitle: "Combine it with a players DNA to give the player certain effects. Some puppets may need materials that you can only obtain by summoning a demon"
+			tasks: [
+				{
+					id: "7AA62464F70CE794"
+					item: {
+						Count: 1
+						id: "bewitchment:protection_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "546CD54B928F319F"
+					item: {
+						Count: 1
+						id: "bewitchment:death_protection_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "738E4B41DB056EAA"
+					item: {
+						Count: 1
+						id: "bewitchment:voodoo_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1867A4146A868FD8"
+					item: {
+						Count: 1
+						id: "bewitchment:voodoo_protection_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B9E610BAC43E658"
+					item: {
+						Count: 1
+						id: "bewitchment:mending_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45ACAA5E6BFFF0FB"
+					item: {
+						Count: 1
+						id: "bewitchment:curse_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BED09ACFE0CA046"
+					item: {
+						Count: 1
+						id: "bewitchment:vampiric_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1553D6CE42253211"
+					item: {
+						Count: 1
+						id: "bewitchment:judgment_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "174486F719F4C969"
+					item: {
+						Count: 1
+						id: "bewitchment:fatigue_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain every type of Poppet"
+			x: 37.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3CB4750928BDEE3B"]
+			hide: true
+			id: "284E0C875F7463FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "522042D9755C105A"
+					table_id: 3558829348899887472L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01707C07878E3AB4"
+					table_id: 7240660181630826238L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0DEA6CF549029D83"
+					item: "bewitchment:cleansing_balm"
+					type: "item"
+				}
+				{
+					id: "798AF685A0FA38B3"
+					item: "bewitchment:grim_elixir"
+					type: "item"
+				}
+				{
+					id: "0FC3D28FB3747410"
+					item: "bewitchment:aqua_cerate"
+					type: "item"
+				}
+				{
+					id: "43BFF9745627E1D3"
+					item: "bewitchment:fiery_serum"
+					type: "item"
+				}
+				{
+					id: "537384500A3B62C1"
+					item: "bewitchment:earth_ichor"
+					type: "item"
+				}
+				{
+					id: "0A85E2136169EE8B"
+					item: "bewitchment:heaven_extract"
+					type: "item"
+				}
+			]
+			title: "Brew every type of magical Syrup"
+			x: 39.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["284E0C875F7463FE"]
+			hide: true
+			id: "75706EE0E7EFF054"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08543156BFE0C3CF"
+				table_id: 3558829348899887472L
+				type: "random"
+			}]
+			tasks: [{
+				id: "278ED03999384767"
+				item: {
+					Count: 1
+					id: "bewitchment:golden_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Golden Chalk"
+			x: 39.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["75706EE0E7EFF054"]
+			hide: true
+			id: "547272EBE2E7ECC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17DEB8FC4727B10F"
+				table_id: 3558829348899887472L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52EEDF2512A11C02"
+				item: {
+					Count: 1
+					id: "bewitchment:fiery_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Fiery Chalk"
+			x: 40.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["75706EE0E7EFF054"]
+			hide: true
+			id: "1E22460123366EB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DBB586F420279E1"
+				table_id: 3558829348899887472L
+				type: "random"
+			}]
+			tasks: [{
+				id: "401FB436E319EC28"
+				item: {
+					Count: 1
+					id: "bewitchment:eldritch_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Eldritch Chalk"
+			x: 37.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"75706EE0E7EFF054"
+				"547272EBE2E7ECC1"
+				"1E22460123366EB7"
+			]
+			description: [
+				"{image:bewitchment:textures/gui/patchouli/chalk/any.png width:100 height:100 align:1}"
+				"{image:bewitchment:textures/gui/patchouli/chalk/eldritch.png width:100 height:100 align:1}"
+				"{image:bewitchment:textures/gui/patchouli/chalk/fiery.png width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "2DEE45AFD2E1EF81"
+			rewards: [{
+				id: "5F14692F12988149"
+				item: "bewitchment:book_of_shadows"
+				type: "item"
+			}]
+			subtitle: "Place chalk on a flat surface in the patterns shown below. Different Rituals require certain Ingridients to be thrown in the cirle. For further Explanation and in depth instructions have a look in the book of shadows"
+			tasks: [{
+				id: "7FAAF780CDC07BD4"
+				title: "How to cast a Ritual"
+				type: "checkmark"
+			}]
+			x: 39.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["10C2657EBDE95949"]
+			description: ["If you wish to summon more Demons or Greater Demons use Salt as Demons are not able to cross it. Wear a Besmirched Clothing if you wish to trade with the Demon instead of killing him"]
+			id: "191DBFFD3FDAEE90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "007E5DA236240F7C"
+				table_id: 8612302096722019697L
+				type: "random"
+			}]
+			subtitle: "Summon it using a certain ritual. Killing the Demon will drop demonic hearts"
+			tasks: [{
+				entity: "bewitchment:demon"
+				id: "6D9FAC9294AEEABC"
+				title: "Kill a Demon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 39.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["191DBFFD3FDAEE90"]
+			description: [
+				""
+				"In her Presence, digest a Grotest Stew while she is looking at you. If you were previously transformed into a Vampire Lilith will grant you the ability to transform into a bat on the press of a key. Aditionally if you gift her Garlic you will no longer be a Vampire"
+			]
+			icon: {
+				Count: 1
+				id: "bewitchment:harbinger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "320C1EA48F6D401C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65053BF2DD6CA6BF"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "277233936D9BC7CA"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+			]
+			subtitle: "Lilith will require a mountain or icy biome to be summoned."
+			tasks: [{
+				entity: "bewitchment:lilith"
+				id: "23833FF7D94189CD"
+				title: "Defeat Lilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 40.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["191DBFFD3FDAEE90"]
+			id: "68ABEBAEE5EA6E8C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DCC6EF47F3CE004"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12CFB5B9F6E0CD22"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "bewitchment:leonard"
+				icon: {
+					Count: 1
+					id: "bewitchment:scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "03F2D77A5B5CE8BA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Leonard"
+			x: 37.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["191DBFFD3FDAEE90"]
+			description: [
+				""
+				"In his presence, digest a Grotest Stew while the demon is looking at you. If you were previously transformed into a Werewolve Herme will give you the ability to transform into a wolf on the press of a key. Additionally if you gift him Acconite you will no longer be a Werewolve"
+			]
+			icon: {
+				Count: 1
+				id: "bewitchment:horned_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "684264DDCB5E9C06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FB5CA872DB94917"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB116CBC6E587CE"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69610900C27BC2B2"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+			]
+			subtitle: "Herne will require a forest or taiga biome to be summoned"
+			tasks: [{
+				entity: "bewitchment:herne"
+				id: "5A4ED732F629F9E4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Herne"
+			x: 37.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["191DBFFD3FDAEE90"]
+			icon: {
+				Count: 1
+				id: "bewitchment:caduceus"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3491AFB546925925"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D365841845948B6"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4055547B03A921F0"
+					table_id: 8612302096722019697L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "bewitchment:baphomet"
+				id: "0CB5BE223D234375"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Baphomet"
+			x: 40.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["191DBFFD3FDAEE90"]
+			description: ["If you wish to become a werewolve or vampire curse yourself with susceptiblity. If you are then killed by one of those Creatures (Alternatively a totem of undying or Death Protection Poppet can be used) you will turn into the respective Creature."]
+			id: "29CD114932177C04"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1645DFB33914EB11"
+					table_id: 9129293313276846442L
+					type: "random"
+				}
+				{
+					id: "6E867D1686A9AB5B"
+					item: "bewitchment:grotesque_stew"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CC3D338C6382E8C"
+				title: "Turning into a Vampire"
+				type: "checkmark"
+			}]
+			title: "Turning into a Vampire or Werewolve"
+			x: 38.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["191DBFFD3FDAEE90"]
+			description: ["Defeating the four greater Demons is no easy task. These Demons are extremly powerful and hard to defeat. Equip yourself with some good armor and enchant your Athame with Smite (the higher the better). You might want to spawn these creatures in a protected area with salt blocking every entrance to stop them from escaping and destroying surroundings"]
+			id: "7BA800A18596AA1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F279EE175EF69F7"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BF3A7C56768D2D3"
+				title: "Defeating the Greater Demons"
+				type: "checkmark"
+			}]
+			x: 40.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["191DBFFD3FDAEE90"]
+			description: ["All the Rituals are stated in the Book of Shadows. You will either need to cast a Curse in a certain biome at Night Time or cast a certain Ritual."]
+			id: "4E3B1A21804F33FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "577D24F96D851DAD"
+				table_id: 9129293313276846442L
+				type: "random"
+			}]
+			tasks: [{
+				id: "369AE3358BA354F3"
+				title: "Summoning the greater Demons"
+				type: "checkmark"
+			}]
+			x: 39.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2DEE45AFD2E1EF81"]
+			id: "10C2657EBDE95949"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E11107881452DE7"
+					table_id: 7240660181630826238L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00CBD874E243EBF4"
+					table_id: 3558829348899887472L
+					type: "random"
+				}
+			]
+			subtitle: "This Armor will make demons passive towards you"
+			tasks: [
+				{
+					id: "522F2462901CEC38"
+					item: {
+						Count: 1
+						id: "bewitchment:besmirched_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FDE7F350F68D2E4"
+					item: {
+						Count: 1
+						id: "bewitchment:besmirched_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1960AD82BBE0BDAA"
+					item: {
+						Count: 1
+						id: "bewitchment:besmirched_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E1C48BD4D340E71"
+					item: {
+						Count: 1
+						id: "bewitchment:besmirched_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Besmirch gear"
+			x: 39.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["615B0D9F4FE8862F"]
+			id: "5E11E0835EE27A8D"
+			rewards: [
+				{
+					id: "66EDA169726393AA"
+					item: "thonkutil:translator_cape"
+					type: "item"
+				}
+				{
+					id: "3608BEF8A15936DA"
+					item: "thonkutil:mojira_moderator_cape"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27B15C942162EF50"
+				title: "Seems like you completed The Imbuement Path. Congrats!"
+				type: "checkmark"
+			}]
+			x: 51.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0DCFE4644A88CED0"]
+			id: "0C0529D07A59AF27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ADE49C02ECDE283"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "111641695195F015"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "Obtain a Spell Binding Table"
+			x: 37.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C0529D07A59AF27"]
+			id: "635E72B89FB80334"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "290C0B09FA2B8302"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73FD2D6022498E4B"
+				item: {
+					Count: 1
+					id: "paladins:priest_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C0529D07A59AF27"]
+			id: "6CC26AF085375A8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29B8F1F32CDD5294"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18A2DDE5A04441EA"
+				item: {
+					Count: 1
+					id: "archers:archer_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C0529D07A59AF27"]
+			id: "7820D70DB3F3B733"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D1B61E992AD9F0D"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07645ADCFF5EC8A8"
+				item: {
+					Count: 1
+					id: "paladins:paladin_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EE673DE29B47D6E"]
+			id: "572C2090FD321B78"
+			tasks: [{
+				id: "0FDE4BF993F6EA28"
+				item: {
+					Count: 1
+					id: "wizards:arcane_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EE673DE29B47D6E"]
+			id: "3ED4BF43230930BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39AC6A90EA346C8F"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "546F91DFD81E248F"
+				item: {
+					Count: 1
+					id: "wizards:frost_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EE673DE29B47D6E"]
+			id: "696A753C37EAEAD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04D22F177CB0F03C"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6324D2314E9F6EC3"
+				item: {
+					Count: 1
+					id: "wizards:fire_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DCFE4644A88CED0"]
+			id: "1EE673DE29B47D6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ACB7DA39DBD1DED"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A93691F1D6834D2"
+				item: {
+					Count: 1
+					id: "wizards:wand_novice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["572C2090FD321B78"]
+			id: "29BAD5E0123DF2E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DDCF37359713FB7"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "183E9C1399E272BA"
+				item: {
+					Count: 1
+					id: "wizards:wand_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 40.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3ED4BF43230930BC"]
+			id: "5F9F855B30984413"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "737D1B49AB49C4A7"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43A08FF54657FF57"
+				item: {
+					Count: 1
+					id: "wizards:wand_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["696A753C37EAEAD3"]
+			id: "3937D91E11006E5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52C701075839ECFB"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FD1CE2A2794BD79"
+				item: {
+					Count: 1
+					id: "wizards:wand_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3ED4BF43230930BC"]
+			id: "5BC6A5FEA63EE870"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5930966510B431F4"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F9466CA87E533CD"
+				item: {
+					Count: 1
+					id: "wizards:staff_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 39.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["572C2090FD321B78"]
+			id: "0A9B4D261B3D6000"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4895069FBC6A9E01"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08337C057469D9D4"
+				item: {
+					Count: 1
+					id: "wizards:staff_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 41.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["696A753C37EAEAD3"]
+			id: "21A41725A57E614B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "491C685D36B670EC"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D55B2EF28631A60"
+				item: {
+					Count: 1
+					id: "wizards:staff_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3937D91E11006E5D"]
+			id: "71313C0997F57599"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EE05E5E312D847A"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7861C1FD133F9B18"
+					table_id: 4435523194212709916L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D81D1F61E7388F5"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "119CF309DE511CF5"
+				item: {
+					Count: 1
+					id: "wizards:wand_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["21A41725A57E614B"]
+			id: "4447C7BDBE317488"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "323CE0399A1C497F"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D61631ED13A34EB"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6746FE5E4CC19CEA"
+					table_id: 1760700762916008050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14E3C27726B153B7"
+				item: {
+					Count: 1
+					id: "wizards:staff_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F9F855B30984413"]
+			id: "15BB03A8948A531F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15ED0B26462007F1"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08098F068173BA53"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "219E84B6941267E6"
+					table_id: 1760700762916008050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3240C153A76D3D96"
+				item: {
+					Count: 1
+					id: "wizards:wand_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BC6A5FEA63EE870"]
+			id: "5870483B941A747F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6100CA8F2BB7DF75"
+					table_id: 4435523194212709916L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4805D6036716E0FF"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4670766039A76D53"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6513E7239E60D451"
+				item: {
+					Count: 1
+					id: "wizards:staff_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 39.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["29BAD5E0123DF2E3"]
+			id: "0FD8CDC4D56623AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2257FDD8639BA807"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "487D8F6A81DD6D79"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C4530033C7014D0"
+					table_id: 1760700762916008050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D6CD836A18A2ADC"
+				item: {
+					Count: 1
+					id: "wizards:wand_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 40.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0A9B4D261B3D6000"]
+			id: "7F90A89067A725CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D47D8FDF3C8CFAD"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4805A49456BC66F1"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C6FCAF67D93B521"
+					table_id: 1760700762916008050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "092AACA6BE2D722F"
+				item: {
+					Count: 1
+					id: "wizards:staff_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 41.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["696A753C37EAEAD3"]
+			id: "1DEA72E21E7E760A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5088DA758BF956C4"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "07FFEAB39F7DBED8"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19E2A83A3FD48F20"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F5D392824692625"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13DCD70342C0A0F0"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 35.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3ED4BF43230930BC"]
+			id: "4E4F440459FE8A5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6662F416B02DD6C3"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "557AADFDFE06B249"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79720BAA993CFE6C"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A115F3CAEFCD926"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "334A027378025894"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 39.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["572C2090FD321B78"]
+			id: "3BF711AFAA14DE5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DAD7BB07E64EB47"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "34D7722FEE737938"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DA2568DF0904729"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4474F5B15FCB543A"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724B6CA7593F1AE7"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 42.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["696A753C37EAEAD3"]
+			id: "148A662943907431"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "325B4A40CCE700F4"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				count: 10L
+				id: "2F66E9E090567117"
+				item: { Count: 10, id: "runes:fire_stone" }
+				type: "item"
+			}]
+			x: 35.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3ED4BF43230930BC"]
+			id: "5ABE18ADB3CB19E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B94A7FC28A3882E"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "044AA9FC5D3CF4C2"
+				item: "runes:frost_stone"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["572C2090FD321B78"]
+			id: "35B6909326D7F90C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "654DDCEEF0ADAB12"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AC0901E25C6FC54"
+				item: "runes:arcane_stone"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 6.5d
+		}
+		{
+			id: "4A288CB18DB21C53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02A239492983E9E1"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DD17FDF5DBE7D9C"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E3B829F7C14340A"
+					table_id: 1760700762916008050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7ACD0064606F73BE"
+				item: {
+					Count: 1
+					id: "wizards:staff_smaragdant_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 9.5d
+		}
+		{
+			id: "285C98F5A457A130"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B24D71B390678FC"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68D7688FEF5ED394"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74132BBA12DD746E"
+					table_id: 1760700762916008050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "467CEAF177C3DF57"
+				item: {
+					Count: 1
+					id: "wizards:staff_ruby_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 8.5d
+		}
+		{
+			id: "7CCB7080D59A0D5A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "594E45D6E74DAE03"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F7805DBE51312A8"
+					table_id: 3643921017880509662L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7979C6C57BBEC695"
+					table_id: 1760700762916008050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08ACB23E4999A242"
+				item: {
+					Count: 1
+					id: "wizards:staff_crystal_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 41.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6CC26AF085375A8C"]
+			id: "3F8313A522DA74B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71F66346A259C8E0"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "59A571B76AC985DA"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79A7F0D7BD90577F"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48910F095BD9D882"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52C5AC94616DFF4B"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 33.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["635E72B89FB80334"]
+			id: "25BC8D8B46D20F37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EF8EEED80252887"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7040B03EA5418902"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C0A8E6F3249C74B"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BA821A0E7B3E25A"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73916162B71BE873"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 33.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7820D70DB3F3B733"]
+			id: "65D3BEF97CCC8E48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C887FA5FE6E275"
+				table_id: 1760700762916008050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6C83A1E399CEE61D"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53F0AB8D378156DA"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CB3BE598E5DEA2B"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FFABC800DA7BC4B"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 33.5d
+			y: 2.0d
+		}
+	]
+	title: "&dMagic"
+}

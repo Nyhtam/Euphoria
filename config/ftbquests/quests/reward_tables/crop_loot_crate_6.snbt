@@ -1,0 +1,19 @@
+{
+	id: "646F831AFDDEF981"
+	loot_size: 1
+	order_index: 86
+	rewards: [
+		{ item: "croptopia:tea_leaves" }
+		{ item: "croptopia:squash" }
+		{ item: "croptopia:cucumber" }
+		{ count: 2, item: "croptopia:vanilla" }
+		{ count: 2, item: "croptopia:celery" }
+		{ count: 2, item: "croptopia:greenonion" }
+		{ count: 3, item: "croptopia:lettuce" }
+		{ count: 3, item: "croptopia:greenonion" }
+		{ count: 4, item: "sandwichable:onion" }
+		{ count: 4, item: "croptopia:corn" }
+		{ count: 3, item: "croptopia:greenbean" }
+	]
+	title: "Crop Loot Crate 6"
+}

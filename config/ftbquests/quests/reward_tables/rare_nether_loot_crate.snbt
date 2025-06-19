@@ -1,0 +1,26 @@
+{
+	id: "188C63FCA586BA7E"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "minecraft:netherite_ingot" }
+		{ count: 6, item: "minecraft:netherite_scrap" }
+		{ count: 12, item: "minecraft:blaze_rod" }
+		{ count: 12, item: "minecraft:nether_wart" }
+		{ count: 8, item: "xtraarrows:flint_explosive_arrow" }
+		{ count: 3, item: "betternether:nether_ruby" }
+		{ count: 12, item: "betternether:cincinnasite_ingot" }
+		{ count: 20, item: "betternether:nether_reed_stem" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		}
+	]
+	title: "rare Nether Loot Crate"
+}

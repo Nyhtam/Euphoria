@@ -1,0 +1,16 @@
+{
+	id: "791D7E399463E50E"
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ count: 32, item: "minecraft:white_wool" }
+		{ count: 7, item: "minecraft:diamond" }
+		{ count: 8, item: "minecraft:bookshelf" }
+		{ count: 32, item: "minecraft:feather" }
+		{ count: 5, item: "minecraft:redstone_block" }
+		{ count: 8, item: "minecraft:copper_block" }
+		{ count: 13, item: "minecraft:slime_ball" }
+		{ count: 7, item: "amethyst_imbuement:ametrine" }
+	]
+	title: "Epic Crafting Loot Crate"
+}

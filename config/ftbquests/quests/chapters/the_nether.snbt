@@ -1,0 +1,616 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "the_nether"
+	group: "6CE50F1BA3E6325C"
+	icon: "minecraft:crimson_nylium"
+	id: "3B8CB28481500504"
+	images: [{
+		height: 9.0d
+		image: "ad_astra:textures/sky/mars.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&cBackground Image is from the Ad Astra Mod!"]
+			id: "59038DE1C8170517"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15F41C59C76CCB52"
+				table_id: 8881613241193302819L
+				type: "random"
+			}]
+			subtitle: "If you are having performance issues in the nether, disable lava and fire animations (off by default), and disable dynamic lights in the puzzle settings"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:crimson_nylium"
+				id: "2076B0FA37AB7B06"
+				title: "Visit the Nether!"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			id: "404BC808C9A938FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EC224FD12C4C591"
+					table_id: 1768898690409740926L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "012731BE2599E634"
+					table_id: 1717603987258373775L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:piglin_beast"
+				icon: "minecraft:gold_block"
+				id: "7478B64BF54067D2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a Piglin Beast"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			id: "2F54B6CDDFBC87D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ADA17E028701B4E"
+				table_id: 1768898690409740926L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "761EF44C3BB0912D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a Withered Necromancer"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B7EA675A519CC2E"]
+			hide: true
+			icon: "minecraft:blaze_powder"
+			id: "2C6DE4338CB93A63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BD30D0026E3A304"
+				table_id: 1768898690409740926L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				id: "652168B238AE5CBD"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Defeat 5 Blaze Guardians"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F54B6CDDFBC87D0"]
+			hide: true
+			icon: "minecraft:soul_lantern"
+			id: "6ED739639BE2FB0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12E640AAB3352766"
+				table_id: 1768898690409740926L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "adventurez:soul_reaper"
+				id: "433C16E170E3ACD7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Defeat 5 Soul Reapers"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			id: "1A4496756ED8445B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4797BA163D06E689"
+				table_id: 8553882085404635349L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "adventurez:stone_golem"
+				id: "162B082EA0675443"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a Blackstone Golem!"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			id: "7F63A385B070922E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "469928B571B3624A"
+				table_id: 1266480526424689023L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
+				id: "44945D474EE4CC3A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat The Nether Gauntlet"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			icon: "blockus:rotten_flesh_block"
+			id: "4301FDD018EAB9D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65DE839811B60D8A"
+				table_id: 1717603987258373775L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "rottencreatures:burned"
+				id: "7D9C01A354197BBB"
+				title: "Kill 5 Burned Zombies"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["404BC808C9A938FB"]
+			hide: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "1A4EBF4DFB95F4D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54079B693844EF38"
+					table_id: 1768898690409740926L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "481E8BB637CC6EF3"
+					table_id: 8881613241193302819L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "betternether:naga"
+				id: "7F362DCDB5D70B1F"
+				title: "Kill 5 Nagas"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			id: "62C569263FCC2187"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C54605F3C4A40A"
+				table_id: 1717603987258373775L
+				type: "random"
+			}]
+			subtitle: "Boom"
+			tasks: [{
+				entity: "betternether:hydrogen_jellyfish"
+				id: "69203F9DB23B3CA5"
+				title: "Kill 5 Hydrogen Jellyfish"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62C569263FCC2187"]
+			hide: true
+			id: "228F4531A65A1126"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34532CCEF3FA7DC4"
+				table_id: 1717603987258373775L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45BE4D3AE322F225"
+				item: "betternether:cincinnasite_forge"
+				type: "item"
+			}]
+			title: "Obtain a Cincinnacite Forge"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F63A385B070922E"]
+			hide: true
+			id: "14781358E4D82307"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EF78000A5A96CA2"
+					table_id: 1266480526424689023L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "012D336B73AE4993"
+					table_id: 1266480526424689023L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "09B103AA75094498"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "betternether:obsidian_breaker"
+									lvl: 2
+								}
+								{
+									id: "betternether:ruby_fire"
+									lvl: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7A234B9210F40F"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AB51200211DEF60"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30B9637409E255DA"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B72D8CF848311B3"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E55352CD5912C23"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC4862403106DA7"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CC470DCC486F14C"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C534033EA4BE323"
+					item: {
+						Count: 1
+						id: "betternether:nether_ruby_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a basic set of Ruby Gear"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4301FDD018EAB9D8"]
+			hide: true
+			id: "2E44FBF92EF72EAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "227FAF74F6B44FC7"
+					table_id: 1266480526424689023L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07BC4D7863CC4D04"
+					table_id: 1266480526424689023L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "16769F10B2BFC4B1"
+					item: {
+						Count: 1
+						id: "betternether:flaming_ruby_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3126ACE90E1FF1ED"
+					item: {
+						Count: 1
+						id: "betternether:flaming_ruby_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CA7D30353E04BE1"
+					item: {
+						Count: 1
+						id: "betternether:flaming_ruby_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DD1C235CC74D310"
+					item: {
+						Count: 1
+						id: "betternether:flaming_ruby_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "betternether:ruby_fire"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CECED9C3318ADF1"
+					item: {
+						Count: 1
+						id: "betternether:flaming_ruby_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "betternether:obsidian_breaker"
+									lvl: 3s
+								}
+								{
+									id: "betternether:ruby_fire"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a set of Fireruby weapons"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A4496756ED8445B"]
+			hide: true
+			id: "3397E2D1734EA3EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34730DFDAA5D0809"
+				table_id: 8553882085404635349L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5DCAC12482EF4C1F"
+				item: {
+					Count: 1
+					id: "adventurez:blackstone_golem_arm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain the Blackstones Arm!"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			id: "6B7EA675A519CC2E"
+			subtitle: "This looks new"
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "6D8E5FE124779D79"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Discover an Upgrade Nether fortress"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59038DE1C8170517"]
+			hide: true
+			id: "387EB7561804C78E"
+			tasks: [{
+				icon: "betternether:basalt_bricks"
+				id: "38C75B06517668B9"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Discover a bastion remnant"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["387EB7561804C78E"]
+			hide: true
+			id: "64C569BFA15FD089"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "782EEA7DA3B7681F"
+				table_id: 1266480526424689023L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "minecraft:bone_block"
+				id: "314FC529C53BD94C"
+				title: "Defeat the Decaying King"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["&cThe hellish Dimension filled with Dangers and brand new Bosses Mobs and Dungeons!"]
+	title: "&cThe Nether"
+}

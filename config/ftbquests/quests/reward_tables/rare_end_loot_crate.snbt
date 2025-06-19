@@ -1,0 +1,28 @@
+{
+	id: "6A564DF363E75225"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "adventurez:ender_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:shulker_shell" }
+		{ item: "inmis:ender_pouch" }
+		{ count: 3, item: "minecraft:ender_chest" }
+		{ count: 16, item: "xtraarrows:diamond_ender_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "nyfsquiver:silver_quiver"
+				tag: { }
+			}
+		}
+	]
+	title: "Rare End Loot Crate"
+}

@@ -1,0 +1,27 @@
+{
+	id: "15F6C3F519262638"
+	loot_size: 1
+	order_index: 51
+	rewards: [
+		{ count: 2, item: "minecraft:lapis_block" }
+		{ count: 3, item: "amethyst_imbuement:opal" }
+		{ count: 12, item: "amethyst_imbuement:imbued_quartz" }
+		{ count: 12, item: "amethyst_imbuement:imbued_lapis" }
+		{ count: 5, item: "minecraft:bookshelf" }
+		{ count: 2, item: "minecraft:gold_block" }
+		{ count: 14, item: "minecraft:amethyst_shard" }
+		{ count: 16, item: "minecraft:experience_bottle" }
+		{ count: 18, item: "amethyst_imbuement:gem_dust" }
+		{ count: 24, item: "minecraft:quartz" }
+		{ count: 5, item: "amethyst_imbuement:moonstone" }
+		{ count: 5, item: "amethyst_imbuement:danburite" }
+		{
+			item: {
+				Count: 1
+				id: "amethyst_imbuement:gem_of_promise"
+				tag: { }
+			}
+		}
+	]
+	title: "Rare Magic Loot Crate"
+}

@@ -1,0 +1,18 @@
+{
+	id: "23014B1B37B22D79"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{ count: 32, item: "minecraft:leather" }
+		{ count: 2, item: "fwaystones:abyss_watcher" }
+		{ item: "origins:orb_of_origin" }
+		{ count: 24, item: "minecraft:string" }
+		{ count: 12, item: "minecraft:phantom_membrane" }
+		{ count: 42, item: "minecraft:bread" }
+		{ count: 14, item: "minecraft:iron_ingot" }
+		{ count: 12, item: "minecraft:slime_ball" }
+		{ count: 6, item: "minecraft:book" }
+		{ count: 16, item: "minecraft:paper" }
+	]
+	title: "Rare exploration Loot Crate"
+}

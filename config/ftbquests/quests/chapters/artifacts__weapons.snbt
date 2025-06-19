@@ -1,0 +1,730 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "artifacts__weapons"
+	group: "1408391CC7993B8A"
+	icon: "artifacts:fire_gauntlet"
+	id: "7BBF55F6D914CCED"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["24E0F0B1DCCEB4D8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2AB815DC1BC60BB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "593C26245BA5048F"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			subtitle: "Kill this Creature to unlock the Artifacts Path"
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "0A49DD4B8F167416"
+				title: "Defeat a mimic"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "24E0F0B1DCCEB4D8"
+			subtitle: "Artifacts are powerful Relicts that can be obtained by exploring and looting structures."
+			tasks: [{
+				id: "233607214C4EA4F0"
+				title: "Artifacts"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "4022BADA7BB7EAF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D31EEA60174DDAC"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3232FAC8F5EEA416"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			title: "Obtain an Umbrella"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "5C6B06E084C1F171"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A8CC644160211AA"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73BC047CB1782836"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			title: "Obtain an Everlasting Beef"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "64834082A523BD69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29D55296376B497A"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55B7FD40F7B69389"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			title: "Obtain an Everlasting Steak"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "69D9910D0D401D6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "260B09EE16760E94"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EDA2D41F245F5B9"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			title: "Obtain a Plastic Drinking Hat"
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "57BDBFDC88E54AFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CBD7BF398A7CC4E"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C4BFFAE1D678D35"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			title: "Obtain a Novelty Drinking Hat"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "23CBC62D5D291974"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07DCC9E259E2190F"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7543598351A8567E"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			title: "Obtain a Snorkel"
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "11B9AB8F077F8A5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F027C5AF8FED281"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23AE322D144FD1D4"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			title: "Obtain Night Vision Goggles"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "1E4D1EA94E469D91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21D088060529CB58"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B3D5E8697304B64"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			title: "Obtain a Villager Hat"
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "0953C173FD526E70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A0C4BFEDD051896"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53AA1FC28D12DC4F"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			title: "Obtain a Superstitious Hat"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "7048B9400538779D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B09FEDC21AE2B4C"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4AF22CEBBEB19EE4"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			title: "Obtain a Lucky Scarf"
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "3D982B6576F07647"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EB72EA9F9AB9E55"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1AECF94206BBE531"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			title: "Obtain a Scarf of Invisibility"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "775998C7FB617CB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6125008E78829DA3"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AD2C8D42FBFF1DE"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			title: "Obtain a Cross Necklace"
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "6A0B247931457283"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B588A9523FB5B62"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E632906685B8747"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			title: "Obtain a Panic Necklace"
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "56A4CE6B6BA98D8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EAEE3346C72CAF8"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DFF511C06C2726F"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			title: "Obtain a Shock Pendant"
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "52776B9E2A1F91A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B577CF7E97A3019"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F1B80332D6247FD"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			title: "Obtain a Flame Pendant"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "28BBA82DF5881749"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3324FE365989B5FF"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "332EFF6FAF319AC7"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			title: "Obtain a Thorn Pendant"
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "577C09BFCFE4A864"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D01AE921C1C9744"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69F6ACD8E07A40F2"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			title: "Obtain a Charm of Sinking"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "5247D0E31C941BB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EE205E219338E50"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F933732E848D553"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			title: "Obtain a Cloud in a Bottle"
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "3875F3B13EE6A6F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D08E263D511C2B9"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FC43D125E5E3A29"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			title: "Obtain an Obsidian Skull"
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "6B059BECA0D43C2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0400989EEACF511A"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14368D525D2E28E6"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			title: "Obtain an Anditode Vessel"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "02FDA9F88FBEBC7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BBA24B73849A074"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73A194C9F1A912F1"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			title: "Obtain an Universal Attractor"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "0F6CE6DBBC517F8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47137CDC86AA499C"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "021F29F05FA7C17E"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			title: "Obtain a Crystal Heart"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "01CBAE2594BE279E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53EF2FA7C4BCB3D4"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "240564594AB8B466"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			title: "Obtain a Helium Flamingo"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "3FD1FD01F948AE71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BAF4C06F24977A2"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53653490EEB7FAD2"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			title: "Obtain Digging Claws"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "4E20D47A2BF820DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E26761554A2F98F"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62457026ED60C8C0"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			title: "Obtain Feral Claws"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "4746036FA0FC071A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C55454836E1A2E"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "492D65AE22143850"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			title: "Obtain a Power Glove"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "06411457B82C85C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29DBB341324BFB2E"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1323D2CCFB58B765"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			title: "Obtain a Fire Gaunglet"
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "7220254A231FFC5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4386C473E82F719B"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6964B6ABCB028D9E"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			title: "Obtain a Pocket Piston"
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "33B4DC5B3EB1E04E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77A3040DFBC94840"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1705BB7E7677F8E3"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			title: "Obtain a Vampiric Glove"
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "1A2E6DA1B77D789A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EF420A16F6C768A"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FD35656CA145D4F"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			title: "Obtain a Golden Hook"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "39923DDD33B1EC9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0168A68470E61673"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "643A2F125933A893"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			title: "Obtain Aqua Dashers"
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "0097338E96E5C369"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F01D58BA824CE9"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65A1CD1CA64936E3"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			title: "Obtain Bunny Hoppers"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "4770087230614E58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "432D94DA83BD282F"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69676252B763E3FC"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			title: "Obtain Kitty Slippers"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "7C6810EF259421AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16B6C5A9C5EE6743"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01B3323E3812EE92"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			title: "Obtain Running Shoes"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "5DAF2A943A9789D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58F4BEB6485453CE"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43CC7A9A22FFB03E"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			title: "Obtain Steadfast Spikes"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2AB815DC1BC60BB0"]
+			hide: true
+			id: "7AE711589EB546EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21C00F26D3090892"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F8D16336A232FE2"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			title: "Obtain Flippers"
+			x: -11.5d
+			y: -4.5d
+		}
+	]
+	title: "&bArtifacts"
+}

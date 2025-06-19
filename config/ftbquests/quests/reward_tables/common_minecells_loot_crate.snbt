@@ -1,0 +1,21 @@
+{
+	id: "1FBC81A42FC194E5"
+	loot_size: 1
+	order_index: 105
+	rewards: [
+		{ count: 4, item: "minecells:health_flask" }
+		{ item: "minecells:monsters_eye" }
+		{ count: 2, item: "minecells:guts" }
+		{
+			item: {
+				Count: 1
+				id: "minecells:vine_rune"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "minecells:putrid_log" }
+	]
+	title: "Common Minecells Loot Crate"
+}

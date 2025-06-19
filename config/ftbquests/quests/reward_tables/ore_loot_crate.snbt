@@ -1,0 +1,18 @@
+{
+	id: "5A24592B3AC5CFC7"
+	loot_size: 1
+	order_index: 60
+	rewards: [
+		{ count: 4, item: "mythicmetals:bronze_ingot" }
+		{ count: 5, item: "mythicmetals:morkite" }
+		{ item: "mythicmetals:durasteel_ingot" }
+		{ item: "mythicmetals:steel_ingot" }
+		{ count: 4, item: "mythicmetals:tin_ingot" }
+		{ count: 4, item: "minecraft:copper_ingot" }
+		{ count: 4, item: "minecraft:raw_gold" }
+		{ count: 4, item: "mythicmetals:silver_ingot" }
+		{ count: 4, item: "mythicmetals:manganese_ingot" }
+		{ count: 4, item: "minecraft:coal" }
+	]
+	title: "Ore Loot Crate"
+}

@@ -1,0 +1,15 @@
+{
+	id: "54CDBF0643E6CC1A"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ count: 35, item: "ad_astra:cheese" }
+		{ item: "ad_astra:cryo_fuel_bucket" }
+		{ count: 20, item: "ad_astra:ostrum_ingot" }
+		{ count: 23, item: "ad_astra:desh_ingot" }
+		{ count: 25, item: "ad_astra:steel_ingot" }
+		{ count: 7, item: "ad_astra:wheel" }
+		{ count: 6, item: "ad_astra:oxygen_gear" }
+	]
+	title: "Epic Solar Loot Crate"
+}

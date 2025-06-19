@@ -1,0 +1,14 @@
+{
+	id: "7DC1B2B1DB9B99F2"
+	loot_size: 1
+	order_index: 81
+	rewards: [
+		{ count: 4, item: "minecraft:carrot" }
+		{ count: 4, item: "minecraft:potato" }
+		{ count: 6, item: "minecraft:beetroot" }
+		{ count: 4, item: "minecraft:sweet_berries" }
+		{ count: 8, item: "minecraft:wheat_seeds" }
+		{ item: "croptopia:leek" }
+	]
+	title: "Crop Loot Crate 1"
+}

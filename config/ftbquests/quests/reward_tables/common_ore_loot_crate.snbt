@@ -1,0 +1,20 @@
+{
+	id: "464165C24258D03B"
+	loot_size: 1
+	order_index: 59
+	rewards: [
+		{ count: 8, item: "mythicmetals:bronze_ingot" }
+		{ count: 4, item: "mythicmetals:banglum_ingot" }
+		{ count: 6, item: "mythicmetals:morkite" }
+		{ count: 5, item: "mythicmetals:durasteel_ingot" }
+		{ count: 8, item: "mythicmetals:raw_tin" }
+		{ count: 8, item: "minecraft:copper_ingot" }
+		{ item: "minecraft:diamond" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 6, item: "mythicmetals:silver_ingot" }
+		{ count: 6, item: "mythicmetals:manganese_ingot" }
+		{ count: 2, item: "minecraft:coal_block" }
+		{ count: 4, item: "mythicmetals:steel_ingot" }
+	]
+	title: "Common Ore Loot Crate"
+}

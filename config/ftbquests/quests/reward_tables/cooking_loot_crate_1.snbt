@@ -1,0 +1,15 @@
+{
+	id: "17AD996D6DE104C2"
+	loot_size: 1
+	order_index: 79
+	rewards: [
+		{ item: "croptopia:cabbage" }
+		{ count: 2, item: "minecraft:wheat" }
+		{ count: 2, item: "minecraft:bowl" }
+		{ item: "minecraft:egg" }
+		{ item: "minecraft:milk_bucket" }
+		{ count: 6, item: "minecraft:carrot" }
+		{ count: 6, item: "minecraft:potato" }
+	]
+	title: "Cooking Loot Crate 1"
+}

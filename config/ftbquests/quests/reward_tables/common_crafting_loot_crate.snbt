@@ -1,0 +1,18 @@
+{
+	id: "049628E573746480"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{ count: 16, item: "comforts:rope_and_nail" }
+		{ count: 8, item: "minecraft:leather" }
+		{ count: 4, item: "minecraft:rabbit_hide" }
+		{ count: 2, item: "minecraft:slime_ball" }
+		{ count: 6, item: "minecraft:raw_iron" }
+		{ count: 4, item: "minecraft:raw_gold" }
+		{ count: 6, item: "minecraft:raw_copper" }
+		{ count: 8, item: "minecraft:charcoal" }
+		{ count: 8, item: "minecraft:string" }
+		{ count: 4, item: "minecraft:feather" }
+	]
+	title: "Common Crafting Loot Crate"
+}

@@ -1,0 +1,14 @@
+{
+	id: "7CAEF520AE7C2D5F"
+	loot_size: 1
+	order_index: 67
+	rewards: [
+		{ count: 2, item: "mythicmetals:kyber_block" }
+		{ count: 2, item: "mythicmetals:carmot_block" }
+		{ count: 2, item: "mythicmetals:prometheum_block" }
+		{ count: 2, item: "mythicmetals:osmium_block" }
+		{ item: "mythicmetals:runite_block" }
+		{ item: "mythicmetals:banglum_nuke_core" }
+	]
+	title: "Epic Legendary Banglum Loot Crate"
+}

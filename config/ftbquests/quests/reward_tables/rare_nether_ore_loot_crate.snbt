@@ -1,0 +1,14 @@
+{
+	id: "554757F9B64958BB"
+	loot_size: 1
+	order_index: 69
+	rewards: [
+		{ count: 20, item: "minecraft:quartz" }
+		{ count: 5, item: "mythicmetals:stormyx_ingot" }
+		{ count: 2, item: "minecraft:netherite_ingot" }
+		{ count: 6, item: "mythicmetals:midas_gold_block" }
+		{ count: 4, item: "minecraft:gold_block" }
+		{ item: "mythicmetals:palladium_block" }
+	]
+	title: "Rare Nether Ore Loot Crate"
+}

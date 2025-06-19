@@ -1,0 +1,21 @@
+{
+	id: "0A84DB16F3B0DE4B"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{ count: 4, item: "ad_astra:desh_ingot" }
+		{ count: 15, item: "ad_astra:cheese" }
+		{ item: "ad_astra:fuel_bucket" }
+		{ item: "ad_astra:oxygen_bucket" }
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:oxygen_tank"
+				tag: { }
+			}
+		}
+		{ count: 5, item: "ad_astra:desh_ingot" }
+		{ item: "ad_astra:desh_tank" }
+	]
+	title: "Moon Crate"
+}

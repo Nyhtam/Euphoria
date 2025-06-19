@@ -1,0 +1,15 @@
+{
+	id: "048881C0CA04F561"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 14, item: "minecraft:ender_pearl" }
+		{ item: "dragonloot:dragon_scale" }
+		{ count: 8, item: "minecraft:dragon_breath" }
+		{ item: "minecraft:shulker_box" }
+		{ item: "betterend:aeternium_ingot" }
+		{ count: 12, item: "betterend:terminite_ingot" }
+		{ item: "fwaystones:end_stone_brick_waystone" }
+	]
+	title: "uncommon End Loot Crate"
+}

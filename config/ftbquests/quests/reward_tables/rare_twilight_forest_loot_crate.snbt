@@ -1,0 +1,27 @@
+{
+	id: "6BCE794B1274333C"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ count: 4, item: "twilightforest:fiery_ingot" }
+		{ count: 8, item: "twilightforest:steeleaf_ingot" }
+		{ count: 5, item: "twilightforest:knightmetal_ingot" }
+		{ item: "twilightforest:maze_map" }
+		{ count: 5, item: "twilightforest:ironwood_ingot" }
+		{ count: 2, item: "twilightforest:magic_map_focus" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:ore_magnet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "twilightforest:charm_of_keeping_2" }
+		{ count: 4, item: "twilightforest:charm_of_keeping_1" }
+		{ count: 3, item: "twilightforest:charm_of_life_1" }
+		{ count: 12, item: "twilightforest:carminite" }
+	]
+	title: "Rare Twilight Forest Loot Crate"
+}

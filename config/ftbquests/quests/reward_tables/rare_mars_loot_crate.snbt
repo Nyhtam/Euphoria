@@ -1,0 +1,16 @@
+{
+	id: "472FF466B859460E"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{ count: 6, item: "ad_astra:ostrum_ingot" }
+		{ item: "ad_astra:ostrum_tank" }
+		{ count: 6, item: "ad_astra:ostrum_plate" }
+		{ count: 3, item: "ad_astra:rocket_nose_cone" }
+		{ count: 2, item: "ad_astra:engine_fan" }
+		{ count: 7, item: "ad_astra:iron_rod" }
+		{ item: "ad_astra:fuel_bucket" }
+		{ item: "ad_astra:fuel_bucket" }
+	]
+	title: "rare mars Loot Crate"
+}

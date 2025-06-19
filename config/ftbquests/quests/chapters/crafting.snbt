@@ -1,0 +1,2079 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "crafting"
+	group: "1408391CC7993B8A"
+	icon: "minecraft:crafting_table"
+	id: "736283E2926F4CC7"
+	images: [{
+		height: 5.0d
+		image: "minecraft:textures/block/crafting_table_top.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -0.5d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63974D406A8C36E8"]
+			id: "19077F9A11C85275"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47F7E931870DA618"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			subtitle: "Obtain this Item to unlock the Combat Path"
+			tasks: [{
+				id: "0F6D3F99643C3A18"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a shield"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "63974D406A8C36E8"
+			tasks: [{
+				id: "0FD48C5921FF7C35"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Craft a Crafting Table"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4475546EA99D57EE"]
+			hide: true
+			id: "1EBA83ED94F186A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7EAB4DF891BF95"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "115C5E0ACB61D4D6"
+				item: {
+					Count: 1
+					id: "inmis:frayed_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a Frayed Backpack"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D3C2BEA3912F0BA"]
+			id: "726874445547973F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D36AD4C7F213580"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			subtitle: "Obtain this Item to unlock the Blocks path"
+			tasks: [{
+				id: "2C2790398DD38A7F"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			title: "Craft a Carpenters Workbench"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["726874445547973F"]
+			hide: true
+			id: "350FC239B06A5B6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "157AB3DC759574A6"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70DE1FC8FDAE215C"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["726874445547973F"]
+			hide: true
+			id: "5257A646F55C2E73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2061550710383A32"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A6198CF1D794FBD"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["726874445547973F"]
+			hide: true
+			id: "3AE7C572D6E170B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "707DD88238E74634"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "076415BA716BE7A0"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			title: "Craft a Shepherds Workbench"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["726874445547973F"]
+			hide: true
+			id: "4669F713AA1227E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4079F5CAE665246D"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D5B3F289C5B3C25"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			title: "Craft a Masons Workbench"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["726874445547973F"]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "5585840936CDDD8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19803643F1235C9B"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6CB737C2DCA687D7"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			title: "Craft a Philosophers Workbench"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["726874445547973F"]
+			hide: true
+			id: "4483FF512BCB05A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "092074E6815BCD0B"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "704EFC17462B9B21"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			title: "Craft a Tinkerers Workbench"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["726874445547973F"]
+			hide: true
+			id: "456703B4CA319174"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "138C058C8A20EC5B"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1434CA29CD2905BB"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			title: "Craft a Trading Post"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["456703B4CA319174"]
+			hide: true
+			id: "64884E3EECB5853B"
+			tasks: [
+				{
+					id: "3949536163DF9ED8"
+					item: "morevillagers:oceanography_table"
+					type: "item"
+				}
+				{
+					id: "58CC1AC1DEB405D0"
+					item: "morevillagers:woodworking_table"
+					type: "item"
+				}
+				{
+					id: "0C658C4286995FD2"
+					item: "morevillagers:decayed_workbench"
+					type: "item"
+				}
+				{
+					id: "784722C9B8C9AE30"
+					item: "morevillagers:purpur_altar"
+					type: "item"
+				}
+				{
+					id: "6E966230270C79AA"
+					item: "morevillagers:blueprint_table"
+					type: "item"
+				}
+				{
+					id: "5D27929707F344F5"
+					item: "morevillagers:gardening_table"
+					type: "item"
+				}
+				{
+					id: "3ED41BF9B3BF25C3"
+					item: "morevillagers:hunting_post"
+					type: "item"
+				}
+				{
+					id: "01584FD1F98AE8EC"
+					item: "morevillagers:mining_bench"
+					type: "item"
+				}
+			]
+			title: "Craft every new Type of Villager Workstation"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["63974D406A8C36E8"]
+			id: "12F24B051C4C1CE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FE8BF68F45F61C1"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			subtitle: "Obtain this Item to unlock the Storage Path"
+			tasks: [{
+				id: "1D1FFCC47AA50673"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "Craft a Chest"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0341EBF52F2E03EC"]
+			hide: true
+			id: "20F6BA1517398318"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6643EB240362038D"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "Doesnt set your respawn point, great for exploration"
+			tasks: [{
+				id: "6F025316ED877662"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Craft a White Sleeping Bag"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4475546EA99D57EE"]
+			hide: true
+			id: "7212683C86AD9A5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7C6342BFEC71F1"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "use this to store water (:"
+			tasks: [{
+				id: "08A3FE7E5C6C7697"
+				item: "dehydration:leather_flask"
+				type: "item"
+			}]
+			title: "Craft a flask"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4475546EA99D57EE"]
+			hide: true
+			id: "0341EBF52F2E03EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51E130392E262D2E"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "367C203D8799B2B8"
+				item: {
+					Count: 1
+					id: "nyfsquiver:basic_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a basic quiver"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EBA83ED94F186A6"]
+			hide: true
+			id: "5A103534236E7B42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32435E80BE054FF2"
+					table_id: 330496588607939712L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19B0D6ED3E5322F9"
+					table_id: 330496588607939712L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41A97B35D2664F01"
+				item: "fwaystones:abyss_watcher"
+				type: "item"
+			}]
+			title: "Craft an Abyss Watcher"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A103534236E7B42"]
+			hide: true
+			id: "0995C5D46B4D4130"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AEF9C2756081A89"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DA25C0A8CA3B8DE"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74B38814CDF778D8"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "577D8566F26289BA"
+				item: "fwaystones:pocket_wormhole"
+				type: "item"
+			}]
+			title: "Craft a Pocket Wormhole"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20F6BA1517398318"]
+			hide: true
+			id: "0A3E4899939A1EB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CE3F73BB44F14C1"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "Hang it between a pair of Rope and Nails. Allows you to sleep during the day"
+			tasks: [{
+				id: "14F90D472A5220F7"
+				item: "comforts:hammock_white"
+				type: "item"
+			}]
+			title: "Craft a white Hammock"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63974D406A8C36E8"]
+			id: "4475546EA99D57EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257E89BE73F5F983"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			subtitle: "Obtain this item to unlock the Utilities Tab"
+			tasks: [{
+				id: "056CE43BEA767560"
+				item: {
+					Count: 1
+					id: "originsumbrellas:umbrella"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Protects from the rain"
+				type: "item"
+			}]
+			title: "Craft an Umbrella"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0995C5D46B4D4130"]
+			hide: true
+			id: "3982B45CC1CB9030"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ECDA22AE5ECFEB4"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			subtitle: "use this to teleport your mythic mounts to you"
+			tasks: [{
+				id: "53187944846B46A6"
+				item: "mythicmounts:summoning_staff"
+				type: "item"
+			}]
+			title: "Craft a summoning staff"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["456703B4CA319174"]
+			hide: true
+			id: "29C55DEB774CB092"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50E429EEE800829B"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F63C11002ED6FC7"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an Alchemist table"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["76B145704CFB2815"]
+			hide: true
+			id: "1D18D84B8CCA0CF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E60BEAE4183D96"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E23FE9B24762EBD"
+				item: {
+					Count: 1
+					id: "nyfsquiver:iron_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to an Iron Quiver"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35E6ADF15A6EAC62"]
+			hide: true
+			id: "002DAB10095C9B56"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DAF7ACBC06E6E86"
+					table_id: 8317466138080373256L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F03E35707C3ACF"
+					table_id: 8317466138080373256L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1EA1ADDA4F408C08"
+				item: {
+					Count: 1
+					id: "nyfsquiver:gold_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Gold Quiver"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D18D84B8CCA0CF7"]
+			hide: true
+			id: "35E6ADF15A6EAC62"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41EAEDD86558D0D9"
+					table_id: 8317466138080373256L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B03B363B534BC3B"
+					table_id: 330496588607939712L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "07F36482495BEC19"
+				item: {
+					Count: 1
+					id: "nyfsquiver:silver_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Silver Quiver"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["002DAB10095C9B56"]
+			hide: true
+			id: "4377C464F9105E5C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62C97E6A67FC094B"
+					table_id: 8295788573214125790L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71FB02B316735457"
+					table_id: 8295788573214125790L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2772BBD6C2833663"
+				item: {
+					Count: 1
+					id: "nyfsquiver:diamond_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Diamond Quiver"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4377C464F9105E5C"]
+			hide: true
+			id: "4DB6156B63276BDC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0755A4960408AD63"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51EDD573BB893128"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6C764D410389D325"
+				item: {
+					Count: 1
+					id: "nyfsquiver:netherite_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Netherite Quiver"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EBA83ED94F186A6"]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "57DEB3558B5F634F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F5EEAF64B4743A9"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32CBB232FCBFAD81"
+				item: {
+					Count: 1
+					id: "inmis:plated_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Plated Backpack"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57DEB3558B5F634F"]
+			hide: true
+			id: "34BBDA999D2B24A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32513663510668A1"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27CA3B66E966136C"
+				item: {
+					Count: 1
+					id: "inmis:gilded_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Gilded Backpack"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34BBDA999D2B24A5"]
+			hide: true
+			id: "7D9D9CCB4F718759"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "693F5B2A473E352D"
+				table_id: 8727270438681699598L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FCD66E2383CA578"
+				item: {
+					Count: 1
+					id: "inmis:bejeweled_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a bejeweled Backpack"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D9D9CCB4F718759"]
+			hide: true
+			id: "505825A94763B7CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49715A1743CBACB5"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A23A994471FF5C5"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E83CDD245F4BE4A"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "466A309CD23A119E"
+				item: {
+					Count: 1
+					id: "inmis:blazing_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Blazing Backpack"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["505825A94763B7CB"]
+			hide: true
+			id: "62153BF5829EAA67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AAF45960DB52407"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C35FF9EE5F25C84"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03FC094C331F6DCC"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6121ECCAA5B9D88C"
+				item: {
+					Count: 1
+					id: "inmis:withered_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Withered Backpack"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62153BF5829EAA67"]
+			hide: true
+			id: "18A4D82F025DBE15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33D30947EABEED57"
+				table_id: 8727270438681699598L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C38F46A280F8C1D"
+				item: {
+					Count: 1
+					id: "inmis:endless_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to an Endless Backpack"
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0341EBF52F2E03EC"]
+			hide: true
+			id: "76B145704CFB2815"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5778B7C59BC13F52"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DA5B5CBA41CEC1F"
+				item: {
+					Count: 1
+					id: "nyfsquiver:copper_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade to a Copper Quiver"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19077F9A11C85275"]
+			hide: true
+			id: "36B689C5B37024B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19A46E1A76C83EDB"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "womp womp"
+			tasks: [{
+				id: "26D13C6D91D92F6D"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			title: "Craft an Orb of Origin"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65522A390B053AE2"]
+			hide: true
+			id: "79B037E6860703F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EB7AA7B995B1AA6"
+				table_id: 8727270438681699598L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70BFD63AF7F9526D"
+				item: "illagerinvasion:horn_of_sight"
+				type: "item"
+			}]
+			title: "Craft a Horn of Sight"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["275D81C15D4D8B45"]
+			hide: true
+			id: "31360FF6A01C46B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4632EA187BC041AD"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "76499BCF72D8281B"
+				item: "blast:trigger_bomb"
+				type: "item"
+			}]
+			title: "Craft a set of Trigger bombs"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36B689C5B37024B0"]
+			hide: true
+			id: "0A1DECEB08C29C89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3516062AF144652C"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D3D69FD0B3F6068"
+				item: "mobscarecrow:pillager_plushie"
+				type: "item"
+			}]
+			title: "Craft a Pillager Plushie"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31360FF6A01C46B9"]
+			hide: true
+			id: "315F53B0145A24DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64484B404F910038"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5A5470F49A4D018F"
+					item: "blast:amethyst_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "64BFFA8C27AD9CC6"
+					item: "blast:frost_trigger_bomb"
+					type: "item"
+				}
+			]
+			title: "Craft Amethyst and Frost Trigger bombs"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A1DECEB08C29C89"]
+			hide: true
+			id: "26A2E7E85118949D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C15ECA840999724"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FBBAC23190209D2"
+				item: "mobscarecrow:iron_golem_plushie"
+				type: "item"
+			}]
+			title: "Craft an Iron Golem Plushie"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26A2E7E85118949D"]
+			hide: true
+			id: "22EAC085A7009E3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60426B596C3E867B"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A51A54FDA9F719C"
+				item: "mobscarecrow:gold_pig_plushie"
+				type: "item"
+			}]
+			title: "Craft an Elder Trident"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22EAC085A7009E3F"]
+			hide: true
+			id: "740F146E5D440E6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C634DCF2698CC4B"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01A3B185FB0FEA2A"
+				item: "mobscarecrow:default_scarecrow"
+				type: "item"
+			}]
+			title: "Craft a Mob Scarecrow"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CAFE8808CBA192A"]
+			hide: true
+			id: "10D1F0812EFC0C18"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54863496C4E24362"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42C197B4D6C78440"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "7FB85BAC964FB6A0"
+				item: "xtraarrows:netherite_arrow"
+				type: "item"
+			}]
+			title: "Craft 8 Netherite Arrows"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10D1F0812EFC0C18"]
+			hide: true
+			id: "355FC6B7E17799A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EC6042042231128"
+				table_id: 8727270438681699598L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66705DDC50E4AADC"
+				item: "xtraarrows:netherite_vexing_arrow"
+				type: "item"
+			}]
+			title: "Craft a vexing Netherite Arrow"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["315F53B0145A24DA"]
+			hide: true
+			id: "0022C1FBF699473F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33983B530DF68657"
+					table_id: 8295788573214125790L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37D1E425569308A3"
+					table_id: 8295788573214125790L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33A7FD3DFE89E378"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7F0E48DF648285FC"
+					item: "blast:trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "4560DE148DFA14CA"
+					item: "blast:golden_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "2BF0E5DC61900564"
+					item: "blast:diamond_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "2051CAFA3F52C5A3"
+					item: "blast:confetti_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "14B326BBACA26A9D"
+					item: "blast:dirt_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "5AEF55AC26AD214B"
+					item: "blast:pearl_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "770D4783E90C0A82"
+					item: "blast:slime_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "0E0E923E218E6BEB"
+					item: "blast:amethyst_trigger_bomb"
+					type: "item"
+				}
+				{
+					id: "5169DC7708A79A06"
+					item: "blast:frost_trigger_bomb"
+					type: "item"
+				}
+			]
+			title: "Craft every type of custom trigger bomb"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"740F146E5D440E6F"
+				"355FC6B7E17799A1"
+				"0022C1FBF699473F"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "2B1C07B45481D71F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A26DB4E935ED875"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5075898D01F55B12"
+					table_id: 108570923062823511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FCAAB0414E3E715"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "39BF3CA7C91419BD"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "4F9F48CED98D00DD"
+					item: "moretotems:explosive_totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "7D685D8AE14A2965"
+					item: "moretotems:stinging_totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "1730D1A9A496E600"
+					item: "moretotems:teleporting_totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "1CB190A1BB33FE2F"
+					item: "moretotems:ghastly_totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "4F6B4D75BD7DDFB8"
+					item: "moretotems:skeletal_totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "62828BF0D30C7962"
+					item: "moretotems:tentacled_totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "13174AE9808E52EB"
+					item: "moretotems:rotting_totem_of_undying"
+					type: "item"
+				}
+			]
+			title: "Craft every type of Custom Totem of Undying"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12F24B051C4C1CE9"]
+			hide: true
+			id: "2B1E5EBAD5B66D55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EF3C1E58B2B2D3A"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A059ECA55940A34"
+				item: "another_furniture:oak_drawer"
+				type: "item"
+			}]
+			title: "Craft an Oak Drawer"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12F24B051C4C1CE9"]
+			hide: true
+			id: "4EA706952056D4E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47000939144A6006"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "Mod: Toms Simple Storage"
+			tasks: [{
+				id: "28671368C396DD36"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "Craft an Inventory Connector"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EA706952056D4E5"]
+			hide: true
+			id: "13096C0CB4253D5B"
+			subtitle: "\"Heart\" of the Storage Network. Place it on top of the Inventory Connector"
+			tasks: [{
+				id: "40A648806BFC91DB"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "Craft a Storage Terminal"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EA706952056D4E5"]
+			hide: true
+			id: "0E116F1A22C7289F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EEA8CC63B3F4EA7"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			subtitle: "Use this item to access your Network in a 16 Block area."
+			tasks: [{
+				id: "6C64C9EC040E3648"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "Craft a Wireless Terminal"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EA706952056D4E5"]
+			hide: true
+			id: "62B370D39D4E43F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1795E64AAD56261C"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			subtitle: "Use this to connect containers to your network without using cables"
+			tasks: [{
+				id: "10B60C18F89121A2"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			title: "Craft an Inventory Trim"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E116F1A22C7289F"]
+			hide: true
+			id: "13A3AD552C1DC936"
+			subtitle: "Use this item to access your Network in a 64 Block radius. Place beacons nearby to expand that range. Recommended"
+			tasks: [{
+				id: "5C322ED1863653F4"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "Craft an Advanced Wireless Terminal"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["13096C0CB4253D5B"]
+			hide: true
+			id: "4AB2F4D1BFEF897C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04E701CF2477E50E"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			subtitle: "Basic Cable to connect containers to your Network."
+			tasks: [{
+				count: 5L
+				id: "6A78598D18B33E1F"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			title: "Craft 5 Inventory Cables"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4AB2F4D1BFEF897C"]
+			hide: true
+			id: "2867F7855EA1156B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B0CDD3FCEE0B97B"
+					table_id: 8295788573214125790L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D0560D9368C9FF5"
+					table_id: 8295788573214125790L
+					type: "random"
+				}
+			]
+			subtitle: "Required to connect cables to containers"
+			tasks: [{
+				count: 5L
+				id: "2298C04B37C77CF3"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			title: "Craft 5 Inventory Cable Connectors"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2867F7855EA1156B"]
+			hide: true
+			id: "3368A38CB76810AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B4732191EEEE19"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "Used to connect Containers over greater Distances. Use a Paint kit to camoflage the block"
+			tasks: [{
+				count: 5L
+				id: "7F719CA72631F3CA"
+				item: "toms_storage:ts.inventory_cable_framed"
+				type: "item"
+			}]
+			title: "Craft 5 Framed Inventory Cables"
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["62B370D39D4E43F6"]
+			hide: true
+			id: "2F0DE239C0E6E538"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05EBD72376DB0A44"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "Converts the facing block to a blockentity. The Open Crate can then include dropped items, or other containers in the Network"
+			tasks: [{
+				id: "69B01AAAE3AEA911"
+				item: "toms_storage:ts.open_crate"
+				type: "item"
+			}]
+			title: "Craft an Open Crate"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["13A3AD552C1DC936"]
+			hide: true
+			id: "562842FA4F39314E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27B7A175AB5DCB67"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C85F79D36D6BAD2"
+				item: {
+					Count: 1
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Paint Kit"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F0DE239C0E6E538"]
+			hide: true
+			id: "74CD6B987C0A6B05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22A5343A358AAD82"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			subtitle: "Use This Block to connect multiple hoppers/filters to a specific container"
+			tasks: [{
+				id: "53BE0036020885C9"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			title: "Craft an Inventory Proxy"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"74CD6B987C0A6B05"
+				"20458A42C49CA05D"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "1A0F222F099D3317"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CFFE0EFA10F0CED"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3208CF824683A6CC"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			title: "Craft a basic Inventory Hopper"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3368A38CB76810AC"]
+			hide: true
+			id: "20458A42C49CA05D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0779928C3A17E10E"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "523559369E08593C"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			title: "Craft a Level Emitter"
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2B1E5EBAD5B66D55"]
+			hide: true
+			id: "7153697C72A393AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37771082E22B8E36"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			subtitle: "same item capacity as a double chest"
+			tasks: [{
+				id: "5D609904C07A57AE"
+				item: "graveyard:oak_coffin"
+				type: "item"
+			}]
+			title: "Craft an Oak Coffin"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B1E5EBAD5B66D55"]
+			id: "161290A467928920"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CB67C78EE688FC3"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56DE54094C193F20"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FB5563FBDC9DB91"
+					table_id: 8317466138080373256L
+					type: "random"
+				}
+			]
+			subtitle: "Same item capacity as a double chest"
+			tasks: [
+				{
+					id: "4EA6A1F386C10674"
+					item: "graveyard:black_urn"
+					type: "item"
+				}
+				{
+					id: "26D0793A124A6316"
+					item: "graveyard:gray_urn"
+					type: "item"
+				}
+				{
+					id: "5B3730BA122F7894"
+					item: "graveyard:light_gray_urn"
+					type: "item"
+				}
+				{
+					id: "11B52546A2331ECE"
+					item: "graveyard:white_urn"
+					type: "item"
+				}
+				{
+					id: "628DB40646FD61F7"
+					item: "graveyard:light_blue_urn"
+					type: "item"
+				}
+				{
+					id: "45657DF94F440BD4"
+					item: "graveyard:blue_urn"
+					type: "item"
+				}
+				{
+					id: "764E962154B2DEA7"
+					item: "graveyard:cyan_urn"
+					type: "item"
+				}
+				{
+					id: "455053B076566E47"
+					item: "graveyard:green_urn"
+					type: "item"
+				}
+				{
+					id: "00AE95203FFF0850"
+					item: "graveyard:lime_urn"
+					type: "item"
+				}
+				{
+					id: "3B19BE15ED0CA00C"
+					item: "graveyard:pink_urn"
+					type: "item"
+				}
+				{
+					id: "2825E742C0A8F070"
+					item: "graveyard:magenta_urn"
+					type: "item"
+				}
+				{
+					id: "7055287393656A60"
+					item: "graveyard:purple_urn"
+					type: "item"
+				}
+				{
+					id: "18CB69C7A582F9B7"
+					item: "graveyard:red_urn"
+					type: "item"
+				}
+				{
+					id: "2A3025DB87CB2ECC"
+					item: "graveyard:orange_urn"
+					type: "item"
+				}
+				{
+					id: "1C3C7F5901C5D3CC"
+					item: "graveyard:yellow_urn"
+					type: "item"
+				}
+				{
+					id: "47EAB365CE04EE17"
+					item: "graveyard:brown_urn"
+					type: "item"
+				}
+			]
+			title: "Craft every Glazed Urn Variant"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B1E5EBAD5B66D55"]
+			hide: true
+			id: "15A5F7C9DCA59192"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EA036195A9ED002"
+				table_id: 8727270438681699598L
+				type: "random"
+			}]
+			tasks: [{
+				id: "355A36F77DFC1081"
+				item: "xp_storage:xp_book"
+				type: "item"
+			}]
+			title: "Craft an XP Storage Book"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["456703B4CA319174"]
+			hide: true
+			id: "7A37CA1E9CCF3088"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51EF2DFB4B27B8FD"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "002268A1EFD25895"
+				item: "magnumtorch:amethyst_magnum_torch"
+				type: "item"
+			}]
+			title: "Craft an Amethyst Magnum Torch"
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7A37CA1E9CCF3088"]
+			hide: true
+			id: "620C29809BE4F9C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022BED4064B7B8B4"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A2431E1AAEC7B1A"
+				item: "magnumtorch:emerald_magnum_torch"
+				type: "item"
+			}]
+			title: "Craft an Emerald Magnum Torch"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7A37CA1E9CCF3088"]
+			hide: true
+			id: "5935234B860C6C21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F5BA79293E6B6DD"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D9303280B201CE1"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "Craft a Diamond Magnum Torch"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19077F9A11C85275"]
+			hide: true
+			id: "65522A390B053AE2"
+			tasks: [{
+				count: 16L
+				id: "46A3571093DA260A"
+				item: "xtraarrows:iron_arrow"
+				type: "item"
+			}]
+			title: "Craft 16 Iron Arrows"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65522A390B053AE2"]
+			hide: true
+			id: "3B0D251BFB363F4C"
+			tasks: [{
+				count: 16L
+				id: "608A055084ACC8F1"
+				item: "xtraarrows:flint_vexing_arrow"
+				type: "item"
+			}]
+			title: "Craft 16 Vexing Arrows"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B0D251BFB363F4C"]
+			hide: true
+			id: "1CAFE8808CBA192A"
+			tasks: [{
+				count: 16L
+				id: "76E5E2FD1A4D76B9"
+				item: "xtraarrows:diamond_magnetic_arrow"
+				type: "item"
+			}]
+			title: "Craft 16 Magnetic Diamond Arrows"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36B689C5B37024B0"]
+			id: "275D81C15D4D8B45"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "090C917E23089F3E"
+					table_id: 8317466138080373256L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AD322F45D83947D"
+					table_id: 8317466138080373256L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "2DC839E26E0CB869"
+				item: "blast:pearl_trigger_bomb"
+				type: "item"
+			}]
+			title: "Craft 16 Pearl Trigger bombs"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["456703B4CA319174"]
+			id: "1FBEFD33AC0FD9A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A88D14359740F17"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24C7A3EABCF73F5E"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			title: "Craft a Target Dummy"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1FBEFD33AC0FD9A8"]
+			id: "493E06063AB01562"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57BA0D6BE102221E"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "088C0194FE44C2FB"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			title: "Craft an Item Trash Can"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["456703B4CA319174"]
+			id: "10801B6C0AF67E04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "042CB6D69235AAD5"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "346A0E9443C6A202"
+				item: {
+					Count: 1
+					id: "portablemobs:basic_capture_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a Basic Capture Cell"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["10801B6C0AF67E04"]
+			id: "34E894DBCF0453ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C9A8C68A45BCB1C"
+				table_id: 8295788573214125790L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55FDA5745590545D"
+				item: {
+					Count: 1
+					id: "portablemobs:master_capture_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a Master Capture Cell"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["15A5F7C9DCA59192"]
+			id: "2A0A6FD2C141C438"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0095662864CF752C"
+				table_id: 8727270438681699598L
+				type: "random"
+			}]
+			tasks: [{
+				id: "541916925585346A"
+				item: "xp_storage:xp_book2"
+				type: "item"
+			}]
+			title: "Craft a Tier 2 XP Storage Book"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A0A6FD2C141C438"]
+			id: "3B62C782B7E95F99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E657353C240EAF2"
+				table_id: 8727270438681699598L
+				type: "random"
+			}]
+			tasks: [{
+				id: "094AE170E9DECD5B"
+				item: "xp_storage:xp_book3"
+				type: "item"
+			}]
+			title: "Craft a Tier 3 XP Storage Book"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["63974D406A8C36E8"]
+			description: ["Place it above a Campfire and add water to purify it"]
+			id: "0D3C2BEA3912F0BA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "474BA95B51B62848"
+					table_id: 330496588607939712L
+					type: "random"
+				}
+				{
+					id: "7C60592A357B6911"
+					item: "dehydration:handbook"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "060C4A9E3939D8F5"
+				item: "dehydration:campfire_cauldron"
+				type: "item"
+			}]
+			title: "Craft a Campfire Cauldron"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7212683C86AD9A5E"]
+			id: "2D21DA802CB052FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0583C065EEC5CD15"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65524059EFA74734"
+				item: "dehydration:iron_leather_flask"
+				type: "item"
+			}]
+			title: "Craft an Iron Water Flask"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D21DA802CB052FE"]
+			id: "1B5DB5058533AB04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DEC866DFD3BFE89"
+				table_id: 330496588607939712L
+				type: "random"
+			}]
+			tasks: [{
+				id: "642FA7DCFE7D6FB8"
+				item: "dehydration:golden_leather_flask"
+				type: "item"
+			}]
+			title: "Craft a Golden Water Flask"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B5DB5058533AB04"]
+			id: "5A45CA821A2630AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E4C855C576E8748"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16C64C98BFED83C8"
+				item: "dehydration:diamond_leather_flask"
+				type: "item"
+			}]
+			title: "Craft a Diamond Water Flask"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A45CA821A2630AF"]
+			id: "082281D472E74195"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DAE509CE4FB4267"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7379A3557E0BD322"
+					table_id: 8727270438681699598L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "26FC802B65ACCF3C"
+				item: "dehydration:netherite_leather_flask"
+				type: "item"
+			}]
+			title: "Craft a Netherite Water Flask"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A3E4899939A1EB8"]
+			id: "1F25C41660211B3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B2C0EA13A5F7E45"
+				table_id: 330496588607939712L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "013E35C0783AB867"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a Magnet"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F25C41660211B3A"]
+			id: "3DCD4953FD925120"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FEA501CF2C66D39"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "533295FCC95D6628"
+				item: {
+					Count: 1
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft an Advanced Magnet"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FBEFD33AC0FD9A8"]
+			id: "08B36437E586B44B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C8955238F784A76"
+					table_id: 330496588607939712L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49E919BEF12BF4B8"
+					table_id: 330496588607939712L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6FE81AD45B6D3D76"
+				item: "simplemagnets:basic_demagnetization_coil"
+				type: "item"
+			}]
+			title: "Craft a Demagetisation coil"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3982B45CC1CB9030"]
+			id: "07CECBB9EF91F14D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "630B0F78A9241643"
+				table_id: 8317466138080373256L
+				type: "random"
+			}]
+			tasks: [{
+				id: "430D9319C0EFA534"
+				item: {
+					Count: 1
+					id: "xp_storage_trinkets:xp_saver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Xp Saver"
+			x: -10.0d
+			y: -1.0d
+		}
+	]
+	title: "&6Crafting"
+}

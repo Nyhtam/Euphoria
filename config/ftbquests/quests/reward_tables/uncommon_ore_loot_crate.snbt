@@ -1,0 +1,20 @@
+{
+	id: "713FFFBFBC486ACA"
+	loot_size: 1
+	order_index: 61
+	rewards: [
+		{ item: "mythicmetals:bronze_block" }
+		{ count: 15, item: "minecraft:copper_ingot" }
+		{ item: "mythicmetals:morkite_block" }
+		{ count: 6, item: "mythicmetals:durasteel_ingot" }
+		{ item: "mythicmetals:tin_block" }
+		{ count: 2, item: "minecraft:diamond" }
+		{ item: "minecraft:gold_block" }
+		{ count: 2, item: "bewitchment:silver_block" }
+		{ item: "mythicmetals:manganese_block" }
+		{ count: 2, item: "minecraft:coal_block" }
+		{ count: 2, item: "mythicmetals:steel_block" }
+		{ count: 4, item: "mythicmetals:aquarium_ingot" }
+	]
+	title: "uncommon Ore Loot Crate"
+}

@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:dirt"
+	id: "3DF0439274391013"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			type: "xp"
+			xp: 5
+		}
+		{ count: 15, item: "minecraft:oak_log" }
+		{ count: 7, item: "minecraft:iron_ingot" }
+		{ count: 5, item: "minecraft:apple" }
+		{ count: 15, item: "minecraft:sugar_cane" }
+		{ count: 5, item: "minecraft:bone" }
+		{ count: 3, item: "minecraft:emerald" }
+		{ item: "fwaystones:waystone" }
+		{ count: 7, item: "minecraft:leather", team_reward: false }
+		{ item: "minecraft:diamond" }
+	]
+	title: "Common OW loot table"
+}

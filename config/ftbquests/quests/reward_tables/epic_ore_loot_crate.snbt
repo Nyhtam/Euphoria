@@ -1,0 +1,13 @@
+{
+	id: "217A710CA668CF7B"
+	loot_size: 1
+	order_index: 66
+	rewards: [
+		{ count: 2, item: "mythicmetals:kyber_block" }
+		{ count: 2, item: "mythicmetals:carmot_block" }
+		{ count: 2, item: "mythicmetals:prometheum_block" }
+		{ count: 2, item: "mythicmetals:osmium_block" }
+		{ item: "mythicmetals:runite_block" }
+	]
+	title: "Epic Ore Loot Crate"
+}

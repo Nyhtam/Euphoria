@@ -1,0 +1,15 @@
+{
+	id: "600CF0A7D505FECF"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ count: 32, item: "twilightforest:twilight_oak_log" }
+		{ count: 3, item: "twilightforest:fiery_ingot" }
+		{ count: 4, item: "twilightforest:steeleaf_ingot" }
+		{ count: 6, item: "twilightforest:raven_feather" }
+		{ count: 5, item: "twilightforest:ironwood_ingot" }
+		{ item: "twilightforest:charm_of_keeping_1" }
+		{ item: "twilightforest:charm_of_life_1" }
+	]
+	title: "Common Twilight Forest Loot Crate"
+}

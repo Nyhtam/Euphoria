@@ -1,0 +1,14 @@
+{
+	id: "58E66EAE01133CEC"
+	loot_size: 1
+	order_index: 84
+	rewards: [
+		{ item: "croptopia:lettuce" }
+		{ item: "croptopia:greenonion" }
+		{ count: 5, item: "croptopia:leek" }
+		{ count: 2, item: "croptopia:onion" }
+		{ count: 2, item: "croptopia:corn" }
+		{ item: "croptopia:greenbean" }
+	]
+	title: "Crop Loot Crate 4"
+}

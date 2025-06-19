@@ -1,0 +1,14 @@
+{
+	id: "72A81E6842DEB251"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{ count: 16, item: "minecraft:gunpowder" }
+		{ count: 8, item: "minecraft:tnt" }
+		{ count: 32, item: "minecraft:paper" }
+		{ count: 16, item: "minecraft:book" }
+		{ count: 16, item: "minecraft:leather" }
+		{ item: "minecraft:suspicious_stew" }
+	]
+	title: "Common Shipwreck Loot Crate"
+}

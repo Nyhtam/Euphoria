@@ -1,0 +1,23 @@
+{
+	id: "4C2D3BB9E9D73CE1"
+	loot_size: 1
+	order_index: 90
+	rewards: [
+		{ item: "croptopia:asparagus" }
+		{ item: "croptopia:chile_pepper" }
+		{ item: "croptopia:pepper" }
+		{ count: 2, item: "croptopia:olive" }
+		{ count: 2, item: "croptopia:mustard" }
+		{ count: 2, item: "croptopia:eggplant" }
+		{ count: 3, item: "croptopia:spinach" }
+		{ count: 3, item: "croptopia:turnip" }
+		{ count: 3, item: "croptopia:tomatillo" }
+		{ count: 4, item: "croptopia:kale" }
+		{ count: 4, item: "croptopia:radish" }
+		{ count: 4, item: "croptopia:basil" }
+		{ count: 5, item: "croptopia:tea_leaves" }
+		{ count: 5, item: "croptopia:squash" }
+		{ count: 5, item: "croptopia:cucumber" }
+	]
+	title: "Crop Loot Crate 10"
+}

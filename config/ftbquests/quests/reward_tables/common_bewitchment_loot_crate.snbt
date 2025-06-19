@@ -1,0 +1,29 @@
+{
+	id: "7EB1C3E63C37216A"
+	loot_size: 1
+	order_index: 54
+	rewards: [
+		{ item: "bewitchment:juniper_sapling" }
+		{ item: "bewitchment:cypress_sapling" }
+		{ item: "bewitchment:elder_sapling" }
+		{ item: "bewitchment:dragons_blood_sapling" }
+		{
+			item: {
+				Count: 1
+				id: "bewitchment:chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 6, item: "bewitchment:oak_bark" }
+		{ count: 16, item: "minecraft:flint" }
+		{ count: 2, item: "bewitchment:demon_horn" }
+		{ count: 2, item: "bewitchment:snake_tongue" }
+		{ count: 2, item: "bewitchment:ectoplasm" }
+		{ count: 4, item: "bewitchment:mandrake_root" }
+		{ count: 4, item: "bewitchment:silver_ingot" }
+		{ count: 4, item: "bewitchment:salt" }
+	]
+	title: "Common Bewitchment Loot Crate"
+}

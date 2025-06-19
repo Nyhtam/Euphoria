@@ -1,0 +1,4046 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "weaponry"
+	group: "1408391CC7993B8A"
+	icon: {
+		Count: 1
+		id: "mythicmetals:metallurgium_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "29EF499E7938628E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide: true
+			id: "2694FD49E3A0B927"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0266F696C3417985"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			subtitle: "To make use of the Forge place it on the middle edge block of a 3x3 platform and stack up two blocks on every middle edge block (stack up 1 block on the forge controller). &cThe whole Forge has to be build using the same block the Forge Controller is made of."
+			tasks: [
+				{
+					id: "6350F77A15E37C0B"
+					item: "alloy_forgery:bricks_forge_controller"
+					type: "item"
+				}
+				{
+					id: "74E57EC1C3E82774"
+					item: "alloy_forgery:stone_bricks_forge_controller"
+					type: "item"
+				}
+			]
+			title: "Obtain a Brick and Stone Brick Forge Controller"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07DBDDFCA26F1F16"]
+			hide: true
+			id: "2C82B35246F88066"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79A2647556D0030F"
+				table_id: 6495414604779605959L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FACDABF31A8495D"
+				item: {
+					Count: 1
+					id: "paladins:iron_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Iron Greathammer"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["07DBDDFCA26F1F16"]
+			hide: true
+			id: "4364C17C0FA3FD36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "725DEFF6211E583E"
+				table_id: 6495414604779605959L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "72CDAC07EA1D64CD"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7343988286FE6D6D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "669EB66DB7C689ED"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "238878AB8FD90B82"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Iron Armor set"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07DBDDFCA26F1F16"]
+			hide: true
+			id: "1E252958334B5D67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D10D671BC06ED0E"
+				table_id: 6495414604779605959L
+				type: "random"
+			}]
+			tasks: [{
+				id: "237126449CA404A1"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Iron Chakram"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51875F9D3B927552"]
+			hide: true
+			id: "30AFD3DDF35A6940"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2892E74AE8774F7B"
+				table_id: 6495414604779605959L
+				type: "random"
+			}]
+			subtitle: "Forge this Metal by putting Iron and Raw Manganese in a Tier 1 Forge"
+			tasks: [{
+				id: "310867B4450601E6"
+				item: "mythicmetals:steel_ingot"
+				type: "item"
+			}]
+			title: "Forge a Steel Ingot"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07DBDDFCA26F1F16"]
+			hide: true
+			id: "51875F9D3B927552"
+			tasks: [{
+				id: "3FFF1E4F4E605589"
+				item: "mythicmetals:raw_manganese"
+				type: "item"
+			}]
+			title: "Obtain a Raw Manganese"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30AFD3DDF35A6940"]
+			hide: true
+			id: "66C64089E70E0086"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E8F3D47A47683E1"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "45349DD59803DBD0"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B6B8FA6D598FF81"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F2B11DF0E7AD076"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BA892D15F02EEB6"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full Steel Armor Set"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30AFD3DDF35A6940"]
+			hide: true
+			id: "412BF8CACA2EEF63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D64427AEC86C37"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "19268D3E27CCD3D3"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B1A30B13BD7FA8A"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A92799669FAEDF3"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "062FE0B257C500B4"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0737CD24C6662A9B"
+					item: {
+						Count: 1
+						id: "mythicmetals:steel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Steel Tools"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30AFD3DDF35A6940"]
+			hide: true
+			id: "4370AB46602BC004"
+			tasks: [{
+				id: "3F113E5F98BCB33B"
+				item: "mythicmetals:raw_tin"
+				type: "item"
+			}]
+			title: "Obtain Raw Tin"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17D27F3E1EAAE93D"]
+			hide: true
+			id: "6404DEC806E13BBA"
+			subtitle: "Forge this Metal by putting Copper and Tin in a Tier 1 Forge"
+			tasks: [{
+				id: "408973457E012B6B"
+				item: "mythicmetals:bronze_ingot"
+				type: "item"
+			}]
+			title: "Forge a Bronze Ingot"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6404DEC806E13BBA"]
+			hide: true
+			id: "1CEE271BD239186F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59DA8D020BFAF241"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "70DDD0EEB9DFAEA1"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19E955A4FF6F97DC"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43A909EB4B582EE5"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1826BB598914F8D2"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full set of Bronze Armor"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6404DEC806E13BBA"]
+			hide: true
+			id: "19DC4098D31B9FB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31EED2E6B57A4450"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "54B3B6F98EAA5C7A"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "618FE8707165FDFB"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3E819B5A35849E"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67B9AFBD470E5E0C"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63EC9CC90BB7B71E"
+					item: {
+						Count: 1
+						id: "mythicmetals:bronze_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full set of Bronze Tools"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4370AB46602BC004"]
+			hide: true
+			id: "17D27F3E1EAAE93D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48DB0D746563AD03"
+					table_id: 8160522248781327050L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "499258B85D8638DA"
+					table_id: 5062439341152325691L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "25A45621BEDA8686"
+					item: "alloy_forgery:prismarine_bricks_forge_controller"
+					type: "item"
+				}
+				{
+					id: "3D78A8803A703A06"
+					item: "alloy_forgery:deepslate_bricks_forge_controller"
+					type: "item"
+				}
+				{
+					id: "573E8F847E10AF37"
+					item: "alloy_forgery:polished_blackstone_forge_controller"
+					type: "item"
+				}
+			]
+			title: "Craft every Tier 2 Forge Controller"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6404DEC806E13BBA"]
+			hide: true
+			id: "184D63E5BCD796E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4742433CD602B317"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F957BE4C0E0FB90"
+				item: "mythicmetals:quadrillum_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["184D63E5BCD796E7"]
+			hide: true
+			id: "206A3A91510CE4A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFB4B4DA62CDD63"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E9C671F5BC7BD2F"
+				item: "mythicmetals:durasteel_ingot"
+				type: "item"
+			}]
+			title: "Forge a Durasteel Ingot"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["206A3A91510CE4A7"]
+			hide: true
+			id: "58AE16267BCBC795"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB5A82DC673A167"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "492094B7B1CACBFB"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10EFD439D1A89526"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CBD5C51356C21F2"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75DAC192FAD5AA79"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full Durasteel Armor set"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["206A3A91510CE4A7"]
+			hide: true
+			id: "28D8121B5405D0C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3223A9F630A86896"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "13C8E19EAC2842F5"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "683647BF408F8E1D"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "647AC309F966EDFD"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4464254FA426614E"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1205BAE24A3D2E81"
+					item: {
+						Count: 1
+						id: "mythicmetals:durasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full Durasteel Tool Set"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["206A3A91510CE4A7"]
+			hide: true
+			id: "2E2905C4D0257B59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0702EE79B4C411BC"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21F8098728EEC0FF"
+				item: "mythicmetals:aquarium_ingot"
+				type: "item"
+			}]
+			title: "Obtain Raw Aquarium"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E2905C4D0257B59"]
+			hide: true
+			id: "7E2D2404BC6D3412"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "436D55C159948349"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5B16C3E5D0A0E485"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7126877239663C89"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76DE44B63A268807"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12CB7BE88BD8412C"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a Full Aquarium Armor Set"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E2905C4D0257B59"]
+			hide: true
+			id: "70BAA999800B52B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65DD79E977B6469F"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "63CAE2764C58AC07"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23A62A27AA59FF2E"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EBED06B55EFFEF0"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A109EB63383CB4F"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4730295518B8462E"
+					item: {
+						Count: 1
+						id: "mythicmetals:aquarium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Aquarium Tool Set"
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["39A6B0E928D73163"]
+			hide: true
+			id: "17D08E593957D524"
+			tasks: [{
+				id: "1EA911EEC0312E28"
+				item: "mythicmetals:silver_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Silver Ingot"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2694FD49E3A0B927"]
+			hide: true
+			id: "07DBDDFCA26F1F16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E23E1E242591FBC"
+				table_id: 6495414604779605959L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B69362EF612B1C0"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Obtain an Iron Ingot"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17D08E593957D524"]
+			hide: true
+			id: "1C0145D62C3E7EAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3133F3902C382F9B"
+				table_id: 5062439341152325691L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "08406EC3A61CEAB8"
+					item: {
+						Count: 1
+						id: "mythicmetals:silver_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCBF69658996C11"
+					item: {
+						Count: 1
+						id: "mythicmetals:silver_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46F558EA548476CC"
+					item: {
+						Count: 1
+						id: "mythicmetals:silver_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C04BCD8D5DD9857"
+					item: {
+						Count: 1
+						id: "mythicmetals:silver_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Silver Armor set"
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["184D63E5BCD796E7"]
+			hide: true
+			id: "06BBA332ABA0CE11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68B89773AAF80136"
+					table_id: 8160522248781327050L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2778CA570BBB8E49"
+					table_id: 8160522248781327050L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6D4031D71E5631E4"
+					item: {
+						Count: 1
+						id: "mythicmetals:quadrillum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E6D4F2A8A4657CB"
+					item: {
+						Count: 1
+						id: "mythicmetals:quadrillum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65C15B8018B5C571"
+					item: {
+						Count: 1
+						id: "mythicmetals:quadrillum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A49A11864EDCE9A"
+					item: {
+						Count: 1
+						id: "mythicmetals:quadrillum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "526C6FC3D8671B22"
+					item: {
+						Count: 1
+						id: "mythicmetals:quadrillum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Quadrillium Tools"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17D08E593957D524"]
+			hide: true
+			id: "51CB8F6B2F958BED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35C5DA1806BFA24A"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "609A45139446809B"
+				item: "mythicmetals:osmium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["51CB8F6B2F958BED"]
+			hide: true
+			id: "5EBCBDD77CD7147F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33BB15865AC2651A"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C9260E2E847AA9E"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "507CA21A9239B30D"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7431BB6A2AC22959"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D5FE040812E4EB5"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48EE47EE23700352"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Osmium Armor Set"
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["51CB8F6B2F958BED"]
+			hide: true
+			id: "4886E816EE8D14BD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "354050ECC908FFC4"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "388AD10A5CA89B62"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "05CE1FAC37BA8D8C"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "141BB062CCBC0239"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49D228EDD7E16183"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FFE8079BD9DFB2C"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C647EF9D0BE7A0B"
+					item: {
+						Count: 1
+						id: "mythicmetals:osmium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Osmium Tool Set"
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["51CB8F6B2F958BED"]
+			hide: true
+			id: "2B07C9DBDE51C0DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AAA6264B1A3871A"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			subtitle: "Kyber is found inside Amethyst Geodes"
+			tasks: [{
+				id: "7C7DEAF6C104B5F8"
+				item: "mythicmetals:kyber_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Kyber Ingot"
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2B07C9DBDE51C0DC"]
+			hide: true
+			id: "78D605FC3CF9BCB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17FFE9CFA1E91D99"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "527CB90DB73F898C"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "432A3F21161D45E1"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02ACB84D93A494CC"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7754970CC116F036"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CAD9F4E28C78269"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Kyber Armor Set"
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2B07C9DBDE51C0DC"]
+			hide: true
+			id: "4935936F45D9B86C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28D62024718C6252"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30DC6C0335EDF375"
+					table_id: 1979432702466978990L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "672D336EFC6B3348"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "199AD42C93DF65B5"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "681CEADC51EA43C1"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E67E911570F470C"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B485F687F4ADB78"
+					item: {
+						Count: 1
+						id: "mythicmetals:kyber_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Kyber Tool Set"
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2B07C9DBDE51C0DC"]
+			hide: true
+			id: "603806A79C05C6F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D227926D8CC9D34"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			subtitle: "Found at the Top Deepslate Layers"
+			tasks: [{
+				id: "4E9D44436805D1F9"
+				item: "mythicmetals:carmot_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Carmot Ingot"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["603806A79C05C6F1"]
+			hide: true
+			id: "633663245E1ADE6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3111B86CD4D64ED1"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "029FDBE6F71E42D6"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "745C17220AE7F431"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "580AA85CB256863B"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31DB644508A5F565"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66386DFEF4A89E43"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02CBA287CA4A6B16"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a Full Set of Carmot Armor"
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["603806A79C05C6F1"]
+			hide: true
+			id: "3592FEE547FD8414"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EA2319577E503AA"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F977D403B35C5FB"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4045C3271C6DCC8A"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1B9C148F92234878"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "002FEFAC6783B736"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B5F2D29320FB6EA"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38EB5417563A0B0F"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "195974F256B4A902"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Carmot Tool Set"
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["603806A79C05C6F1"]
+			hide: true
+			id: "0285C11AFC21166B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "024E083EE9E1818F"
+					table_id: 4677940686861123888L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18BE74A81D8B4C60"
+					table_id: 4677940686861123888L
+					type: "random"
+				}
+			]
+			subtitle: "Right click this Staff in your inventory with certain blocks (Ore Blocks might work) to give it special effects and abilitys"
+			tasks: [{
+				id: "261080E8185FA1F4"
+				item: {
+					Count: 1
+					id: "mythicmetals:carmot_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0285C11AFC21166B"]
+			hide: true
+			id: "1409F53A514184C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43CE9B91BC358A0B"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			subtitle: "Found under Jungles and in Lush caves"
+			tasks: [{
+				id: "12105C1C6F48CFD0"
+				item: "mythicmetals:prometheum_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Prometheum Ingot"
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1409F53A514184C1"]
+			hide: true
+			id: "26EE560D2D9690EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4087C758F794A9F3"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D1F424006C05D97"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E044627E73324C7"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5BAEDE5975EC654F"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E0935546AFF479D"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F58A826F3A0F422"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "409A15D88F137FAD"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Prometheum Armor Set"
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1409F53A514184C1"]
+			hide: true
+			id: "574C2FD3F2228D95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B561981AB0161CB"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "603B0542845FF098"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45D645573A0295D1"
+					table_id: 1154339539488360325L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "144589592680C826"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54804AC2907FCD94"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AEC428F9D620B22"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BDC16DA8AD4BC63"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "234ECB3F870A76CB"
+					item: {
+						Count: 1
+						id: "mythicmetals:prometheum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Prometheum Tool Set"
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["584FFDB4772E73F9"]
+			hide: true
+			id: "25887FED04454A98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ED0D532E5CB4027"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			subtitle: "Banglum is a highly explosive Ore, mine it with Silk Touch to prevent it from exploding. It has a small Chance to drop Banglum Chunks which are used to craft powerful Tools and Weapons"
+			tasks: [{
+				id: "43D8BCD543B973D4"
+				item: "mythicmetals:banglum_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Banglum Ingot"
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["25887FED04454A98"]
+			hide: true
+			id: "7A7270A353E49BA8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E7B3A57452E551F"
+					table_id: 5193279294202134522L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "456F381A6931A0B7"
+					table_id: 5193279294202134522L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E93AE9B5D5C53F6"
+					table_id: 5193279294202134522L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3875D6964410FFCF"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FFCA2C2A56188A2"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CDABAA679EB0612"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "043726F246321FC2"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Banglum Armor Set"
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["25887FED04454A98"]
+			hide: true
+			id: "1B1121729F3D47B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AF59475304BBACF"
+					table_id: 5193279294202134522L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30B01C26BB1FC0D5"
+					table_id: 5193279294202134522L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "214A78B3F4C02914"
+					table_id: 5193279294202134522L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0491128CF584BF7A"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42F1C8E917B66977"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7888B17AB3E0BCC9"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BA0C183FA439B5B"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E75A2DF1183B386"
+					item: {
+						Count: 1
+						id: "mythicmetals:banglum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Banglum Tool Set"
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["25887FED04454A98"]
+			hide: true
+			id: "1CFF473FE7FE5F40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F7576A12E4E3971"
+				table_id: 2412364849555754875L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E282BBA0490B0C5"
+				item: "mythicmetals:banglum_chunk"
+				type: "item"
+			}]
+			title: "Obtain a Banglum Chunk"
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1CFF473FE7FE5F40"]
+			hide: true
+			id: "73DB25A3F6DFB0DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03A1E3BB390CBB3B"
+					table_id: 8984387827365850463L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C3F3CA0A51AA7FD"
+					table_id: 8984387827365850463L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "48609A8FB8B1551D"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7565B51E31372F50"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10783844B32B3E51"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2506F0B36EF651A9"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Legendary Banglum Armor Set"
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1CFF473FE7FE5F40"]
+			hide: true
+			id: "5C37A7C51FCB34F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "642C3A26FCE75876"
+					table_id: 8984387827365850463L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00E0A5CE3E537D0F"
+					table_id: 8984387827365850463L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5A28090FB5B92A67"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50177BB59D7678EB"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D2ECBF0FE69A459"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AFD06BF26264D15"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34020159C85FF646"
+					item: {
+						Count: 1
+						id: "mythicmetals:legendary_banglum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Legendary Banglum Tool Set"
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1CFF473FE7FE5F40"]
+			hide: true
+			id: "254C6D5A723D85A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FCC98E556DC9367"
+				table_id: 8160522248781327050L
+				type: "random"
+			}]
+			subtitle: "Spawns close to the surface, but within walls"
+			tasks: [{
+				id: "3EE156776AFF2630"
+				item: "mythicmetals:runite_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Runite Ingot"
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["254C6D5A723D85A4"]
+			hide: true
+			id: "341461BEA87CCE6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41D9D57EC5194C6F"
+				table_id: 5193279294202134522L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "65220CDB72CE9E3D"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B231B5D903C15B8"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "442F84BA6E7B549E"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "792675DC84E987C7"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Runite Armor Set"
+			x: 7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["254C6D5A723D85A4"]
+			hide: true
+			id: "167E9B83285C1B38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "504CAB08DFEC3C5C"
+				table_id: 5193279294202134522L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "41180605702B87C6"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03B88FF30E06F93F"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23CD156AA89A0BE8"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6944C4D1ED9B2ED2"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AC71F6D23E08FF1"
+					item: {
+						Count: 1
+						id: "mythicmetals:runite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Runite Tool Set"
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["202ABBE629128B94"]
+			hide: true
+			id: "10C9961D644276E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7551328514C72604"
+				table_id: 5193279294202134522L
+				type: "random"
+			}]
+			tasks: [{
+				id: "064FD3FAD8717965"
+				item: "mythicmetals:adamantite_ingot"
+				type: "item"
+			}]
+			title: "Obtain an Adamantite Ingot"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10C9961D644276E0"]
+			hide: true
+			id: "3AD9B5769EF80572"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54086C066B4780B3"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "268CA55AF460895B"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0DF50074D26515D8"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35B6887507B1FBF0"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FCDC5DA42070639"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7961E22652D572D0"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Adamantite Armor Set"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10C9961D644276E0"]
+			hide: true
+			id: "0A7DC325C9855464"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "592DEEB992812648"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25DCEE7D54F7A1B7"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5B6CF406211F8CEF"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30DF57EE61AB5793"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44A796850B32BBDD"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15D3841C91A941DF"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7920A86F42275910"
+					item: {
+						Count: 1
+						id: "mythicmetals:adamantite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Adamantite Tool Set"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CB1469F28DF1149"]
+			hide: true
+			id: "202ABBE629128B94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D4EB794BC5F3B54"
+				table_id: 5193279294202134522L
+				type: "random"
+			}]
+			tasks: [{
+				id: "430FD573DDDDD83A"
+				item: "mythicmetals:mythril_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Mythril Ingot"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["202ABBE629128B94"]
+			hide: true
+			id: "2FBE58DE0B9E37FD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F4B6896CE34895D"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "726BD847C243870A"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7C37580FDD436C1B"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "284B6DA8330449B4"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19395C091234C20A"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D2FA0634893FC04"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Mythril Armor Set"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["202ABBE629128B94"]
+			hide: true
+			id: "4B97867792EDEC34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61A12E1DE13DB519"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E42CFD29C478332"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "05E8C7A5E6F1DFC2"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "096BA0B3F4EA5D33"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3602E70C414AA066"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1766D15D55C236CE"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64C45139F5498AD4"
+					item: {
+						Count: 1
+						id: "mythicmetals:mythril_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Mythril Tool Set"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64ECC9C1196E818F"]
+			hide: true
+			id: "2CB1469F28DF1149"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "097A44E5B2B950AA"
+				table_id: 5193279294202134522L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4025D8C4190A0274"
+				item: "mythicmetals:orichalcum_ingot"
+				type: "item"
+			}]
+			title: "Obtain an Orichalcum Ingot"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CB1469F28DF1149"]
+			hide: true
+			id: "146C892F04F9D1D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D798A0832F32EB8"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73BE4A4D1C955FDE"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "674CECEE94AECF4E"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02DA867FC35A7F87"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CB78D2CC1B207C9"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "775E8561678AFC00"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Orichalcum Armor Set"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CB1469F28DF1149"]
+			hide: true
+			id: "0D1105118CE997F8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FCE8558B5DCF465"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5561DC62C678A5D2"
+					table_id: 262525387131415672L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "622AFE9D8361D247"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44129965EA846BC9"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D29A48863E38D6C"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CAF2CA48FA4A07B"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21AF57E0DB0CAB5C"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68E73C74F55AD2DA"
+					item: {
+						Count: 1
+						id: "mythicmetals:orichalcum_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Orichalcum Tool Set"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["278E618BBCBBCC52"]
+			hide: true
+			id: "1419B924E78B0993"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A3F8A7EF66442C1"
+				table_id: 262525387131415672L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "33B3074D21F79DA4"
+					item: "alloy_forgery:end_stone_bricks_forge_controller"
+					type: "item"
+				}
+				{
+					id: "0CAE627202FD2423"
+					item: "alloy_forgery:adamantite_block_forge_controller"
+					type: "item"
+				}
+			]
+			title: "Obtain an Endstone and Adamantite Forge Controller"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40899BBD509E2170"]
+			hide: true
+			id: "5FF1A630D32B2B5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B262B120CBB0C81"
+				table_id: 6019262609900304361L
+				type: "random"
+			}]
+			subtitle: "The most powerful Ore in this modpack. Congrats"
+			tasks: [{
+				id: "09156BD3A5CAE84A"
+				item: "mythicmetals:metallurgium_ingot"
+				type: "item"
+			}]
+			title: "Forge a Metallurgium Ingot"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C55BC1287690BC7"]
+			hide: true
+			id: "64ECC9C1196E818F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "092AAA1F3C3317FB"
+				table_id: 6984049731626699470L
+				type: "random"
+			}]
+			subtitle: "Found in the Nether"
+			tasks: [{
+				id: "35BD90E4A4EF6F3E"
+				item: "mythicmetals:palladium_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Palladium Ingot"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["777DC7D9BB36A57C"]
+			hide: true
+			id: "1C55BC1287690BC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "576EF08793583361"
+					table_id: 7026435922329357396L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B20A3EEF84C317"
+					table_id: 7026435922329357396L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36C336111DD7724A"
+				item: "mythicmetals:star_platinum"
+				type: "item"
+			}]
+			title: "Obtain a Star Platinum Ingot"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18EF0A9E4C37EA73"]
+			hide: true
+			id: "584454B1BB3EB2DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C59669661024A84"
+				table_id: 7026435922329357396L
+				type: "random"
+			}]
+			subtitle: "A common Ore found in the End. Used to craft Star Platinum"
+			tasks: [{
+				id: "7A801C70998AFF8E"
+				item: "mythicmetals:starrite"
+				type: "item"
+			}]
+			title: "Obtain Starrite"
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["584454B1BB3EB2DC"]
+			hide: true
+			id: "777DC7D9BB36A57C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "221C931055AD5056"
+				table_id: 7026435922329357396L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07DA43A0DAB338F7"
+				item: "mythicmetals:platinum_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Platinum Ingot"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["254C6D5A723D85A4"]
+			hide: true
+			id: "18DFB08ECB8CF055"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "703B24CC5E9AED88"
+				table_id: 6984049731626699470L
+				type: "random"
+			}]
+			subtitle: "Found in the Nether"
+			tasks: [{
+				id: "3FB18B7139BC87B6"
+				item: "mythicmetals:stormyx_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Stormyx Ingot"
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4DFF7915EF175282"]
+			hide: true
+			id: "18EF0A9E4C37EA73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "598B870D25C4F8E7"
+				table_id: 6984049731626699470L
+				type: "random"
+			}]
+			tasks: [{
+				id: "161FD46C22786278"
+				item: "mythicmetals:midas_gold_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Midas Gold Ingot"
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0F4D87663BAD61D5"]
+			hide: true
+			id: "278E618BBCBBCC52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7655A81F9308B111"
+				table_id: 8080526328323610026L
+				type: "random"
+			}]
+			subtitle: "Can me mined with a Netherite or Hallowed Pickaxe"
+			tasks: [{
+				id: "44FBEBF07C420F72"
+				item: "mythicmetals:unobtainium"
+				type: "item"
+			}]
+			title: "Obtain an Unobtainium Ingot"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10C9961D644276E0"]
+			hide: true
+			id: "0F4D87663BAD61D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55FE8C764B9C2787"
+				table_id: 262525387131415672L
+				type: "random"
+			}]
+			tasks: [{
+				id: "563A8100F834742A"
+				item: "mythicmetals:hallowed_ingot"
+				type: "item"
+			}]
+			title: "Obtain a Hallowed Ingot"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E2905C4D0257B59"]
+			hide: true
+			id: "39A6B0E928D73163"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "428880754AAE0AF8"
+				table_id: 4677940686861123888L
+				type: "random"
+			}]
+			subtitle: "A rare crafting material obtained by mining Aquarium. Used to craft Tridents"
+			tasks: [{
+				id: "55FE90CCB50A506A"
+				item: "mythicmetals:aquarium_pearl"
+				type: "item"
+			}]
+			title: "Obtain an Aquarium Pearl"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1409F53A514184C1"]
+			hide: true
+			id: "584FFDB4772E73F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53F75060D98956E2"
+					table_id: 4677940686861123888L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54331DB326453933"
+					table_id: 4677940686861123888L
+					type: "random"
+				}
+			]
+			subtitle: "Can be used with Banglum to create a Nuke Core"
+			tasks: [{
+				count: 8L
+				id: "4AFFA5A5436FB7D0"
+				item: "mythicmetals:morkite_block"
+				type: "item"
+			}]
+			title: "Obtain 8 Blocks of Morkite"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["18DFB08ECB8CF055"]
+			hide: true
+			id: "4DFF7915EF175282"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AD125103C575CB6"
+				table_id: 6144976946587064507L
+				type: "random"
+			}]
+			subtitle: "A rare crafting material that is obtained by mining Stornyx Ore"
+			tasks: [{
+				id: "03BCD49AF6377221"
+				item: "mythicmetals:stormyx_shell"
+				type: "item"
+			}]
+			title: "Obtain a Stormyx Shell"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1419B924E78B0993"]
+			hide: true
+			id: "40899BBD509E2170"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FDA20FB679CF85D"
+				table_id: 5131751920159747409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7719A041667F398D"
+				item: "mythicmetals:celestium_ingot"
+				type: "item"
+			}]
+			title: "Forge a Celestium Ingot"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18DFB08ECB8CF055"]
+			hide: true
+			id: "0A9CF0CBD25A804B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B6E79E599D83763"
+					table_id: 6144976946587064507L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22AD53C1194B64F4"
+					table_id: 6144976946587064507L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "32C1605F0F51ED7E"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D96C0F792692C03"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E238B52623299F3"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "221E7D531449DE83"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Stormyx Armor"
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18DFB08ECB8CF055"]
+			hide: true
+			id: "11FEE3BD88AC12A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "593D43BBFB198F23"
+					table_id: 6144976946587064507L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60D71B218DCFB9F3"
+					table_id: 6144976946587064507L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "634F4F007B77324E"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3590DE9DAA8BCA2E"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7026FC99C182E9F6"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B69D2B5B85B9B23"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4955DDF03856D13E"
+					item: {
+						Count: 1
+						id: "mythicmetals:stormyx_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Stormyx Tools"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4DFF7915EF175282"]
+			hide: true
+			id: "1D51ED29BF8A18A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BAFA0FD887E3D9B"
+				table_id: 6144976946587064507L
+				type: "random"
+			}]
+			tasks: [{
+				id: "360A487FAAD99934"
+				item: {
+					Count: 1
+					id: "mythicmetals:stormyx_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Stormyx Shield"
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["18EF0A9E4C37EA73"]
+			hide: true
+			id: "026104B21D5A9508"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B329CE2DA9C67E7"
+					table_id: 6984049731626699470L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AA16626FEEABCF4"
+					table_id: 6984049731626699470L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "56CCAC4BC629643D"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25E4C53895E3DB63"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FB4202267B84B8C"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "265786C78BA66C68"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Set of Midas Gold Armor"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["18EF0A9E4C37EA73"]
+			hide: true
+			id: "2A5C1AF54ED91668"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41E18EC000DEDC5F"
+					table_id: 6984049731626699470L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70C5F8A7C12ADA4F"
+					table_id: 6984049731626699470L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30428CD097A83D56"
+				item: {
+					Count: 1
+					id: "mythicmetals:midas_gold_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Midas Gold Sword"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C55BC1287690BC7"]
+			hide: true
+			id: "2035CBF34B4F94D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AACA9B0E592507C"
+					table_id: 1036210933879203315L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "628466C04C1AD2EE"
+					table_id: 1036210933879203315L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5CB1A6AAFF7E6DBE"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CD26B6820935C1F"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E2B0D6FDAA34432"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "770F925E626A297F"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Star Platinum Armor"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1C55BC1287690BC7"]
+			hide: true
+			id: "4C1706395A0F786E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E49A54C0D20DE83"
+					table_id: 1036210933879203315L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "040ED93414A32B5B"
+					table_id: 1036210933879203315L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1D13C53CF14645EC"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4613DACE206B77F5"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5039835F6F5B6E3F"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1263C5284614CBDB"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63C46F3D35E60D2A"
+					item: {
+						Count: 1
+						id: "mythicmetals:star_platinum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Set of Star Platinum Tools"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64ECC9C1196E818F"]
+			hide: true
+			id: "602C3B0FC08298B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "034DFCF33BF14A5E"
+				table_id: 6144976946587064507L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2070745ED8B2886D"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31735F3DE140AA79"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15FF1A3F6A67E50A"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2970099D282C6B64"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Palladium Armor"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64ECC9C1196E818F"]
+			hide: true
+			id: "1A892D5B6C8EC29D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BCD3521952E5349"
+				table_id: 6144976946587064507L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "12D3C697C99F36CD"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33A6D90D0C865E2F"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DA09316935C89E7"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F9DCD1142C69E16"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03EC904741F55EA7"
+					item: {
+						Count: 1
+						id: "mythicmetals:palladium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18EDB3D3A3AF28CC"
+					item: {
+						Count: 1
+						id: "mythicmetals:red_aegis_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Palladium Tools"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F4D87663BAD61D5"]
+			hide: true
+			id: "32A7B13713297170"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F56CBE27F30400A"
+					table_id: 8080526328323610026L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F12C576F6D57F0F"
+					table_id: 8080526328323610026L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "58B6FF20066B48C4"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AA69F3DCB1F3DAE"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61CB55963FC465A7"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10551DF46A09CBCB"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Hallowed Armor Set"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F4D87663BAD61D5"]
+			hide: true
+			id: "7DFF400A0FF25EBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D89B500E5BC66C3"
+					table_id: 8080526328323610026L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F4FF032DDAC7CED"
+					table_id: 8080526328323610026L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2EB24F4DB2A8F080"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73054FCA37874919"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B1107EB6BC009FB"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58312C8A85C3A04E"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7879E3540BC67EFE"
+					item: {
+						Count: 1
+						id: "mythicmetals:hallowed_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4763FB3347B368B8"
+					item: {
+						Count: 1
+						id: "mythicmetals:white_aegis_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Hallowed Tool Set"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40899BBD509E2170"]
+			hide: true
+			id: "7979B9DE7C296BD9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63387E9EF1F13E50"
+					table_id: 4088118144896114533L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8344178CB4939D"
+					table_id: 4088118144896114533L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4F167784E8A52010"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73FE9E2C9AF854FA"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3401696C429E29DF"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A720A6BA32440E6"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full Celestium Armor Set"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40899BBD509E2170"]
+			hide: true
+			id: "1E3D587267714594"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "535E7F0633E2094C"
+					table_id: 4088118144896114533L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FDFBC65D547B529"
+					table_id: 4088118144896114533L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "56963C903F39CFE6"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A5CE4B948562AC9"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4682DA9F9966BE96"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34DB7DE4C6D46DEC"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F916273EB15BDAE"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full Cellestium Tool Set"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FF1A630D32B2B5D"]
+			hide: true
+			id: "7599E4A915776FEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7063EDA5782A6121"
+					table_id: 6840736414318031733L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37A36498F1384A98"
+					table_id: 6840736414318031733L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E0787CB9EC8B88A"
+					table_id: 6840736414318031733L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2157ACEDAC5687D3"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D926C51CE3C25D4"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7BD1CD652F6C64"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1808689017723778"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full set of Metallurgium Armor"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FF1A630D32B2B5D"]
+			hide: true
+			id: "08E2ED4E0CEFE2F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00534A4471F3140E"
+					table_id: 6840736414318031733L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1961A4D55E8829BE"
+					table_id: 6840736414318031733L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1128ED2A9A055168"
+					table_id: 6840736414318031733L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2AE48771C375CB22"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62F6260D79B90257"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38F1F28D59FA4288"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "590799C84A4823D2"
+					item: {
+						Count: 1
+						id: "mythicmetals:metallurgium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a full Metallurgium Tool Set"
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "&4Forging"
+}

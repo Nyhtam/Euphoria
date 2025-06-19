@@ -1,0 +1,15 @@
+{
+	id: "6DE53E0274CFB322"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{ count: 4, item: "ad_astra:calorite_ingot" }
+		{ count: 19, item: "ad_astra:ostrum_ingot" }
+		{ count: 22, item: "ad_astra:desh_ingot" }
+		{ count: 7, item: "ad_astra:calorite_ingot" }
+		{ item: "ad_astra:calorite_tank" }
+		{ item: "ad_astra:calorite_engine" }
+		{ count: 25, item: "ad_astra:ice_shard" }
+	]
+	title: "Legendary Solar Loot Crate"
+}

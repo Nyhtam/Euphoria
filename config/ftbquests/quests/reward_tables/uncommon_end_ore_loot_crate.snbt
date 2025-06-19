@@ -1,0 +1,12 @@
+{
+	id: "6182EA3E637C4C54"
+	loot_size: 1
+	order_index: 70
+	rewards: [
+		{ item: "mythicmetals:starrite" }
+		{ item: "mythicmetals:platinum_ingot" }
+		{ item: "betterend:aeternium_ingot" }
+		{ count: 6, item: "betterend:terminite_ingot" }
+	]
+	title: "Uncommon End Ore Loot Crate"
+}

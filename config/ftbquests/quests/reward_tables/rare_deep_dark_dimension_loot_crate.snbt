@@ -1,0 +1,16 @@
+{
+	id: "015C8A7B6FE614E8"
+	loot_size: 1
+	order_index: 104
+	rewards: [
+		{ item: "deeperdarker:warden_carapace" }
+		{ count: 12, item: "deeperdarker:soul_dust" }
+		{ count: 32, item: "deeperdarker:echo_log" }
+		{ item: "minecraft:recovery_compass" }
+		{ count: 8, item: "deeperdarker:sculk_bone" }
+		{ count: 42, item: "deeperdarker:cobbled_sculk_stone" }
+		{ count: 3, item: "deeperdarker:soul_crystal" }
+		{ count: 8, item: "minecraft:phantom_membrane" }
+	]
+	title: "Rare Deep Dark dimension Loot Crate"
+}

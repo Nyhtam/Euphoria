@@ -1,0 +1,18 @@
+{
+	id: "071CB4C7396A504C"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ count: 2, item: "twilightforest:naga_scale" }
+		{ count: 9, item: "twilightforest:raven_feather" }
+		{ count: 6, item: "twilightforest:torchberries" }
+		{ count: 2, item: "twilightforest:fiery_ingot" }
+		{ item: "twilightforest:magic_map" }
+		{ count: 5, item: "twilightforest:steeleaf_ingot" }
+		{ count: 8, item: "twilightforest:ironwood_ingot" }
+		{ count: 4, item: "twilightforest:knightmetal_ingot" }
+		{ count: 64, item: "twilightforest:twilight_oak_log" }
+		{ count: 6, item: "twilightforest:carminite" }
+	]
+	title: "Uncommon Twilight Forest Loot Crate"
+}

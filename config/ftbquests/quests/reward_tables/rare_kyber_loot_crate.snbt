@@ -1,0 +1,20 @@
+{
+	id: "1B785B8E2F55F4AE"
+	loot_size: 1
+	order_index: 63
+	rewards: [
+		{ count: 2, item: "mythicmetals:bronze_block" }
+		{ count: 2, item: "minecraft:copper_block" }
+		{ count: 3, item: "mythicmetals:morkite_block" }
+		{ item: "mythicmetals:durasteel_block" }
+		{ count: 2, item: "mythicmetals:tin_block" }
+		{ count: 6, item: "minecraft:diamond" }
+		{ count: 4, item: "mythicmetals:kyber_ingot" }
+		{ count: 4, item: "mythicmetals:osmium_ingot" }
+		{ count: 2, item: "minecraft:gold_block" }
+		{ count: 3, item: "mythicmetals:silver_block" }
+		{ count: 4, item: "mythicmetals:manganese_block" }
+		{ count: 4, item: "minecraft:coal_block" }
+	]
+	title: "Rare Kyber Loot Crate"
+}

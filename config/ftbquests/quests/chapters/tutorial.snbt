@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tutorial"
+	group: ""
+	icon: "minecraft:dirt"
+	id: "13C4A91E2BB6224C"
+	images: [{
+		height: 5.0d
+		image: "minecraft:textures/block/grass_block_side.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"                     &bZoom > z"
+				"        &2Open World Map > m"
+				"      &cStorage Terminal > p"
+				"        &6Full Brightness > 0"
+				"         &aToggle Shader > o"
+				"         &eOpen Backpack > i"
+				"            &dOpen Quiver > k"
+				"      &4Open Quest Menu > ,"
+				"  &bPrimary Origin Power > v"
+				"&dSecondary Originpower > c"
+				"              &c View Origin > j"
+			]
+			icon: "minecraft:command_block"
+			id: "39F5785568E3FB19"
+			rewards: [{
+				id: "5605CC93A5D30B96"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			subtitle: "Click The Checkmark to complete the Quest"
+			tasks: [{
+				id: "596B622BC4E97F6F"
+				title: "Important Controlls"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39F5785568E3FB19"]
+			icon: "minecraft:iron_door"
+			id: "2098329E8157AB12"
+			subtitle: "If you are playing in a multiplayer environment Land claiming might me quite useful. Press The N Key to open the Chunk Claiming Menu. Press Player Config to configure specific Settings in your claim."
+			tasks: [{
+				id: "03AB480935A2A962"
+				title: "Land Claiming"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39F5785568E3FB19"]
+			icon: "origins:orb_of_origin"
+			id: "765708EFB014BF4A"
+			subtitle: "Craft a \"Orb of Origin\" to change your Origin, and Origin Class!"
+			tasks: [{
+				id: "729E6E6033A919B6"
+				title: "Changing Origin"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39F5785568E3FB19"]
+			description: [""]
+			icon: "ad_astra:nasa_workbench"
+			id: "609CE3DA67334F63"
+			subtitle: "If you are wishing to improve FPS Performance, the best thing to do is downgrading some Video Settings. We recommend turning down Render and Simulation Distance aswell as disabling Animations like Lava (off by default). If you are having Issues like Microstutters or slow chunk loading, we recommend you allocate more Ram to the Modpack, 6GB should be enough to run the Modpack smoothly, the bare minimum is 4G. The more Ram the better but make sure to NEVER allocate too much of your computers ram (for Example 8G max ram > Allocate 3-4G,16G Max > Allocate 6-8G)"
+			tasks: [{
+				id: "304483AB921BCD83"
+				title: "Improving Performance"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Tutorial"
+}

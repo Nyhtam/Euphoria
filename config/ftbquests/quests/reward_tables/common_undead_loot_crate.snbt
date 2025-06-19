@@ -1,0 +1,15 @@
+{
+	id: "432348F8F8E20897"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 16, item: "minecraft:rotten_flesh" }
+		{ count: 16, item: "minecraft:gunpowder" }
+		{ count: 16, item: "minecraft:bone" }
+		{ count: 16, item: "minecraft:string" }
+		{ count: 16, item: "minecraft:arrow" }
+		{ count: 8, item: "minecraft:fermented_spider_eye" }
+		{ count: 16, item: "minecraft:spider_eye" }
+	]
+	title: "Common Undead Loot Crate"
+}

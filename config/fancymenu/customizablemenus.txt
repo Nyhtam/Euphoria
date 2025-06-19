@@ -1,0 +1,293 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_490 {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+

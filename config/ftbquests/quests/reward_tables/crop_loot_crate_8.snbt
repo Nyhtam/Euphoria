@@ -1,0 +1,23 @@
+{
+	id: "6D7D3C1EBD530729"
+	loot_size: 1
+	order_index: 88
+	rewards: [
+		{ item: "croptopia:spinach" }
+		{ item: "croptopia:turnip" }
+		{ item: "croptopia:tomatillo" }
+		{ count: 2, item: "croptopia:kale" }
+		{ count: 2, item: "croptopia:radish" }
+		{ count: 2, item: "croptopia:basil" }
+		{ count: 3, item: "croptopia:tea_leaves" }
+		{ count: 3, item: "croptopia:squash" }
+		{ count: 3, item: "croptopia:cucumber" }
+		{ count: 4, item: "croptopia:celery" }
+		{ count: 4, item: "croptopia:vanilla" }
+		{ count: 4, item: "croptopia:zucchini" }
+		{ count: 5, item: "croptopia:lettuce" }
+		{ count: 5, item: "croptopia:greenonion" }
+		{ count: 5, item: "croptopia:greenbean" }
+	]
+	title: "Crop Loot Crate 8"
+}

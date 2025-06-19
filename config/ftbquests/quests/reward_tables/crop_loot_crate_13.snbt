@@ -1,0 +1,23 @@
+{
+	id: "258A2B986FA346E8"
+	loot_size: 1
+	order_index: 93
+	rewards: [
+		{ item: "croptopia:cantaloupe" }
+		{ item: "croptopia:banana" }
+		{ item: "croptopia:currant" }
+		{ count: 2, item: "croptopia:strawberry" }
+		{ count: 2, item: "croptopia:pineapple" }
+		{ count: 2, item: "croptopia:saguaro" }
+		{ count: 3, item: "croptopia:elderberry" }
+		{ count: 3, item: "croptopia:raspberry" }
+		{ count: 3, item: "croptopia:grape" }
+		{ count: 4, item: "croptopia:asparagus" }
+		{ count: 4, item: "croptopia:chile_pepper" }
+		{ count: 4, item: "croptopia:pepper" }
+		{ count: 5, item: "croptopia:olive" }
+		{ count: 5, item: "croptopia:mustard" }
+		{ count: 5, item: "croptopia:eggplant" }
+	]
+	title: "Crop Loot Crate 13"
+}

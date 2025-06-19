@@ -1,0 +1,27 @@
+{
+	id: "6A60D702F97BDF35"
+	loot_size: 1
+	order_index: 108
+	rewards: [
+		{ item: "minecells:conjunctivius_respawn_rune" }
+		{ item: "minecells:reset_rune" }
+		{
+			item: {
+				Count: 1
+				id: "minecells:vine_rune"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 14, item: "minecells:guts" }
+		{ count: 14, item: "minecells:monsters_eye" }
+		{ count: 32, item: "minecells:stripped_putrid_log" }
+		{ count: 32, item: "minecells:prison_cobblestone" }
+		{ count: 6, item: "minecells:cage" }
+		{ count: 6, item: "minecells:spikes" }
+		{ count: 2, item: "minecells:broken_cage" }
+		{ item: "minecells:king_statue" }
+	]
+	title: "Epic Minecells Loot Crate"
+}

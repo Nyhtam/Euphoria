@@ -1,0 +1,20 @@
+{
+	id: "3163806FF5699970"
+	loot_size: 1
+	order_index: 56
+	rewards: [
+		{ count: 3, item: "bewitchment:aconite" }
+		{ count: 3, item: "bewitchment:belladonna" }
+		{ count: 6, item: "bewitchment:demon_horn" }
+		{ count: 7, item: "bewitchment:snake_tongue" }
+		{ count: 6, item: "bewitchment:ectoplasm" }
+		{ count: 2, item: "bewitchment:salt_block" }
+		{ count: 2, item: "bewitchment:silver_block" }
+		{ count: 3, item: "bewitchment:heaven_extract" }
+		{ count: 7, item: "bewitchment:mandrake_root" }
+		{ count: 10, item: "bewitchment:elder_bark" }
+		{ count: 10, item: "bewitchment:cypress_bark" }
+		{ count: 10, item: "bewitchment:juniper_bark" }
+	]
+	title: "Rare Bewitchment Loot Crate"
+}

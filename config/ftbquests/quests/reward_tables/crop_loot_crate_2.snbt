@@ -1,0 +1,15 @@
+{
+	id: "75F1691694C24C06"
+	loot_size: 1
+	order_index: 82
+	rewards: [
+		{ count: 5, item: "minecraft:carrot" }
+		{ count: 5, item: "minecraft:potato" }
+		{ count: 9, item: "minecraft:beetroot" }
+		{ count: 12, item: "minecraft:sweet_berries" }
+		{ count: 6, item: "minecraft:wheat" }
+		{ item: "croptopia:leek" }
+		{ item: "croptopia:onion" }
+	]
+	title: "Crop Loot Crate 2"
+}

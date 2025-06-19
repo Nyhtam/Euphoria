@@ -1,0 +1,17 @@
+{
+	id: "5487EEA09656CA51"
+	loot_size: 1
+	order_index: 107
+	rewards: [
+		{ count: 4, item: "minecells:big_chain" }
+		{ count: 26, item: "minecells:stripped_putrid_log" }
+		{ count: 16, item: "minecells:monsters_eye" }
+		{ count: 16, item: "minecells:guts" }
+		{ count: 9, item: "minecells:health_flask" }
+		{ item: "minecraft:emerald_block" }
+		{ count: 5, item: "minecraft:diamond" }
+		{ count: 2, item: "minecraft:gold_block" }
+		{ item: "minecells:corpse" }
+	]
+	title: "Rare Minecells Loot Crate"
+}

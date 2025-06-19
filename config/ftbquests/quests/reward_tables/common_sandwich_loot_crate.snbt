@@ -1,0 +1,90 @@
+{
+	id: "17A24FF4A9567B3A"
+	loot_size: 1
+	order_index: 78
+	rewards: [
+		{ count: 4, item: "bewitchment:salt" }
+		{
+			item: {
+				Count: 1b
+				id: "sandwichable:warped_bleu_cheese_culture_bottle"
+				tag: {
+					UsageData: {
+						uses: 10
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "sandwichable:regular_cheese_culture_bottle"
+				tag: {
+					UsageData: {
+						uses: 10
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "sandwichable:creamy_cheese_culture_bottle"
+				tag: {
+					UsageData: {
+						uses: 10
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "sandwichable:intoxicating_cheese_culture_bottle"
+				tag: {
+					UsageData: {
+						uses: 10
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "sandwichable:sour_cheese_culture_bottle"
+				tag: {
+					UsageData: {
+						uses: 10
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "sandwichable:candescent_cheese_culture_bottle"
+				tag: {
+					UsageData: {
+						uses: 10
+					}
+				}
+			}
+		}
+		{ item: "sandwichable:sweet_berry_jam_bottle" }
+		{ item: "sandwichable:glow_berry_jam_bottle" }
+		{ item: "sandwichable:mayonnaise_bottle" }
+		{ count: 4, item: "croptopia:lettuce" }
+		{ count: 6, item: "croptopia:lettuce_seed" }
+		{ count: 4, item: "sandwichable:pork_cuts" }
+		{ count: 4, item: "minecraft:porkchop" }
+		{ count: 4, item: "sandwichable:tomato" }
+		{ item: "minecraft:milk_bucket" }
+		{ count: 4, item: "sandwichable:cheese_slice" }
+		{ count: 4, item: "sandwichable:onion" }
+		{ count: 4, item: "sandwichable:cucumber" }
+		{ count: 4, item: "sandwichable:pickled_cucumber" }
+		{ count: 2, item: "sandwichable:bread_slice" }
+		{ count: 4, item: "minecraft:bread" }
+	]
+	title: "Common Sandwich Loot Crate"
+}

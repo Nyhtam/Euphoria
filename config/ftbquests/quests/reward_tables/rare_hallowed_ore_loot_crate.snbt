@@ -1,0 +1,12 @@
+{
+	id: "7023CBE215EB95AA"
+	loot_size: 1
+	order_index: 73
+	rewards: [
+		{ item: "mythicmetals:adamantite_block" }
+		{ item: "mythicmetals:mythril_block" }
+		{ item: "mythicmetals:orichalcum_block" }
+		{ count: 3, item: "mythicmetals:hallowed_ingot" }
+	]
+	title: "Rare Hallowed Ore Loot Crate"
+}

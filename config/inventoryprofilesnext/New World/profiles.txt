@@ -1,0 +1,40 @@
+
+
+
+
+profile Saved activate HOT1
+	HOT1
+		"ftbquests:book"
+	HOT3
+		"minecraft:netherite_sword"
+
+profile Saved activate HOT1
+	HOT1
+		"ftbquests:book"
+	HOT3
+		"minecraft:netherite_sword"
+
+profile Saved activate HOT1
+	HOT1
+		"ftbquests:book"
+	HOT3
+		"bewitchment:stone_witch_altar"
+	HOT4
+		"bewitchment:dragons_blood_broom"
+
+profile Saved activate HOT1
+	HOT1
+		"ftbquests:book"
+
+profile Saved activate HOT1
+	HOT1
+		"ftbquests:book"
+	HOT2
+		"sandwichable:sweet_berry_jam_bottle"
+	HOT3
+		"minecraft:bread"
+
+profile Saved activate HOT1
+	HOT1
+		"ftbquests:book"
+

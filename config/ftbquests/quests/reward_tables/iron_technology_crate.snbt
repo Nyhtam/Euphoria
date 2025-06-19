@@ -1,0 +1,17 @@
+{
+	id: "0180BEAB5A952916"
+	loot_size: 1
+	order_index: 110
+	rewards: [
+		{ count: 8, item: "anim_guns:plastic" }
+		{ count: 6, item: "anim_guns:hardened_iron_ingot" }
+		{ count: 8, item: "anim_guns:enriched_iron" }
+		{ count: 3, item: "minecraft:redstone_block" }
+		{ count: 2, item: "minecraft:copper_block" }
+		{ count: 2, item: "minecraft:iron_block" }
+		{ count: 15, item: "minecraft:quartz" }
+		{ count: 8, item: "minecraft:tripwire_hook" }
+		{ count: 9, item: "minecraft:redstone_torch" }
+	]
+	title: "Iron Technology Crate"
+}

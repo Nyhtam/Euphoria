@@ -1,0 +1,24 @@
+{
+	id: "72502D3FB2C86B73"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 6, item: "minecraft:lantern" }
+		{ count: 9, item: "minecraft:glow_lichen" }
+		{ count: 16, item: "minecraft:glow_berries" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:blast_furnace" }
+		{ count: 8, item: "minecraft:rail" }
+		{ item: "morevillagers:mining_bench" }
+		{ count: 3, item: "minecraft:stonecutter" }
+	]
+	title: "Common Miner Loot Crate"
+}

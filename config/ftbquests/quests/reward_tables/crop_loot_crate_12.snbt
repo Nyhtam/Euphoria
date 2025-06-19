@@ -1,0 +1,23 @@
+{
+	id: "1F00F982970F35D7"
+	loot_size: 1
+	order_index: 92
+	rewards: [
+		{ item: "croptopia:strawberry" }
+		{ item: "croptopia:pineapple" }
+		{ item: "croptopia:saguaro" }
+		{ count: 2, item: "croptopia:elderberry" }
+		{ count: 2, item: "croptopia:raspberry" }
+		{ count: 2, item: "croptopia:grape" }
+		{ count: 3, item: "croptopia:asparagus" }
+		{ count: 3, item: "croptopia:chile_pepper" }
+		{ count: 4, item: "croptopia:olive" }
+		{ count: 4, item: "croptopia:mustard" }
+		{ count: 4, item: "croptopia:eggplant" }
+		{ count: 5, item: "croptopia:spinach" }
+		{ count: 5, item: "croptopia:turnip" }
+		{ count: 5, item: "croptopia:tomatillo" }
+		{ count: 3, item: "croptopia:pepper" }
+	]
+	title: "Crop Loot Crate 12"
+}

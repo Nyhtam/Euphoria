@@ -1,0 +1,39 @@
+{
+	id: "5A6CF53A382CF822"
+	loot_size: 1
+	order_index: 103
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:swift_sneak"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{ count: 16, item: "minecraft:experience_bottle" }
+		{ count: 6, item: "minecraft:echo_shard" }
+		{ count: 4, item: "deeperdarker:ancient_vase" }
+		{ item: "minecraft:music_disc_5" }
+		{ count: 32, item: "minecraft:white_wool" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ count: 2, item: "fwaystones:deepslate_brick_waystone" }
+	]
+	title: "Uncommon Deep Dark Loot Crate"
+}

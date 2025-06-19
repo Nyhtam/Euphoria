@@ -1,0 +1,24 @@
+{
+	id: "6DD8DB5D75DDD122"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ item: "ad_astra:oil_bucket" }
+		{ item: "ad_astra:fuel_bucket" }
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "ad_astra:iron_plate" }
+		{ count: 5, item: "ad_astra:steel_plate" }
+		{ count: 4, item: "ad_astra:steel_ingot" }
+		{ count: 5, item: "ad_astra:cheese" }
+		{ item: "ad_astra:oxygen_bucket" }
+	]
+	title: "Common Solar Loot Crate"
+}

@@ -1,0 +1,14 @@
+{
+	id: "38BBE9CB025C9F65"
+	loot_size: 1
+	order_index: 75
+	rewards: [
+		{ count: 6, item: "mythicmetals:celestium_ingot" }
+		{ count: 8, item: "mythicmetals:unobtainium" }
+		{ count: 3, item: "mythicmetals:kyber_block" }
+		{ count: 3, item: "mythicmetals:platinum_block" }
+		{ count: 5, item: "mythicmetals:starrite_block" }
+		{ count: 3, item: "mythicmetals:carmot_block" }
+	]
+	title: "Epic Endgame Ore Loot Crate 2"
+}

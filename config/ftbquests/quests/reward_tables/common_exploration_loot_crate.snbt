@@ -1,0 +1,16 @@
+{
+	id: "09B3BE5011D51C9B"
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{ count: 24, item: "comforts:rope_and_nail" }
+		{ count: 16, item: "minecraft:white_wool" }
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:arrow" }
+		{ item: "minecraft:saddle" }
+		{ count: 2, item: "minecraft:lead" }
+		{ item: "minecraft:water_bucket" }
+		{ count: 6, item: "minecraft:cobweb" }
+	]
+	title: "Common Exploration Loot Crate"
+}

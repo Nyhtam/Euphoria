@@ -1,0 +1,1240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "solar_system"
+	group: "6CE50F1BA3E6325C"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "3ADE2843B3827C44"
+	images: [{
+		height: 50.0d
+		image: "ad_astra:textures/sky/milky_way.png"
+		rotation: 0.0d
+		width: 50.0d
+		x: 0.0d
+		y: -10.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&3Background Image is from the Ad Astra Mod!"]
+			id: "29631EB561CB9DD0"
+			rewards: [{
+				count: 5
+				id: "45DF534FCFF75D92"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			subtitle: "Ready for a galactic adventure?"
+			tasks: [{
+				id: "521C7F1B4325D852"
+				title: "Ad Astra!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "39DB0A294320AF18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "708CC4ECECD497A4"
+				table_id: 7915317539559559458L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FA2F8290A9A6858"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			title: "Obtain a Coal generator"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "06B8FF61CC8CD813"
+			rewards: [{
+				count: 3
+				id: "793D839DFE47B253"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B586C1ED222D6FA"
+				item: {
+					Count: 1
+					id: "ad_astra:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Hammer"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "0224C8CD58CB3704"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D2DA9D0D078F713"
+				table_id: 7915317539559559458L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47A3A40B96316622"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			title: "Craft a Compressor"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "6B43DD1A6F789FAD"
+			rewards: [{
+				id: "6D7493E9E911179B"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E7DB2784B5ECA6B"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			title: "Obtain steel cables"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "3B0FC2276F51D8D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52B180A98A2B1298"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17CE7E1B929FBC3A"
+					table_id: 7915317539559559458L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F764E6008D7B879"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "Obtain a NASA Workbench"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B0FC2276F51D8D9"]
+			id: "45ED315AE1A63662"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A57C9796882B4E5"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Make sure you carry Oxygen, enough Fuel and a Space suit with you "
+			tasks: [{
+				id: "64A986868E419C7C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Tier 1 Rocket"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B0FC2276F51D8D9"]
+			id: "3D8C730DA0F22FD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D9EE8C46C5B6186"
+				table_id: 5854395859389683244L
+				type: "random"
+			}]
+			tasks: [{
+				id: "448575A72DFFF3C8"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B0FC2276F51D8D9"]
+			id: "035B9F46A2FFD044"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B2C963EF43F4421"
+				table_id: 5854395859389683244L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B4249A7CBF32E93"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "4E5AC793C2DD684A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E237E940CBFAA7C"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64066D021DFA568E"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "79DCCA01A1E69284"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6031258EC34A774B"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38CC2BC2B68E4BCD"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D3C4E7D401D4DA5"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full space suit"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "2A2A65A0FE700BFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39EDCEAFD54463B7"
+				table_id: 7915317539559559458L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6858DAC031CCC1B7"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			title: "Obtain an Oxygen Loader"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45ED315AE1A63662"]
+			hide: true
+			id: "75EC013B6BEF2AB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5837F1B49252D99C"
+				table_id: 757971528929304139L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "A small Step for a human, a giant leap for mankind"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_sand"
+				id: "6B722F5D10EA0DC6"
+				type: "dimension"
+			}]
+			title: "Discover the moon!"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75EC013B6BEF2AB9"]
+			hide: true
+			id: "68E761F7E2B59BEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "754DCE5288461D78"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C45B8065D9741F2"
+				item: "ad_astra:white_flag"
+				type: "item"
+			}]
+			title: "Obtain a flag"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75EC013B6BEF2AB9"]
+			hide: true
+			id: "2AC7C37ECA479005"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "726176E2CAC5A911"
+				table_id: 4074321209585901833L
+				type: "random"
+			}]
+			tasks: [{
+				count: 10L
+				id: "7B04166F9C002435"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Obtain 10 Desh Ingots"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AC7C37ECA479005"]
+			id: "06137A2F2EB41E34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FAD8CF599B4AA29"
+				table_id: 4074321209585901833L
+				type: "random"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4511E796712D5253"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			title: "Obtain 3 solar panels"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AC7C37ECA479005"]
+			id: "6C16597573E00A08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B56497408040085"
+				table_id: 4074321209585901833L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77DC03F5F45912A4"
+				item: "ad_astra:wrench"
+				type: "item"
+			}]
+			title: "Craft a Wrench"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AC7C37ECA479005"]
+			id: "3FCEBDC41CC1EF75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52C43165ADBF5E05"
+				table_id: 7915317539559559458L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "3A51EF3320A3AE20"
+				item: "ad_astra:desh_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2AC7C37ECA479005"]
+			id: "069FA1992E79DC0B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3738B42836A59022"
+					table_id: 1583004998777634530L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19BB7FA2C31BBF5D"
+					table_id: 4074321209585901833L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "17669F56705A6108"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Tier 1 Rover"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2AC7C37ECA479005"]
+			id: "7862C855A8BEF5E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "192B1C0CF89E5638"
+				table_id: 4074321209585901833L
+				type: "random"
+			}]
+			subtitle: "Time for our first Space-Base"
+			tasks: [{
+				id: "030D5662B4203746"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			title: "Obtain an Oxygen Distributor"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7862C855A8BEF5E9"]
+			id: "3FC4FCA243C2019F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "329D1C80654C3A2F"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			subtitle: "Make sure the room is sealed"
+			tasks: [{
+				id: "398050BB20DAF99D"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["75EC013B6BEF2AB9"]
+			hide: true
+			id: "2C111139862CD031"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ED5BFD23F735111"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "ad_astra:moon_pillar"
+				id: "452CD33BB02EFA57"
+				structure: "ad_astra:lunarian_village"
+				type: "structure"
+			}]
+			title: "Discover a lunarian Village"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75EC013B6BEF2AB9"]
+			hide: true
+			id: "6431460315714674"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EA88FCF4EC9BB8F"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "ad_astra:moon_pillar"
+				id: "261B0EF89F77C0AE"
+				structure: "ad_astra:moon_dungeon"
+				type: "structure"
+			}]
+			title: "Discover a moon dungeon"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6431460315714674"]
+			id: "6DA0C638CAD7B294"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39EF4837A6BDFB29"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "ad_astra:corrupted_lunarian"
+				id: "73958A0BB0E08338"
+				title: "Kill 10 corrupted Lunarians"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6431460315714674"]
+			id: "4D025AEF04CAA12C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E9E6FC4A934FCF3"
+				table_id: 5854395859389683244L
+				type: "random"
+			}]
+			tasks: [{
+				id: "289EE76D9804BFA0"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			title: "Obtain a Moon globe"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7862C855A8BEF5E9"]
+			id: "49B5A9BABC06A30F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7ED8E3B08951B042"
+					table_id: 1583004998777634530L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13BC9DB920488900"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "6712F2D22ECFE2E6"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Tier 2 Rocket"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["49B5A9BABC06A30F"]
+			icon: "ad_astra:mars_sand"
+			id: "3DD7DB49418CB43B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FF6459FFFB107A9"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0606C5FFD81D3E88"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Elon Musk"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "124A1F1191D55736"
+				type: "dimension"
+			}]
+			title: "Visit the Mars!"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3DD7DB49418CB43B"]
+			hide: true
+			id: "6888AB3392A3EF7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CFEF083F398140E"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				count: 15L
+				id: "560D83F43EC78B1D"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "Obtain 15 Ostrum Ingot"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6888AB3392A3EF7B"]
+			id: "3F471439446C000A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01C42158E93C89E5"
+				table_id: 5129587222614984206L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "34859457F8CEBB16"
+				item: "ad_astra:ostrum_fluid_pipe"
+				type: "item"
+			}]
+			title: "Obtain 5 Ostrum Fluid pipes"
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6888AB3392A3EF7B"]
+			id: "753F5D0CB526DF5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CC084594FCB9A6B"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E7460B366CE6C99"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			title: "Obtain an Energizer"
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6888AB3392A3EF7B"]
+			id: "64FE1B55BD12D289"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52743893E9CF2BBB"
+				table_id: 5129587222614984206L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3CDA2F7E62DAA7FE"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			title: "Craft an Oxygen Sensor"
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["74BA4E3708B1D7AF"]
+			id: "40BF05B217B93D62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "469C6BE7AAFC7520"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			subtitle: "This machine is able to produce better fuel"
+			tasks: [{
+				id: "56C0B3CA65E800EE"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			title: "Obtain an Cryo freezer"
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6888AB3392A3EF7B"]
+			id: "74BA4E3708B1D7AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26CC52A5AC65839D"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				count: 15L
+				id: "091B1301B779A1A2"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			title: "Obtain 15 ice shards"
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3DD7DB49418CB43B"]
+			hide: true
+			id: "66D8C8081921D288"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FA275DF0554A776"
+				table_id: 5129587222614984206L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "ad_astra:mars_pillar"
+				id: "2D49F5DF5F281602"
+				structure: "ad_astra:mars_temple"
+				type: "structure"
+			}]
+			title: "Discover a mars temple"
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3DD7DB49418CB43B"]
+			hide: true
+			id: "677B94747E77F623"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09EC55446B151AF2"
+				table_id: 5129587222614984206L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2789D3C48D55D990"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			title: "Obtain a Mars Globe"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6888AB3392A3EF7B"]
+			id: "03C841EFA0FC3B26"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "310FEBCF4F178F3B"
+					table_id: 6110750303041539098L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CF5DB7F9CD73CE5"
+					table_id: 6110750303041539098L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "48064051CA47B949"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33865ED7024C2CAC"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DC669B4319D8013"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A99FBE2220FDF19"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Netherite Space gear"
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["03C841EFA0FC3B26"]
+			id: "66FF36ECAC2CD78D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "110BA63F8544E627"
+				table_id: 6110750303041539098L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "29E25A6614A4079E"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Tier 3 Rocket!"
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["66FF36ECAC2CD78D"]
+			hide: true
+			icon: "ad_astra:venus_sandstone"
+			id: "015E870AAEE781F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CB7E0221A2AFAE8"
+					table_id: 6110750303041539098L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F5EE62B3C802B85"
+					table_id: 1583004998777634530L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "19043DB13CCD7F75"
+				type: "dimension"
+			}]
+			title: "Visit the Venus"
+			x: -1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["015E870AAEE781F3"]
+			id: "7512E7FF2A10A43A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0363F8FBA6BA0353"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BE43C8A82DD04C2"
+					table_id: 4074321209585901833L
+					type: "random"
+				}
+			]
+			subtitle: "Careful with your Oxygen"
+			tasks: [{
+				entity: "ad_astra:sulfur_creeper"
+				id: "7628C41FA884B9A9"
+				title: "Kill 10 sulfur creepers"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill 10 Sulfur Creepers"
+			x: -2.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["015E870AAEE781F3"]
+			id: "54FA801413CB58AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "486480F970BC8AFC"
+				table_id: 6110750303041539098L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "320AA9280C24B971"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "Obtain 5 Calorite Ingots"
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["015E870AAEE781F3"]
+			id: "4B051ECEC486E801"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2EA0E417FAE8ED"
+				table_id: 4074321209585901833L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "ad_astra:steel_plating"
+				id: "101884BD12754F3C"
+				structure: "ad_astra:pygro_village"
+				type: "structure"
+			}]
+			title: "Discover a Pygro Village"
+			x: -2.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["015E870AAEE781F3"]
+			id: "04343CE1FC27BEE7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5ACA85944911B450"
+					table_id: 1583004998777634530L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EE3FD51330502F8"
+					table_id: 1583004998777634530L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "ad_astra:steel_pillar"
+				id: "497200AA3C8F56F4"
+				structure: "ad_astra:pygro_tower"
+				type: "structure"
+			}]
+			title: "Discover a Pygro Tower"
+			x: -2.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["04343CE1FC27BEE7"]
+			id: "1D3FF89AA7195358"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "310DEA4F925D8A3C"
+				table_id: 5129587222614984206L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "ad_astra:pygro"
+				icon: "ad_astra:pygro_spawn_egg"
+				id: "07E900B7D58BE324"
+				title: "Kill 5 Pygros"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill 10 Pygros"
+			x: -4.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["54FA801413CB58AE"]
+			id: "6579E35712C05C7A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0ED2F7812D8E5F78"
+					table_id: 7918803700071510818L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07319C4C39C01CAE"
+					table_id: 7918803700071510818L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C44B7BF636190D1"
+					table_id: 5129587222614984206L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7B4D32406960D16B"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2616A6AD7A103C83"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "570BB8E2EB59A421"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DF6F1E3C8C11897"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full Jet Suit"
+			x: 0.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["66FF36ECAC2CD78D"]
+			hide: true
+			id: "0E115EB6171ADB1B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21A6F1435DA2220A"
+					table_id: 6110750303041539098L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "789834628C716B99"
+					table_id: 5854395859389683244L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Solar Panels are the most efficient here"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_stone"
+				id: "1773C2BA2A0FE329"
+				title: "Visit the Mercury"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6579E35712C05C7A"]
+			id: "51562EC528160925"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1241379DC17165CC"
+					table_id: 7918803700071510818L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C40560B263CF814"
+					table_id: 6110750303041539098L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "458395E5700BF927"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Tier 4 Rocket"
+			x: 0.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["51562EC528160925"]
+			id: "488D61531BFC43A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5064D3D2EFD6249B"
+				table_id: 7918803700071510818L
+				type: "random"
+			}]
+			subtitle: "No Oxygen needed"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_stone"
+				id: "35D71762B7B07B85"
+				title: "Visit the Glacio"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["488D61531BFC43A2"]
+			id: "2C10072421F3B300"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "622D23EDA8062093"
+				table_id: 6110750303041539098L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58B91635B842F449"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"488D61531BFC43A2"
+				"1D3FF89AA7195358"
+				"4B051ECEC486E801"
+				"2C10072421F3B300"
+				"0E115EB6171ADB1B"
+				"3F471439446C000A"
+				"40BF05B217B93D62"
+				"66D8C8081921D288"
+				"677B94747E77F623"
+				"753F5D0CB526DF5D"
+				"64FE1B55BD12D289"
+				"3FC4FCA243C2019F"
+				"069FA1992E79DC0B"
+				"6C16597573E00A08"
+				"06137A2F2EB41E34"
+				"3FCEBDC41CC1EF75"
+				"68E761F7E2B59BEB"
+				"2C111139862CD031"
+				"6DA0C638CAD7B294"
+				"4D025AEF04CAA12C"
+				"035B9F46A2FFD044"
+				"3D8C730DA0F22FD0"
+				"0224C8CD58CB3704"
+				"6B43DD1A6F789FAD"
+				"4E5AC793C2DD684A"
+				"06B8FF61CC8CD813"
+				"2A2A65A0FE700BFF"
+				"39DB0A294320AF18"
+				"37E2294169CDD211"
+			]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "4C0C0FCC620916EF"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03A45B71FC5CB70B"
+				table_id: 7918803700071510818L
+				type: "random"
+			}]
+			subtitle: "Respect the Dedication!"
+			tasks: [{
+				id: "264B86DDBA8149A9"
+				title: "The Journey is Over"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["29631EB561CB9DD0"]
+			id: "37E2294169CDD211"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F9D826F251BFCB3"
+				table_id: 1583004998777634530L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:crying_obsidian"
+				id: "1BB35B5CC32A741C"
+				structure: "ad_astra:meteor"
+				type: "structure"
+			}]
+			title: "Find a meteor in the overworld"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["&9Our whole Solar System for you to explore. Can you reach new Galaxies?"]
+	title: "&5Solar system"
+}

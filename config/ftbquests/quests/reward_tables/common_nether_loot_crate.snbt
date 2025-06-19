@@ -1,0 +1,15 @@
+{
+	id: "7B41D42FA1BB8B23"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 16, item: "minecraft:crimson_stem" }
+		{ count: 16, item: "minecraft:warped_stem" }
+		{ count: 5, item: "betternether:cincinnasite_ingot" }
+		{ item: "minecraft:netherite_scrap" }
+		{ count: 4, item: "minecraft:blaze_rod" }
+		{ count: 5, item: "minecraft:nether_wart" }
+		{ count: 8, item: "minecraft:soul_sand" }
+	]
+	title: "Common Nether Loot Crate"
+}

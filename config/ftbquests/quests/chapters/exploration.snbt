@@ -1,0 +1,2042 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "exploration"
+	group: "1408391CC7993B8A"
+	icon: {
+		Count: 1
+		id: "inmis:frayed_backpack"
+		tag: { }
+	}
+	id: "4CFD2C96B16F251A"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:textures/item/trident.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/block/spawner.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/item/crossbow_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/item/totem_of_undying.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/item/emerald.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/item/bone.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/cinnamon_boat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "rottencreatures:textures/item/magma_rotten_flesh.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			height: 2.0d
+			image: "inmis:textures/item/baby_backpack.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 7.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:emerald_block"
+			id: "6D8ACCC218A47C07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "117BD09F3FB0D461"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B7AACEFD6BAD318"
+				structure: "minecraft:village_plains"
+				title: "Discover a plains Village"
+				type: "structure"
+			}]
+			title: "Discover your first plains Village!"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "6E7B5C4C729253AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "127D770191541B2E"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			subtitle: "Discover this location to unlock the Civilization Path"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0F8AEDAE08193493"
+				structure: "minecraft:mineshaft"
+				title: "Discover a vanilla mineshaft"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "01CE1CFA779A3C8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7E43876717CE3B"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			subtitle: "Discover this location to unlock the Pillager path"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "690040D4B26A59A0"
+				structure: "minecraft:pillager_outpost"
+				type: "structure"
+			}]
+			title: "Discover a Pillager Outpost"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "4CF8DD43C31F08CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0335CD1EFFC707FC"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			subtitle: "Discover This Location to unlock the Ocean Path"
+			tasks: [{
+				biome: "minecraft:ocean"
+				icon: "minecraft:water_bucket"
+				id: "51C0B9A053654995"
+				title: "Discover an Ocean"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "14FF17006C0527A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B90D94EA3A83AF7"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			subtitle: "Discover this Location to unlock the Ancient Ruins Path"
+			tasks: [{
+				icon: "minecraft:netherrack"
+				id: "4A47642179605BC0"
+				structure: "minecraft:ruined_portal"
+				title: "Discover a Ruined Portal"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01CE1CFA779A3C8F"]
+			hide: true
+			id: "4BD6D06F2B425D89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DE051F237FA4CD8"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:purple_wool"
+				id: "7D7EFA5EF7A8E7CE"
+				structure: "dungeons_arise:illager_campsite"
+				type: "structure"
+			}]
+			title: "Discover a pillager campsite"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "11CB08217C448C3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CF49ECF2C86A99A"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "Discover this location to unlock the Dungeons Path. The small blimp is an airship filled with redstone and enemies"
+			tasks: [{
+				icon: "minecraft:repeater"
+				id: "63907347103B4BE5"
+				structure: "dungeons_arise:small_blimp"
+				type: "structure"
+			}]
+			title: "Discover a Small blimp"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BD6D06F2B425D89"]
+			hide: true
+			icon: "minecraft:hay_block"
+			id: "675B5A817F69BF11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12379519E758C553"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E1187DC742CE1E9"
+				structure: "dungeons_arise:illager_windmill"
+				type: "structure"
+			}]
+			title: "Discover an Illager Windmill"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11CB08217C448C3F"]
+			hide: true
+			id: "64A25ED47057D73E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6854CEF554C601C8"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "Mod: When Dungeons Arise"
+			tasks: [{
+				icon: "minecraft:purple_concrete"
+				id: "6E65F4BA26A63B62"
+				structure: "dungeons_arise:abandoned_temple"
+				type: "structure"
+			}]
+			title: "Discover an Abandoned Temple"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["675B5A817F69BF11"]
+			hide: true
+			id: "6CB8F56C6E383D20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B4848DE3745C2F0"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BF21087C2BBD139"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:cracked_deepslate_bricks"
+				id: "69C05E9F570CB0F3"
+				structure: "takesapillage:bastille"
+				type: "structure"
+			}]
+			title: "Discover a Pillager Bastille"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BD6D06F2B425D89"]
+			hide: true
+			id: "27981FEAAFB3A5FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24E680EEB3E447FF"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "Yes, there is 2"
+			tasks: [{
+				icon: "minecraft:stripped_dark_oak_log"
+				id: "1CB191938DF16510"
+				structure: "takesapillage:pillager_camp"
+				type: "structure"
+			}]
+			title: "Discover a Pillager Camp"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C9EFC935AC0768B"]
+			hide: true
+			icon: "minecraft:blue_concrete"
+			id: "37A5194B9041E8CE"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "780CE47CB72536E7"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7158B2568370E567"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F46DBB2E9058B37"
+				structure: "dungeons_arise:pillager_fort"
+				type: "structure"
+			}]
+			title: "Discover a Pillager Fort"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27981FEAAFB3A5FC"]
+			hide: true
+			id: "0C9EFC935AC0768B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52AE38CE0E1E3C9C"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:blast_furnace"
+				id: "175E57D15A06ED6B"
+				structure: "mostructures:pillager_factory"
+				type: "structure"
+			}]
+			title: "Discover a pillager factory"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E7B5C4C729253AE"]
+			hide: true
+			id: "22D9702EFA225ADF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FEE7587C631831D"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:white_terracotta"
+				id: "6C417C206DF71D1D"
+				structure: "mostructures:villager_market"
+				type: "structure"
+			}]
+			title: "Discover a Villager Market"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22D9702EFA225ADF"]
+			hide: true
+			icon: "minecraft:spruce_planks"
+			id: "04061405BB86F472"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5403F9A38C2D9215"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31FD90799E48F986"
+				structure: "mostructures:villager_tower"
+				type: "structure"
+			}]
+			title: "Discover a Villager Tower"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["22D9702EFA225ADF"]
+			hide: true
+			id: "7531B43873901B16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09D6CF4FE598C7EF"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:purple_wool"
+				id: "157D1134D630B981"
+				structure: "mostructures:air_balloon"
+				type: "structure"
+			}]
+			title: "Discover an Air Balloon"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A25ED47057D73E"]
+			hide: true
+			id: "0C231892A6D4CA6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "404C0AB8289544A5"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:redstone_lamp"
+				id: "19C78152BDD53409"
+				structure: "mostructures:lighthouse"
+				type: "structure"
+			}]
+			title: "Discover a small Lighthouse"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7531B43873901B16"]
+			hide: true
+			id: "799D8A13717DA825"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47409A5DAB6BD76E"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:hay_block"
+				id: "1891A9C56B86F3F7"
+				structure: "mostructures:tavern"
+				type: "structure"
+			}]
+			title: "Discover a small Barn house"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "28E891D4F59B2495"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F5D694ED42ECF4D"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			subtitle: "Discover this location to unlock the Icy Path"
+			tasks: [{
+				icon: "minecraft:snow_block"
+				id: "634CA56B3BA6C871"
+				structure: "minecraft:igloo"
+				type: "structure"
+			}]
+			title: "Discover a vanilla Igloo"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28E891D4F59B2495"]
+			hide: true
+			id: "129D03DFD2F32ED0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F5CABA9FC2E143A"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "023328865B24DA40"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:snow"
+				id: "008EDDB961CE8223"
+				structure: "minecraft:village_snowy"
+				type: "structure"
+			}]
+			title: "Discover a snowy Village"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["129D03DFD2F32ED0"]
+			hide: true
+			id: "7D28491D373D5514"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64ACD43CDC89E27E"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "A basic tower made of stone bricks. You can stumble upon it in snowy biomes"
+			tasks: [{
+				icon: "minecraft:infested_stone_bricks"
+				id: "68E0EA1D1F5408A7"
+				structure: "mostructures:ice_tower"
+				type: "structure"
+			}]
+			title: "Discover an Ice Tower"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["129D03DFD2F32ED0"]
+			hide: true
+			id: "6CCDEC9F0A4DA425"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "339593655EA1F2D2"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:blue_ice"
+				id: "6C365986D3F0BEAD"
+				structure: "reporpused_structures:pyramid_snowy"
+				type: "structure"
+			}]
+			title: "Discover a snowy Pyramid"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7531B43873901B16"]
+			hide: true
+			icon: "minecraft:lightning_rod"
+			id: "0381E9E567C2F231"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "606D54816EBD7FC5"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:birch_fence"
+				id: "11A86104A0FB8D2E"
+				structure: "mostructures:the_castle_in_the_sky"
+				type: "structure"
+			}]
+			title: "Discover a castle in the sky"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["129D03DFD2F32ED0"]
+			hide: true
+			id: "020B42805A50B996"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0653C957272CCD58"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:packed_ice"
+				id: "7F575B855049CC93"
+				structure: "repurposed_structure:pyramid_icy"
+				type: "structure"
+			}]
+			title: "Discover an icy Pyramid"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14FF17006C0527A3"]
+			hide: true
+			id: "69367903EC52A5E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76B307D20E307A6F"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			subtitle: "Ruins now come with a tier system with level 1 being the lowest and level 3 being the highest"
+			tasks: [{
+				icon: "minecraft:mossy_cobblestone"
+				id: "1B9D3FB5B4F44155"
+				structure: "philipsruins:level_one_ruins"
+				type: "structure"
+			}]
+			title: "Discover a small ruin (level 1)"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69367903EC52A5E6"]
+			hide: true
+			id: "50BDEB438312B222"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B199C2EC483CCA8"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:infested_mossy_stone_bricks"
+				id: "274C5B0F41716C98"
+				structure: "philipsruins:level_two_ruins"
+				type: "structure"
+			}]
+			title: "Discover a mediocre ruin (level 2)"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69367903EC52A5E6"]
+			hide: true
+			icon: "minecraft:cracked_stone_bricks"
+			id: "0412E2D2BD4AA7AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25FC348C647D9FE2"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "chipped:inlayed_mossy_cobblestone"
+				id: "4B32425BB8359BF5"
+				structure: "philipsruins:level_three_ruins"
+				type: "structure"
+			}]
+			title: "Discover a bigger ruin (level 3)"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69367903EC52A5E6"]
+			hide: true
+			id: "15731421CA70B323"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64389191E08EB67C"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4551E155E8C55C86"
+				structure: "minecraft:ocean_ruin_cold"
+				type: "structure"
+			}]
+			title: "Discover a cold ocean ruin"
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["15731421CA70B323"]
+			hide: true
+			id: "6E5A4CBED89D9E99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31B0BB12C5137F29"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:nautilus_shell"
+				id: "46510D720EB24D07"
+				structure: "minecraft:ocean_ruin_warm"
+				type: "structure"
+			}]
+			title: "Discover a warm ocean ruin"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"12CB6CD5468244F2"
+				"002CCE91E5B27863"
+				"66B62E4B505D2040"
+			]
+			hide: true
+			id: "1A17E02A289F92AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E64491BDA04A819"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "graveyard:creeper_skeleton"
+				id: "715226D4E257DD3E"
+				structure: "graveyard:altar"
+				type: "structure"
+			}]
+			title: "Discover an Altar"
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["50BDEB438312B222"]
+			hide: true
+			id: "464C6E8790D903D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E303DC6C6F1F5A9"
+					table_id: 8767556034418362308L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B1C1FB0A8BFE98E"
+					table_id: 8767556034418362308L
+					type: "random"
+				}
+			]
+			subtitle: "A common underground catacomb with many spooky enemies"
+			tasks: [{
+				icon: "minecraft:deepslate_bricks"
+				id: "79CBB7E6872BD549"
+				structure: "graveyard:crypt"
+				type: "structure"
+			}]
+			title: "Discover a crypt"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0412E2D2BD4AA7AA"]
+			hide: true
+			id: "3D443BCECFBD2696"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E6B5D32680147F6"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:stone_brick_wall"
+				id: "59ABD7615BD18F06"
+				structure: "graveyard:small_graveyard"
+				type: "structure"
+			}]
+			title: "Discover a small graveyard"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3D443BCECFBD2696"]
+			hide: true
+			icon: "minecraft:bricks"
+			id: "12CB6CD5468244F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08C034A1F6BFA797"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72AA97A23CCA689C"
+				structure: "graveyard:medium_graveyard"
+				type: "structure"
+			}]
+			title: "Discover a medium graveyard"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0E0AC223FA9BD6D9"]
+			hide: true
+			id: "012224A36D0B6538"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DD8A2FB9BDC949F"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:jungle_slab"
+				id: "002C0B493248BA2E"
+				structure: "dungeons_arise:illager_corsair"
+				type: "structure"
+			}]
+			title: "Discover an Illager Corsair"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7151B52D25284DA1"]
+			hide: true
+			id: "0E0AC223FA9BD6D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DCD800351E3611D"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:oak_slab"
+				id: "129E80B221C3CE8E"
+				structure: "dungeons_arise:illager_galley"
+				type: "structure"
+			}]
+			title: "Discover  an Illager Galley"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DCF9043D4BCDF29"]
+			hide: true
+			id: "2D56BD0DEF9E4BE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "294B7316C78C1E91"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CBE135F49CBEA4A"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:black_wool"
+				id: "6CE751394B2CEEE4"
+				structure: "mostructures:pirate_ship"
+				type: "structure"
+			}]
+			title: "Discover a pirate ship"
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04061405BB86F472"]
+			hide: true
+			id: "7F5E19F5CECE2D0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5879A33B40559D51"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:cobblestone"
+				id: "4FB851019C108323"
+				structure: "terralith:fortified_village"
+				type: "structure"
+			}]
+			title: "Discover a fortified Village"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04061405BB86F472"]
+			hide: true
+			id: "4C478A7D69F3AEEF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B277E915103372F"
+					table_id: 8767556034418362308L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24470A832995740E"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:redstone_lamp"
+				id: "63C6ED233B5F7702"
+				structure: "dungeons_arise:lighthouse"
+				type: "structure"
+			}]
+			title: "Discover a big lighthouse"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CF8DD43C31F08CA"]
+			hide: true
+			id: "7151B52D25284DA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EA281CEC6F09394"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:oak_planks"
+				id: "35E427F83D4229BB"
+				structure: "minecraft:shipwreck"
+				type: "structure"
+			}]
+			title: "Discover a shipwreck"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7151B52D25284DA1"]
+			hide: true
+			icon: "minecraft:heart_of_the_sea"
+			id: "3439CABAA6759AA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64F8963BFA4EAE0F"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74FD19D91D9A0346"
+				structure: "minecraft:buried_treasure"
+				type: "structure"
+			}]
+			title: "Discover a buried treasure"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64A25ED47057D73E"]
+			hide: true
+			id: "0C7293BB7FA26E41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CF64AA162B4AB6D"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "Hidden from the outside, dangerous from the inside."
+			tasks: [{
+				icon: "artifacts:bunny_hoppers"
+				id: "1179BC72A6FF03D1"
+				structure: "mostructures:killer_bunny_castle"
+				type: "structure"
+			}]
+			title: "Discover a Killer bunny castle"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "4D942DF941B11E97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DD256E46434B79E"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "Discover this location to unlock the Rotten and Forgotten Path"
+			tasks: [{
+				icon: "minecraft:infested_mossy_stone_bricks"
+				id: "36F62310578DD59D"
+				structure: "minecraft:jungle_pyramid"
+				type: "structure"
+			}]
+			title: "Discover a jungle pyramid"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D942DF941B11E97"]
+			hide: true
+			icon: "minecraft:moss_carpet"
+			id: "16A81EC3468F73D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15F4CA6BB712F677"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:moss_block"
+				id: "38D86857FC2F4957"
+				structure: "repurposed_structures:pyramid_jungle"
+				type: "structure"
+			}]
+			title: "Discover a jungle temple"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16A81EC3468F73D9"]
+			hide: true
+			id: "6B3350B781D05C8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29E489E76A1B9D93"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:cobblestone_wall"
+				id: "1F6CA77F136B1601"
+				structure: "mostructures:jungle_pyramid"
+				type: "structure"
+			}]
+			title: "Discover a bigger jungle pyramid"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16A81EC3468F73D9"]
+			hide: true
+			id: "151F1822043CD3C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1846E947A707D272"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:iron_bars"
+				id: "2BB09A2CFEC25F55"
+				structure: "repurposed_structures:fortress_jungle"
+				type: "structure"
+			}]
+			title: "Discover a jungle fortress"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64A25ED47057D73E"]
+			hide: true
+			id: "1BF363BA2B96CE0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "521259D919DA8B26"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "3C41887AB67D8E64"
+				structure: "betterdungeons:small_dungeon"
+				type: "structure"
+			}]
+			title: "Discover a small dungeon"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16A81EC3468F73D9"]
+			hide: true
+			id: "039AFE0348B7BA2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "200FD6A83CB8F22F"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "Quite the view"
+			tasks: [{
+				biome: "byg:lush_stacks"
+				icon: "minecraft:azalea"
+				id: "01BE2B9ECB0258E6"
+				type: "biome"
+			}]
+			title: "Find a Lush Stacks biome"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4FA033E726FFED56"]
+			hide: true
+			id: "34A92B8340E879C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "650BD69D2026B55A"
+				table_id: 2973046015276817511L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:prismarine_bricks"
+				id: "6446D12ACE7471D2"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
+			title: "Discover an Upgraded Ocean Monument"
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CB8F56C6E383D20"]
+			hide: true
+			id: "212E72D1CBD1F6DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D469591F0F49047"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "494C4CBD94F639AD"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+			]
+			subtitle: "Obtain a map from a cartographer"
+			tasks: [{
+				icon: "minecraft:dark_oak_planks"
+				id: "551FEEA558807E23"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			title: "Discover a woodland mansion"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7151B52D25284DA1"]
+			hide: true
+			id: "3DABE3EA8EA2A0AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "013BFD21D530E70D"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:barrel"
+				id: "4511C911A5A810D7"
+				structure: "towns_and_towers:wreckage_ocean"
+				type: "structure"
+			}]
+			title: "Discover a floating ship wreckage"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DABE3EA8EA2A0AC"]
+			hide: true
+			id: "2DCF9043D4BCDF29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AB4FAE8C422BFAB"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:white_wool"
+				id: "176BB66D9869B31F"
+				structure: "towns_and_towers:village_ocean"
+				type: "structure"
+			}]
+			title: "Discover a villager fleet"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["012224A36D0B6538"]
+			hide: true
+			id: "263A493360B5A32B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66982874AF760377"
+					table_id: 8767556034418362308L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "296A98BA4C817C6E"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:gray_wool"
+				id: "7BF1D4586FD9961D"
+				structure: "towns_and_towers:pillager_outpost_ocean"
+				type: "structure"
+			}]
+			title: "Discover an Ocean Outpost"
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F5E19F5CECE2D0A"]
+			hide: true
+			id: "340A2E263E04E69C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "326671EA65E3E77E"
+				table_id: 2973046015276817511L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:brown_mushroom_block"
+				id: "35706EF5812EA466"
+				structure: "towns_and_towers:village_mushroom_fields"
+				type: "structure"
+			}]
+			title: "Discover a mushroom fields village"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C478A7D69F3AEEF"]
+			hide: true
+			id: "4A7487027228A63B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "340706E49289EDF0"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			subtitle: "Found in warmer biomes"
+			tasks: [{
+				icon: "minecraft:quartz_bricks"
+				id: "77D25E99B8363DD4"
+				structure: "towns_and_towers:exclusives/village_mediterranean"
+				type: "structure"
+			}]
+			title: "Discover a mediterranean village"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0381E9E567C2F231"]
+			hide: true
+			id: "36F0C26D98FBA4C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70550C4C23480A10"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			subtitle: "Found in colder regions"
+			tasks: [{
+				icon: "minecraft:red_concrete"
+				id: "5219BDB591E5DD32"
+				structure: "towns_and_towers:exclusives/village_swedish"
+				type: "structure"
+			}]
+			title: "Discover a swedish village"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["464C6E8790D903D5"]
+			hide: true
+			id: "002CCE91E5B27863"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A9C0A79D7803396"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:candle"
+				id: "7E8821313FA877D2"
+				structure: "graveyard:memorial_tree"
+				type: "structure"
+			}]
+			title: "Discover a memorial Tree"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["799D8A13717DA825"]
+			hide: true
+			id: "53747F8A785E767F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2720A51732D82553"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:calcite"
+				id: "7C14D138666B6C5F"
+				structure: "towns_and_towers:exclusives/village_tudor"
+				type: "structure"
+			}]
+			title: "Discover a tudor village"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E5A4CBED89D9E99"]
+			hide: true
+			id: "66B62E4B505D2040"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A2C2220D3BC0F94"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A349D7F8ACD8360"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:infested_cracked_stone_bricks"
+				id: "6A2C08C2D68A9A4D"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Discover an Upgraded Stronghold"
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4BD6D06F2B425D89"]
+			hide: true
+			icon: "minecraft:sandstone"
+			id: "3C2F2234D5F5AFEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "052CA71D75DED6D8"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164980EB1BBF0734"
+					table_id: 8767556034418362308L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "27364C785AD5D94E"
+				structure: "towns_and_towers:exclusives/pillager_outpost_oriental"
+				type: "structure"
+			}]
+			title: "Discover an oriental Pillager Outpost"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C2F2234D5F5AFEA"]
+			hide: true
+			id: "75E738D634BD036F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05B2916D7D623434"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B7FC2B913405657"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:andesite"
+				id: "3AD8CE220CF4225E"
+				structure: "towns_and_towers:exclusives/pillager_outpost_rustic"
+				type: "structure"
+			}]
+			title: "Discover a rustic pillager outpost"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75E738D634BD036F"]
+			hide: true
+			id: "75E5923CD9EA2066"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47CE3943EE3D7876"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13747F021B08AB80"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			subtitle: "Bricky"
+			tasks: [{
+				icon: "minecraft:bricks"
+				id: "36A90B5F7284B353"
+				structure: "towns_and_towers:exclusives/pillager_outpost_classic"
+				type: "structure"
+			}]
+			title: "Discover a classic Pillager Outpost"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3439CABAA6759AA2"]
+			hide: true
+			id: "4FA033E726FFED56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E3405BC0FD42176"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:prismarine"
+				id: "2EA56CBBDB24ABD4"
+				structure: "repurposed_structures:mineshaft_ocean"
+				type: "structure"
+			}]
+			title: "Discover an Ocean mineshaft"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C231892A6D4CA6C"]
+			hide: true
+			icon: "minecraft:stripped_acacia_log"
+			id: "5A5B6588C9BBBF10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01C062607D62172A"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			subtitle: "The Heavenly rider is an Airship filled with hostile enemies"
+			tasks: [{
+				id: "244BE2F29F3C6760"
+				structure: "dungeons_arise:heavenly_rider"
+				type: "structure"
+			}]
+			title: "Discover a heavenly rider"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A5B6588C9BBBF10"]
+			hide: true
+			icon: "minecraft:acacia_wood"
+			id: "17FC83C4DB2B1893"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "254CD2ED6491EEC4"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "122206E5DCFBD880"
+				structure: "dungeons_arise:heavenly_conqueror"
+				type: "structure"
+			}]
+			title: "Discover a heavenly conqueror"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["17FC83C4DB2B1893"]
+			hide: true
+			icon: "minecraft:light_gray_wool"
+			id: "47E235916EEFCA0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F2C16F47ADABC26"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "761B0AC0B4EADD2B"
+				structure: "dungeons_arise:heavenly_challenger"
+				type: "structure"
+			}]
+			title: "Discover a heavenly challenger"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46D8AF93067C40DA"]
+			hide: true
+			id: "0A091FA9D0CCC5FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "207D88B81BB2BC88"
+				table_id: 2973046015276817511L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:yellow_concrete"
+				id: "4ED047FA10AAAB71"
+				structure: "dungeons_arise:bandit_tower"
+				type: "structure"
+			}]
+			title: "Discover the bandit towers"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BF363BA2B96CE0C"]
+			hide: true
+			id: "46D8AF93067C40DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A3E39E4FA1C6257"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:orange_wool"
+				id: "33DFCEBEBC04B6C4"
+				structure: "dungeons_arise:bandit_village"
+				type: "structure"
+			}]
+			title: "Discover a bandit village"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C7293BB7FA26E41"]
+			hide: true
+			id: "06B890326C3E0143"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D15A67FDADB39D0"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:chiseled_stone_bricks"
+				id: "7511C5B0F36DD6DC"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			title: "Discover a coliseum"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["42BDA34A2AEF18C5"]
+			hide: true
+			id: "7476858EF71AFA63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C293E95CAD04038"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D394724BB8A8FB3"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+			]
+			subtitle: "A big, Nether like dungeon that can be found underground"
+			tasks: [{
+				icon: "minecraft:obsidian"
+				id: "5E096F0B52C3A8AB"
+				structure: "dungeons_arise:foundry"
+				type: "structure"
+			}]
+			title: "Discover a foundry"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A091FA9D0CCC5FA"]
+			hide: true
+			icon: "minecraft:spruce_planks"
+			id: "3C89F609937F747F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B4D21865BC3383D"
+					table_id: 2973046015276817511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "387AC3AD62BFADCB"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D85D731116C5C94"
+				structure: "dungeons_arise:infested_temple"
+				type: "structure"
+			}]
+			title: "Discover an infested temple"
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["039AFE0348B7BA2E"]
+			hide: true
+			id: "1A8271B6D2DFD3E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70ADA9300DEA64A2"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:jungle_wood"
+				id: "04FDE0AFB4CD0B15"
+				structure: "dungeons_arise:jungle_tree_house"
+				type: "structure"
+			}]
+			title: "Discover a jungle Treehouse"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["056BBB3ECCBC88BB"]
+			hide: true
+			id: "4596F1CE6087140C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C849D28379C8124"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:red_mushroom_block"
+				id: "36372B4BEA145F5F"
+				structure: "dungeons_arise:giant_mushroom"
+				type: "structure"
+			}]
+			title: "Discover a giant mushroom"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D8ACCC218A47C07"]
+			id: "056BBB3ECCBC88BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022ADBFAFC172548"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			subtitle: "Discover this location to unlock the Forest Path"
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				icon: "minecraft:brown_mushroom_block"
+				id: "7F84C531638B0DA4"
+				type: "biome"
+			}]
+			title: "Discover a Dark Forest"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4596F1CE6087140C"]
+			hide: true
+			id: "77877D06A1985B2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4037505446FE13E0"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:shroomlight"
+				id: "54D9CE1EDDDA7173"
+				structure: "dungeons_arise:mushroom_village"
+				type: "structure"
+			}]
+			title: "Discover a hostile mushroom village"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4596F1CE6087140C"]
+			hide: true
+			id: "54AF18758AF68186"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F43E33C221CC1A2"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:brown_mushroom"
+				id: "70F94E15273718D1"
+				structure: "dungeons_arise:mushroom_house"
+				type: "structure"
+			}]
+			title: "Discover a mushroom house"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4596F1CE6087140C"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2A5671E7B62F48C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "125A7977F0CAA526"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55803ACBB9DC18A9"
+				structure: "dungeons_arise:mushroom_mines"
+				type: "structure"
+			}]
+			title: "Discover mushroom mines"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"79849169BA18458E"
+				"7EEB3347918FFA9D"
+				"567719AA7CF1D392"
+			]
+			hide: true
+			id: "0281A0282790EE2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E675D94BA7C04D8"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:podzol"
+				id: "11F935613BD31CD5"
+				structure: "dungeons_arise:thornborn_towers"
+				type: "structure"
+			}]
+			title: "Discover the thornborn towers"
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["06B890326C3E0143"]
+			hide: true
+			id: "42BDA34A2AEF18C5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E649663D9903A34"
+					table_id: 2522379846574812537L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F8B7B899F813016"
+					table_id: 8767556034418362308L
+					type: "random"
+				}
+			]
+			subtitle: "A gigantic dungeon found in badlands or deserts"
+			tasks: [{
+				icon: "minecraft:magenta_terracotta"
+				id: "42AF34BB4FED9518"
+				structure: "dungeons_arise:shiraz_palace"
+				type: "structure"
+			}]
+			title: "Discover a shiraz temple"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6CCDEC9F0A4DA425"]
+			hide: true
+			id: "0188A56628F7B912"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "537F3BBEE9794773"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:packed_ice"
+				id: "2931C7C5CE474818"
+				structure: "repurposed_structures:mineshaft_icy"
+				type: "structure"
+			}]
+			title: "Discover an icy mineshaft"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D28491D373D5514"]
+			hide: true
+			id: "0B729B27F614439D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3014B330A4497A7A"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "5956BBA83F5E782A"
+				structure: "repurposed_structures:outpost_icy"
+				type: "structure"
+			}]
+			title: "Discover an Icy Pillager outpost"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["020B42805A50B996"]
+			hide: true
+			icon: "minecraft:stripped_birch_log"
+			id: "27AD2ED3B2BE7241"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70F89D242552F61A"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				id: "28E0BCF88D82A80F"
+				structure: "terralith:glacial_hut"
+				type: "structure"
+			}]
+			title: "Discover a glacial hut"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0B729B27F614439D"
+				"0188A56628F7B912"
+				"27AD2ED3B2BE7241"
+			]
+			hide: true
+			icon: "minecraft:soul_lantern"
+			id: "6D13872CAF9BF473"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F21C83FA3BCEE68"
+				table_id: 2522379846574812537L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B358AC9C5ECA66D"
+				structure: "terralith:spire"
+				type: "structure"
+			}]
+			title: "Discover an Ice Spire"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"76D37C1E268BCA36"
+				"1A8271B6D2DFD3E2"
+				"7DDCB712A32B45BF"
+			]
+			hide: true
+			id: "2728C172C81724F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52A7E9D5B5BD079A"
+				table_id: 2973046015276817511L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:jungle_leaves"
+				id: "342A546E8DBC0EF0"
+				structure: "repurposed_structures:mansion_jungle"
+				type: "structure"
+			}]
+			title: "Discover a jungle mansion"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6B3350B781D05C8D"]
+			hide: true
+			id: "76D37C1E268BCA36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DBE4AD01AABE02F"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:jungle_stairs"
+				id: "401DABF1561166DB"
+				structure: "repurposed_structures:village_jungle"
+				type: "structure"
+			}]
+			title: "Discover a jungle village"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["151F1822043CD3C8"]
+			hide: true
+			id: "7DDCB712A32B45BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29365E38ABC6A736"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3882C60B64F8F7DB"
+				structure: "repurposed_structures:mineshaft_jungle"
+				type: "structure"
+			}]
+			title: "Discover a jungle mineshaft"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A5671E7B62F48C8"]
+			hide: true
+			id: "7EEB3347918FFA9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23B2A7C1C1CB58F5"
+				table_id: 699111618278399131L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:dark_oak_planks"
+				id: "3C996A31FF6CCD05"
+				structure: "repurposed_structures:village_dark_forest"
+				type: "structure"
+			}]
+			title: "Discover a Dark Forest Village"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["54AF18758AF68186"]
+			hide: true
+			id: "567719AA7CF1D392"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7320862CAF753CD7"
+				table_id: 8767556034418362308L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:carved_pumpkin"
+				id: "1E8847D05ED4E949"
+				structure: "repurposed_structures:pyramid_dark_forest"
+				type: "structure"
+			}]
+			title: "Discover a dark forest pyramid"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77877D06A1985B2C"]
+			hide: true
+			id: "79849169BA18458E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63A79C0BBC967BE8"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "582196902477EBE7"
+					table_id: 699111618278399131L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:dark_oak_log"
+				id: "26D77F768B98B820"
+				structure: "repurposed_structures:mineshaft_dark_forest"
+				type: "structure"
+			}]
+			title: "Discover a dark Forest mineshaft"
+			x: 4.5d
+			y: -5.5d
+		}
+	]
+	title: "&3Exploration"
+}

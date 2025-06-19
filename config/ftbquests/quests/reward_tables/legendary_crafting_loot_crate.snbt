@@ -1,0 +1,16 @@
+{
+	id: "0181B8ADE6188A57"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{ count: 9, item: "amethyst_imbuement:ametrine" }
+		{ count: 5, item: "minecraft:iron_block" }
+		{ count: 24, item: "minecraft:slime_ball" }
+		{ count: 5, item: "minecraft:redstone_block" }
+		{ count: 2, item: "minecraft:diamond_block" }
+		{ count: 7, item: "minecraft:raw_gold_block" }
+		{ count: 2, item: "minecraft:emerald_block" }
+		{ count: 6, item: "minecraft:bone_block" }
+	]
+	title: "Legendary Crafting Loot Crate"
+}

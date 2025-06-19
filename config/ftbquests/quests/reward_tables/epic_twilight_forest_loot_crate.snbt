@@ -1,0 +1,50 @@
+{
+	id: "3B296F77B6175EF2"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:twilight_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:lifedrain_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:zombie_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:fortification_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "twilightforest:fiery_ingot" }
+		{ count: 8, item: "twilightforest:steeleaf_ingot" }
+		{ count: 8, item: "twilightforest:knightmetal_ingot" }
+		{ item: "twilightforest:ore_map" }
+		{ count: 12, item: "twilightforest:ironwood_ingot" }
+		{ count: 3, item: "twilightforest:maze_map_focus" }
+	]
+	title: "Epic twilight forest Loot Crate"
+}

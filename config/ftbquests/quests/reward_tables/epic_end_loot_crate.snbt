@@ -1,0 +1,30 @@
+{
+	id: "70140CA122DD0511"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "nyfsquiver:diamond_quiver"
+				tag: { }
+			}
+		}
+		{ count: 3, item: "dragonloot:dragon_scale" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "bosses_of_mass_destruction:charged_ender_pearl" }
+		{ count: 5, item: "minecraft:shulker_shell" }
+		{ count: 8, item: "minecraft:end_crystal" }
+		{ count: 24, item: "xtraarrows:netherite_ender_arrow" }
+		{ item: "moretotems:teleporting_totem_of_undying" }
+	]
+	title: "Epic End Loot Crate"
+}

@@ -1,0 +1,71 @@
+{
+	id: "3291CEDC0458FCDE"
+	loot_size: 1
+	order_index: 113
+	rewards: [
+		{ count: 2, item: "minecraft:lapis_block" }
+		{ count: 6, item: "jewelry:ruby" }
+		{ count: 6, item: "jewelry:topaz" }
+		{ count: 6, item: "jewelry:citrine" }
+		{ count: 6, item: "jewelry:jade" }
+		{ count: 6, item: "jewelry:sapphire" }
+		{ count: 6, item: "jewelry:tanzanite" }
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_fire_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_frost_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_healing_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_arcane_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_archer_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_tank_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_dex_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:unique_attack_ring"
+				tag: { }
+			}
+		}
+	]
+	title: "tebl2"
+}

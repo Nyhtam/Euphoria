@@ -1,0 +1,21 @@
+{
+	id: "64E988315B232241"
+	loot_size: 1
+	order_index: 109
+	rewards: [
+		{ count: 4, item: "anim_guns:plastic" }
+		{ count: 2, item: "anim_guns:hardened_iron_ingot" }
+		{ count: 4, item: "anim_guns:enriched_iron" }
+		{ count: 5, item: "minecraft:redstone" }
+		{ count: 8, item: "minecraft:raw_copper" }
+		{ count: 7, item: "minecraft:raw_iron" }
+		{ count: 4, item: "minecraft:quartz" }
+		{ count: 5, item: "minecraft:gunpowder" }
+		{ count: 4, item: "minecraft:tripwire_hook" }
+		{ count: 4, item: "minecraft:redstone_torch" }
+		{ count: 53, item: "minecraft:iron_nugget" }
+		{ count: 32, item: "anim_guns:hardened_iron_nugget" }
+		{ count: 28, item: "minecraft:glowstone_dust" }
+	]
+	title: "Copper Technology Reward Table"
+}

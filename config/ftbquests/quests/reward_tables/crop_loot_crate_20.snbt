@@ -1,0 +1,23 @@
+{
+	id: "30B37C9E1A2E468A"
+	loot_size: 1
+	order_index: 100
+	rewards: [
+		{ item: "croptopia:pear" }
+		{ item: "croptopia:pecan" }
+		{ item: "croptopia:coconut" }
+		{ count: 2, item: "croptopia:apricot" }
+		{ count: 2, item: "croptopia:lime" }
+		{ count: 2, item: "croptopia:date" }
+		{ count: 3, item: "croptopia:mango" }
+		{ count: 3, item: "croptopia:dragonfruit" }
+		{ count: 3, item: "croptopia:avocado" }
+		{ count: 4, item: "croptopia:nectarine" }
+		{ count: 4, item: "croptopia:plum" }
+		{ count: 4, item: "croptopia:persimmon" }
+		{ count: 5, item: "croptopia:peach" }
+		{ count: 5, item: "croptopia:fig" }
+		{ count: 5, item: "croptopia:kumquat" }
+	]
+	title: "Crop Loot Crate 20"
+}

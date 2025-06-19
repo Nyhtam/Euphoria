@@ -1,0 +1,14 @@
+{
+	id: "5455E7F7C2B8E619"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 16, item: "minecraft:glowstone_dust" }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:sugar" }
+		{ count: 32, item: "minecraft:stick" }
+		{ count: 16, item: "minecraft:gunpowder" }
+		{ count: 16, item: "minecraft:spider_eye" }
+	]
+	title: "Common Witch Loot Crate"
+}

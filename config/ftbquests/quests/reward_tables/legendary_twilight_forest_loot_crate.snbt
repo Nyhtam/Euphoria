@@ -1,0 +1,40 @@
+{
+	id: "34B0AD17E7F57E09"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ item: "twilightforest:ore_map" }
+		{ count: 14, item: "twilightforest:fiery_ingot" }
+		{ count: 16, item: "twilightforest:steeleaf_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:glass_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:giant_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:giant_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "twilightforest:charm_of_keeping_3" }
+		{ item: "twilightforest:charm_of_life_2" }
+	]
+	title: "Legendary Twilight Forest Loot Crate"
+}

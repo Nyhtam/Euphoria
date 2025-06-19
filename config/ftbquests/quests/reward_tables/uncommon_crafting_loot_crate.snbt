@@ -1,0 +1,19 @@
+{
+	id: "736D93627F9EEA08"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{ count: 9, item: "minecraft:string" }
+		{ count: 6, item: "minecraft:feather" }
+		{ count: 4, item: "minecraft:slime_ball" }
+		{ count: 6, item: "minecraft:iron_ingot" }
+		{ count: 6, item: "minecraft:gold_ingot" }
+		{ count: 6, item: "minecraft:copper_ingot" }
+		{ item: "minecraft:diamond" }
+		{ count: 4, item: "minecraft:book" }
+		{ count: 6, item: "minecraft:rabbit_hide" }
+		{ count: 8, item: "minecraft:bone" }
+		{ count: 14, item: "minecraft:charcoal" }
+	]
+	title: "Uncommon Crafting Loot Crate"
+}

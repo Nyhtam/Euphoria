@@ -1,0 +1,29 @@
+{
+	id: "186F4403E95E3072"
+	loot_size: 1
+	order_index: 111
+	rewards: [
+		{ count: 16, item: "minecraft:lapis_lazuli" }
+		{ count: 3, item: "jewelry:ruby" }
+		{ count: 3, item: "jewelry:topaz" }
+		{ count: 3, item: "jewelry:citrine" }
+		{ count: 3, item: "jewelry:jade" }
+		{ count: 3, item: "jewelry:sapphire" }
+		{ count: 3, item: "jewelry:tanzanite" }
+		{
+			item: {
+				Count: 1
+				id: "jewelry:gold_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jewelry:emerald_necklace"
+				tag: { }
+			}
+		}
+	]
+	title: "tebl"
+}

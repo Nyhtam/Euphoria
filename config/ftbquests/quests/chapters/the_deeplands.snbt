@@ -1,0 +1,428 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_deeplands"
+	group: "6CE50F1BA3E6325C"
+	icon: "minecraft:sculk_catalyst"
+	id: "0358AD9A23EEFC79"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0AC635B0E5311631"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F248D623D36E56B"
+				table_id: 7492428023325391516L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:reinforced_deepslate"
+				id: "4696EC552E104DB4"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Discover an Ancient City"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC635B0E5311631"]
+			hide: true
+			icon: "deeperdarker:warden_carapace"
+			id: "0DA9AA268F4F0879"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37852ABA603D584E"
+					table_id: 6515852391297644578L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63067570D96AB65D"
+					table_id: 6515852391297644578L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "478FAA079CE43A38"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Warden"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AC635B0E5311631"]
+			hide: true
+			id: "0B93F624306AADF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D7154B0791393AE"
+					table_id: 6515852391297644578L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AA1955283A204FA"
+					table_id: 6515852391297644578L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:heart_of_the_deep"
+				id: "3243943E352B3956"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Stalker"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AC635B0E5311631"]
+			hide: true
+			id: "31CDE055A04D14ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21E49F375448C9FF"
+				table_id: 98105554658268392L
+				type: "random"
+			}]
+			subtitle: "Light the Portal in an Ancient City using a Heart of the Deep. (Make sure to remove any sculk in the portal frame beforehand)"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:cut_sculk_stone"
+				id: "22A6958F2454EF0F"
+				type: "dimension"
+			}]
+			title: "Visit the Otherside"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31CDE055A04D14ED"]
+			hide: true
+			id: "37207D87781FDE46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0457931EBE56CE2E"
+				table_id: 98105554658268392L
+				type: "random"
+			}]
+			subtitle: "Required to see in the Deeplands"
+			tasks: [{
+				id: "41B80CF4749D2533"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Warden Helmet"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37207D87781FDE46"]
+			hide: true
+			id: "6DF74868E937A485"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28B43070AB9962E4"
+				table_id: 7492428023325391516L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				icon: "deeperdarker:echo_leaves"
+				id: "01D52B5C63BCEE70"
+				type: "biome"
+			}]
+			title: "Visit the Echoing Forest"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DF74868E937A485"]
+			hide: true
+			icon: "deeperdarker:sculk_bone"
+			id: "2565AAFC02230BBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3653FEFC5717D02C"
+				table_id: 6515852391297644578L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				id: "31263E3565CA1C7A"
+				type: "biome"
+			}]
+			title: "Visit the Overcast columns"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["37207D87781FDE46"]
+			hide: true
+			id: "7A9020017C12C63C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0555EA26E79786D4"
+				table_id: 6515852391297644578L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "deeperdarker:otherside_deeplands"
+				icon: "deeperdarker:sculk_gleam"
+				id: "47EBF4A92629686A"
+				type: "biome"
+			}]
+			title: "Visit the Deeplands"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7A9020017C12C63C"]
+			hide: true
+			icon: "deeperdarker:sculk_stone_tiles"
+			id: "4E31108323F4CE62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47A8D913C905F6D0"
+				table_id: 98105554658268392L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "deeperdarker:sculk_transmitter"
+				id: "1CD91DCA38A1DF28"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			title: "Visit the Ancient Temple"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E31108323F4CE62"]
+			hide: true
+			id: "0E62ED2033BE7E84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B7FA0161D0501F4"
+				table_id: 6515852391297644578L
+				type: "random"
+			}]
+			tasks: [{
+				id: "527E15744F5FE0AB"
+				item: "deeperdarker:sculk_transmitter"
+				type: "item"
+			}]
+			title: "Obtain a Sculk Transmitter"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7A9020017C12C63C"]
+			hide: true
+			id: "4E6CB292897DA344"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53C4E92759BBF8A4"
+				table_id: 98105554658268392L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				icon: "deeperdarker:sculk_bone"
+				id: "03F427E3C8CD5600"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Defeat 10 Sculk Centipedes"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7A9020017C12C63C"]
+			hide: true
+			id: "1C9DE7A5AEE8BD30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "500A3FFA5D878AD2"
+				table_id: 98105554658268392L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "09784F6565B252E8"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Defeat 5 Shattereds"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C9DE7A5AEE8BD30"]
+			hide: true
+			id: "711898DD1281C6BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35F43F2B847D2599"
+				table_id: 98105554658268392L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				id: "24C92AFD45F3F125"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a Shriek Worm"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E6CB292897DA344"]
+			hide: true
+			id: "733DD4A629B669E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "569281EBCCBD4044"
+					table_id: 98105554658268392L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19D8053FE587B1B8"
+					table_id: 7492428023325391516L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09C60C615C148FB5"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Soul Elytra"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["37207D87781FDE46"]
+			id: "186288169E9172E6"
+			tasks: [
+				{
+					id: "3EADA63BB5641270"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E35CE67F2A0FA0C"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BC64E8BD2C18BB8"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37B0E6FF273FF4C7"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58F81F67D38DE606"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E85A7B78BF36FB9"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54E00F16D48BEB65"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E1BFDD5EC3D254F"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain a full set of Warden Gear"
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["&1Some May call it the Wardens Origin. A dark Dimension lying deep underground"]
+	title: "&9The Other Side"
+}

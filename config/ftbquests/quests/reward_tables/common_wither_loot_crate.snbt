@@ -1,0 +1,40 @@
+{
+	id: "18946E876E590B1F"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 16, item: "minecraft:wither_rose" }
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "morevanillapotions:withering_potion3"
+				}
+			}
+		}
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "morevanillapotions:withering_potion3"
+				}
+			}
+		}
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "morevanillapotions:withering_potion3"
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:wither_skeleton_skull" }
+	]
+	title: "Common Wither Loot Crate"
+}

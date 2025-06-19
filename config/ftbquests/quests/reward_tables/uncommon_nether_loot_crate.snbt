@@ -1,0 +1,24 @@
+{
+	id: "17D627B9E554768F"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 4, item: "minecraft:netherite_scrap" }
+		{ item: "betternether:nether_ruby" }
+		{ count: 6, item: "betternether:cincinnasite_ingot" }
+		{ count: 5, item: "minecraft:blaze_rod" }
+		{ count: 10, item: "betternether:nether_reed_stem" }
+		{ count: 20, item: "minecraft:glowstone_dust" }
+		{ count: 3, item: "minecraft:fire_charge" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "goblintraders:extended_fire_resistance"
+				}
+			}
+		}
+	]
+	title: "Uncommon Nether Loot Crate"
+}

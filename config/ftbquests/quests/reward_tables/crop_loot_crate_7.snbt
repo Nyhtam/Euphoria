@@ -1,0 +1,19 @@
+{
+	id: "30C589B4C1D565A4"
+	loot_size: 1
+	order_index: 87
+	rewards: [
+		{ item: "croptopia:kale" }
+		{ item: "croptopia:radish" }
+		{ item: "croptopia:basil" }
+		{ count: 2, item: "croptopia:tea_leaves" }
+		{ count: 2, item: "croptopia:squash" }
+		{ count: 2, item: "croptopia:cucumber" }
+		{ count: 4, item: "croptopia:lettuce" }
+		{ count: 4, item: "croptopia:greenonion" }
+		{ count: 4, item: "croptopia:greenbean" }
+		{ count: 7, item: "croptopia:onion" }
+		{ count: 7, item: "croptopia:corn" }
+	]
+	title: "Crop Loot Crate 7"
+}

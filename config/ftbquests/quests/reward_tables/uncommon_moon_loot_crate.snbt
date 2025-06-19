@@ -1,0 +1,15 @@
+{
+	id: "388AE58DAE352109"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{ count: 12, item: "ad_astra:cheese" }
+		{ item: "ad_astra:oxygen_bucket" }
+		{ item: "ad_astra:fuel_bucket" }
+		{ count: 6, item: "ad_astra:desh_ingot" }
+		{ item: "ad_astra:desh_tank" }
+		{ count: 2, item: "ad_astra:rocket_fin" }
+		{ count: 6, item: "ad_astra:desh_plate" }
+	]
+	title: "uncommon moon Loot Crate"
+}

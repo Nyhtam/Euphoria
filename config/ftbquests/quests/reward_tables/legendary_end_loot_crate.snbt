@@ -1,0 +1,27 @@
+{
+	id: "51EB5DBAD96A1FAA"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "inmis:endless_backpack"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterend:elytra_armored"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "betterend:aeternium_ingot" }
+		{ count: 4, item: "dragonloot:dragon_scale" }
+		{ count: 16, item: "minecraft:end_crystal" }
+	]
+	title: "Legendary End Loot Crate"
+}

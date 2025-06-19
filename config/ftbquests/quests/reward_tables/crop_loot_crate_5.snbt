@@ -1,0 +1,19 @@
+{
+	id: "6F32A5AB913F10A6"
+	loot_size: 1
+	order_index: 85
+	rewards: [
+		{ item: "croptopia:vanilla" }
+		{ item: "croptopia:celery" }
+		{ item: "croptopia:zucchini" }
+		{ count: 2, item: "croptopia:lettuce" }
+		{ count: 2, item: "croptopia:greenonion" }
+		{ count: 6, item: "croptopia:leek" }
+		{ count: 3, item: "sandwichable:onion" }
+		{ count: 3, item: "croptopia:corn" }
+		{ count: 2, item: "farmersdelight:carrot_crate" }
+		{ count: 2, item: "farmersdelight:potato_crate" }
+		{ count: 2, item: "croptopia:greenbean" }
+	]
+	title: "Crop Loot Crate 5"
+}

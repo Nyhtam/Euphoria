@@ -1,0 +1,15 @@
+{
+	id: "2B331E7BA20615E1"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 5, item: "ad_astra:ice_shard" }
+		{ count: 15, item: "minecraft:ice" }
+		{ count: 15, item: "minecraft:packed_ice" }
+		{ count: 15, item: "minecraft:blue_ice" }
+		{ count: 4, item: "blast:frost_bomb" }
+		{ item: "blast:frost_trigger_bomb" }
+		{ count: 16, item: "xtraarrows:diamond_freezing_arrow" }
+	]
+	title: "common Ice Loot Crate"
+}

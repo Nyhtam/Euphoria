@@ -1,0 +1,51 @@
+{
+	id: "67FA7397337DFA9C"
+	loot_size: 1
+	order_index: 102
+	rewards: [
+		{ count: 2, item: "minecraft:echo_shard" }
+		{ count: 3, item: "minecraft:disc_fragment_5" }
+		{ count: 4, item: "minecraft:sculk" }
+		{ count: 16, item: "minecraft:white_wool" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:swift_sneak"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:sculk_shrieker" }
+		{ count: 2, item: "minecraft:sculk_sensor" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "deeperdarker:sculk_smite"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ count: 4, item: "minecraft:phantom_membrane" }
+	]
+	title: "Common Deep Dark Loot Crate"
+}

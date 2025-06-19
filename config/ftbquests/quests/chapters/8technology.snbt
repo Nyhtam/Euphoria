@@ -1,0 +1,2429 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "8technology"
+	group: "1408391CC7993B8A"
+	icon: "ad_astra:wrench"
+	id: "7FACD9A3B8F4E1E0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0BA45677D4A3EF1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1860C255F1882B98"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "345F0D66B4A946AE"
+				item: "automobility:auto_mechanic_table"
+				type: "item"
+			}]
+			title: "Craft an Auto mechanic Table"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BA45677D4A3EF1D"]
+			hide: true
+			id: "2FFCA7228DA4FD65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C1FD4F8C445B97F"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0B37F982E7902088"
+				item: "anim_guns:enriched_iron"
+				type: "item"
+			}]
+			title: "Craft 16 Enriched Iron"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BA45677D4A3EF1D"]
+			hide: true
+			id: "7F19FD768A753663"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E93EEA7AEAD414"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2C0E76D5AACCC583"
+				item: "anim_guns:hardened_iron_ingot"
+				type: "item"
+			}]
+			title: "Obtain 16 Hardened Iron Ingots"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BA45677D4A3EF1D"]
+			hide: true
+			id: "7186BB76E4FD608B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07DC3B44DB050515"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3270AB0E8FD30D26"
+				item: "anim_guns:plastic"
+				type: "item"
+			}]
+			title: "Craft 16 Plastic"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F19FD768A753663"]
+			id: "71834CC381A6511A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C49E7BFD4AED564"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A55C55B1F2432B1"
+				item: "anim_guns:blueprint_bundle"
+				type: "item"
+			}]
+			title: "Craft a Blueprint bundle"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01EA3859E0D8C2D8"]
+			hide: true
+			id: "776580E84845FBA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33EEB764379879ED"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2058D9F629D63EA9"
+				item: "anim_guns:pistol_grip"
+				type: "item"
+			}]
+			title: "Craft a Pistol Grip"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72E99B6907F2B1A6"]
+			hide: true
+			id: "211443E9FA2C2988"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "230C8656FA09B7E4"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CF539DFD86CC08C"
+				item: "anim_guns:gun_scope"
+				type: "item"
+			}]
+			title: "Craft a Gun Scope"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["211443E9FA2C2988"]
+			hide: true
+			id: "37823B4CE152E56D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C421775EFA9D16E"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A559BEB7A27605F"
+				item: "anim_guns:long_barrel"
+				type: "item"
+			}]
+			title: "Craft a Long Barrel"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25DAF4C4BB7D0323"]
+			hide: true
+			id: "72E99B6907F2B1A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B4F3B4774F826FB"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F94187801F482CA"
+				item: "anim_guns:short_barrel"
+				type: "item"
+			}]
+			title: "Craft a Short Barrel"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FFCA7228DA4FD65"]
+			hide: true
+			id: "6B7D54F57150CEAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52D804BD156591B0"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "517A3A5DBB1827A2"
+				item: "anim_guns:wooden_stock"
+				type: "item"
+			}]
+			title: "Craft a Wooden Stock"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B7D54F57150CEAC"]
+			hide: true
+			id: "3F7DE10A92DB8C9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5276BED52838C55D"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26AB876DB674FFC4"
+				item: "anim_guns:modern_stock"
+				type: "item"
+			}]
+			title: "Craft a Modern Stock"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F7DE10A92DB8C9C"]
+			hide: true
+			id: "6FB58B74A7F4BFD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A68B404FB4E4D9F"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AC1023F966AF0D4"
+				item: "anim_guns:wooden_handguard"
+				type: "item"
+			}]
+			title: "Craft a Wooden Handguard"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FB58B74A7F4BFD8"]
+			hide: true
+			id: "5AEE039CD47B902A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "331FCCD717164FBA"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E272718A11C7CED"
+				item: "anim_guns:modern_handguard"
+				type: "item"
+			}]
+			title: "Craft a Modern Handguard"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37823B4CE152E56D"]
+			hide: true
+			id: "01EA3859E0D8C2D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6213D0B1BFFCCDB0"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DD953A28EBAFA2A"
+				item: "anim_guns:pistol_magazine"
+				type: "item"
+			}]
+			title: "Craft a Pistol Magazine"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AEE039CD47B902A"]
+			hide: true
+			id: "25DAF4C4BB7D0323"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "794F1664A04E30B2"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76C238A26E1BB9AB"
+				item: "anim_guns:lmg_ammo_box"
+				type: "item"
+			}]
+			title: "Craft a LMG Ammo Box"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71834CC381A6511A"]
+			hide: true
+			id: "7F3D7447805196EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24AC85BD3A2F9652"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F3472B03C188891"
+				item: "anim_guns:blueprint_pistol_light"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F3D7447805196EE"]
+			hide: true
+			id: "021AF55C01976A43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D6292E6128EFDC5"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E64B2D4F76799D8"
+				item: "anim_guns:blueprint_pistol_heavy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["021AF55C01976A43"]
+			hide: true
+			id: "648845A2776BCFC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "277F5B980A4F5C7C"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70F22240101D11F0"
+				item: "anim_guns:blueprint_revolver_magnum"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["648845A2776BCFC7"]
+			hide: true
+			id: "52A010C6C182E42B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7700ED8E95C81B86"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "232E38040EB133D2"
+				item: "anim_guns:blueprint_revolver_coltarmy"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52A010C6C182E42B"]
+			hide: true
+			id: "4E0BC5445CC030C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F7ABA75E2D3B652"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16F93D5E1D8ECEB8"
+				item: "anim_guns:blueprint_smg_machinepistol"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E0BC5445CC030C5"]
+			hide: true
+			id: "75131C8BA2EB71E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EE7F98CE1BAB077"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47C7B75926CBE54B"
+				item: "anim_guns:blueprint_smg_heavy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75131C8BA2EB71E6"]
+			hide: true
+			id: "475F8C586B8F31D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E30D32B20E72916"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "789980532112A2FE"
+				item: "anim_guns:blueprint_assaultrifle_light"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["475F8C586B8F31D8"]
+			hide: true
+			id: "13FA29049A3D2473"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "757DF6E36DB029A5"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "660E20FB674F1F19"
+				item: "anim_guns:blueprint_assaultrifle_heavy"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13FA29049A3D2473"]
+			hide: true
+			id: "766C3D5D86EB3791"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A1D7361D9BF88B1"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0024130B801DF2E4"
+				item: "anim_guns:blueprint_assaultrifle_rus"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["766C3D5D86EB3791"]
+			hide: true
+			id: "0D0B90D00D325087"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D6E4DCA9BF9DEF6"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E249EAD32D32F86"
+				item: "anim_guns:blueprint_shotgun_combat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D0B90D00D325087"]
+			hide: true
+			id: "09D0A354A632B500"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BF078DDC746DF3D"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AD13FD21B7E59CC"
+				item: "anim_guns:blueprint_shotgun_riot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09D0A354A632B500"]
+			hide: true
+			id: "125CC7CBDD8DC882"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16C58B6135AF920C"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "225579215670827E"
+				item: "anim_guns:blueprint_shotgun_doublebarrel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["125CC7CBDD8DC882"]
+			hide: true
+			id: "66A48C8E4B863E9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B04AEDD7C130640"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BEA3E70C170C942"
+				item: "anim_guns:blueprint_sniper_classic"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66A48C8E4B863E9E"]
+			hide: true
+			id: "2A6AB22FCE233B4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "394E8956DBB78958"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "694CE2D1A8F5B47F"
+				item: "anim_guns:blueprint_sniper_cowboy"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2A6AB22FCE233B4B"]
+			hide: true
+			id: "124985045ED2A721"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "000904C547EAE092"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72C51FE87A989502"
+				item: "anim_guns:blueprint_lmg_m60"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7186BB76E4FD608B"]
+			hide: true
+			id: "19C19F62A359DCCA"
+			tasks: [{
+				count: 10L
+				id: "422281ED46C30C9C"
+				item: "anim_guns:standard_handgun_cartridge"
+				type: "item"
+			}]
+			title: "Craft 10 Standart Handgun Cartridges"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19C19F62A359DCCA"]
+			hide: true
+			id: "004D62CA1C5D9906"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F4ADCC52E07E01A"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				count: 10L
+				id: "55FC078E5F8A2B8C"
+				item: "anim_guns:heavy_handgun_cartridge"
+				type: "item"
+			}]
+			title: "Craft 10 Heavy Handgun Cartridges"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["004D62CA1C5D9906"]
+			hide: true
+			id: "5FE5BA7D4A99AF5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C61BFFDB2398969"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				count: 10L
+				id: "76EB244354F587B9"
+				item: "anim_guns:standard_rifle_cartridge"
+				type: "item"
+			}]
+			title: "Craft 10 Standart Rifle Cartridges"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FE5BA7D4A99AF5D"]
+			hide: true
+			id: "2968FB080509D62B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "003F6282FB9841C5"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				count: 10L
+				id: "48958EA56F14CFB3"
+				item: "anim_guns:heavy_rifle_cartridge"
+				type: "item"
+			}]
+			title: "Craft 10 Heavy Rifle Cardridges"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2968FB080509D62B"]
+			hide: true
+			id: "3233793B2AB45A98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "780EFA3D1466E3F2"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				count: 10L
+				id: "45628B9CBC4DA1E1"
+				item: "anim_guns:shotgun_shell"
+				type: "item"
+			}]
+			title: "Craft 10 Shotgun Shells"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3233793B2AB45A98"]
+			hide: true
+			id: "326551B5805F2FE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FDFF1871AEA005B"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "763B6F44C7225DB6"
+				item: {
+					Count: 1
+					id: "anim_guns:pistol_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Pistol"
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["326551B5805F2FE6"]
+			hide: true
+			id: "07241926CD853590"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "046FE3BEB5170065"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B5311FCAF323132"
+				item: {
+					Count: 1
+					id: "anim_guns:pistol_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Heavy Pistol"
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07241926CD853590"]
+			hide: true
+			id: "23598E285DE8246E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CB5606AC7804875"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00DB803E5A89CBA7"
+				item: {
+					Count: 1
+					id: "anim_guns:revolver_magnum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Revolver"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23598E285DE8246E"]
+			hide: true
+			id: "0C0AA17C0C556537"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13574C6F8F1A174A"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7091684B2A9C2DAD"
+				item: {
+					Count: 1
+					id: "anim_guns:revolver_coltarmy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Old Army Revolver"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C0AA17C0C556537"]
+			hide: true
+			id: "5D1AFB6DD67593F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2422A9CC4602174E"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1235565935EFBDA1"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_machinepistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Machine Pistol"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D1AFB6DD67593F1"]
+			hide: true
+			id: "0A709046AC43FBF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CDCEB10C1753BE6"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DC068DAD003A8F1"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Heavy SMG"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A709046AC43FBF5"]
+			hide: true
+			id: "0B7DBD580A09C9C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42B6EB50EDC8C298"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45A6C60585E0F06E"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Assault Rifle"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B7DBD580A09C9C1"]
+			hide: true
+			id: "5CF7D4C077AEB2BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73EFEC09DB730EE6"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A7A71732C48FA23"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Heavy Assault Rifle"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CF7D4C077AEB2BA"]
+			hide: true
+			id: "343C33D3E6A76DA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C46E9D70380760C"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5742A9AFF1B897F2"
+				item: {
+					Count: 1
+					id: "anim_guns:assaultrifle_rus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a War-Torn Assault Rifle"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["343C33D3E6A76DA2"]
+			hide: true
+			id: "3DDFB0939EA9BA83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D5139EAA70C3807"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B093D6DF9AA9AE5"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_doublebarrel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Double Barreled Shotgun"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3DDFB0939EA9BA83"]
+			hide: true
+			id: "528A90BE2A57B552"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "359405A7BC94E58D"
+				table_id: 108296034225301782L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4C9D4AD205373A00"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_combat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Combat Shotgun"
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["528A90BE2A57B552"]
+			hide: true
+			id: "6B8B02C800A95B00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E17AEC4ECF1DEDC"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05EB972E123CCFF7"
+				item: {
+					Count: 1
+					id: "anim_guns:shotgun_riot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Riot Shotgun"
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B8B02C800A95B00"]
+			hide: true
+			id: "33E6C4F5DE508A67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51F1BDEC29B47D8D"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73DFE8C75F6E7435"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_classic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Hunting Rifle"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33E6C4F5DE508A67"]
+			hide: true
+			id: "58A4D086174B615C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38CA794AC63F9432"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E4A3FF8DEA41567"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_cowboy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Brush Gun"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58A4D086174B615C"]
+			hide: true
+			id: "44DDF92B8745A6AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AFB775E45ABB5AF"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AE720BF8807A0D0"
+				item: {
+					Count: 1
+					id: "anim_guns:lmg_m60"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a LMG"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BA45677D4A3EF1D"]
+			hide: true
+			id: "70FCEDF8F3C78326"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "482A17532F498596"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A34DBBEE94E5A90"
+				item: "automobility:crowbar"
+				type: "item"
+			}]
+			title: "Craft a Crowbar"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BA45677D4A3EF1D"]
+			hide: true
+			id: "2EE101D58009C377"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "412A0AF88CD24139"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "519FDFE4B92A8B2B"
+				item: "automobility:automobile_assembler"
+				type: "item"
+			}]
+			title: "Craft an Automobile Assembler"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BA45677D4A3EF1D"]
+			hide: true
+			id: "4FF708584222FE00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F0BEB538004902D"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "312DEDB003DA37BC"
+				item: "automobility:dash_panel"
+				type: "item"
+			}]
+			title: "Craft a Dash Panel"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4FF708584222FE00"]
+			hide: true
+			id: "02DA4C89FF8FA0E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B4FD5820C45E436"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33166180702D3060"
+				item: "automobility:slope"
+				type: "item"
+			}]
+			title: "Craft a Slope"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02DA4C89FF8FA0E5"]
+			hide: true
+			id: "6B355A4EA3A1D2F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DB082F165354820"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F4CA932DCA4CCD8"
+				item: "automobility:steep_slope"
+				type: "item"
+			}]
+			title: "Craft a Steep Slope"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B355A4EA3A1D2F3"]
+			hide: true
+			id: "41F1659103AD922B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16F027358D2574A6"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B265B663DC32A6D"
+				item: "automobility:launch_gel"
+				type: "item"
+			}]
+			title: "Craft Launch Gel"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2EE101D58009C377"]
+			hide: false
+			id: "733D06F5DF07057F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56B8CAF91FB97135"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BCF1C350F1B6BBC"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:stone"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Stone Automobile Engine"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["733D06F5DF07057F"]
+			hide: true
+			id: "4EDC22221F8D0CE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AF3B0689B938823"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "466E34729C5E8830"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:iron"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Iron Automobile Engine"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EDC22221F8D0CE1"]
+			hide: true
+			id: "70849D37BA38E18E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "704BFD3DECA16245"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BE7B5D2052FB183"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:copper"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Copper Automobile Engine"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70849D37BA38E18E"]
+			hide: true
+			id: "0E68937C570487E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AACA0A5F6C1FBEA"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FD3097D89C48CC4"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:gold"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Gold Automobile Engine"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E68937C570487E3"]
+			hide: true
+			id: "0BDD07333BDC15B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7084650EA8BD462B"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25F3AA2080AEA9CA"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:diamond"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Diamond Automobile Engine"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41F1659103AD922B"]
+			hide: true
+			id: "61BAAD693C02A702"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22B5DFCFBD2AE9DD"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50D984201D17607F"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:standard"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Standart Wheel"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61BAAD693C02A702"]
+			hide: true
+			id: "5B99653078A383EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29C7AF91F8770AB8"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03A38C1D8E4CE46E"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:off_road"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Off Road Wheel"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B99653078A383EA"]
+			hide: true
+			id: "1B4E644C37EA8F25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A4F1F17AE119B14"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15F8FA0BFF823B42"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:steel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Steel Wheel"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B4E644C37EA8F25"]
+			hide: true
+			id: "50DD9EA20E55F02B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19D2F5F1FA7DA52A"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59B951415681C12D"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:tractor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Tractor Wheel"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50DD9EA20E55F02B"]
+			hide: true
+			id: "321F9DD84FDA5EC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "324E70E4D0587C22"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6059D6C89F9BA975"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:carriage"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Carriage Wheel"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["321F9DD84FDA5EC9"]
+			hide: true
+			id: "4A6F336A9904BA1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F16496F3F5D8E04"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FB4FB52E55E1585"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:plated"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Plated Wheel"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A6F336A9904BA1A"]
+			hide: true
+			id: "02DBC439853FE6A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B15AC68FF125990"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "469ECB5DD13A6C3C"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:street"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Street Wheel"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02DBC439853FE6A4"]
+			hide: true
+			id: "2EB1ED963907EA47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "002989802A78F56A"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D9C55E59A126E79"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:gilded"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Gilded Wheel"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EB1ED963907EA47"]
+			hide: true
+			id: "4DC55E520F9DF1C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E0723425325EA6E"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "374CAF754DAEE36D"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:bejeweled"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Bejeweled Wheel"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4DC55E520F9DF1C3"]
+			hide: true
+			id: "6877E143FB3C5B2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B98CC5A2CDEC7D0"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71C7F5B9B24EB1CE"
+				item: {
+					Count: 1
+					id: "automobility:front_attachment"
+					tag: {
+						attachment: "automobility:mob_controller"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Mob Controller Front Attachment"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6877E143FB3C5B2D"]
+			hide: true
+			id: "6F5BACF25515EEE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F18CA4171B1A183"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1752DC929C20DDAB"
+				item: {
+					Count: 1
+					id: "automobility:front_attachment"
+					tag: {
+						attachment: "automobility:crop_harvester"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Crop Harvester Front Attachment"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F5BACF25515EEE4"]
+			hide: true
+			id: "5A71CF21B5715D1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66C6D9CAF735BC8C"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D3DCB0466ACEDAB"
+				item: {
+					Count: 1
+					id: "automobility:front_attachment"
+					tag: {
+						attachment: "automobility:grass_cutter"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Grass Cutter Front Attachment"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A71CF21B5715D1A"]
+			hide: true
+			id: "3F31522FF21228E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05616AD35A2F7B45"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D8974972B685AF8"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:passenger_seat"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Passenger Seat Rear Attachment"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F31522FF21228E4"]
+			hide: true
+			id: "2B94673735AC0136"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "680E253DABF2ABE4"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77126414567F7EE3"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:crafting_table"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Crafting Table Rear Attachment"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B94673735AC0136"]
+			hide: true
+			id: "49E9B47DF6624703"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7880DC34AE418CDF"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2879A37A009CBB33"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:cartography_table"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Cartography Table Rear Attachment"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49E9B47DF6624703"]
+			hide: true
+			id: "637E0918DA06157C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48A2AFF4B2BEA195"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27124F0EC431D494"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:smithing_table"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Smithing Table Rear Attachment"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["637E0918DA06157C"]
+			hide: true
+			id: "5D1E1F5F31931205"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D22284F9FED11BB"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D7F5B68F8C47029"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:grindstone"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Grindstone Rear Attachment"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D1E1F5F31931205"]
+			hide: true
+			id: "416A9A0F60F7BFFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DFED0EF14B1FD00"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "228205FCC228A264"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:stonecutter"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Stonecutter Rear Attachment"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["416A9A0F60F7BFFB"]
+			hide: true
+			id: "12EF2840E2C5D428"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2444E28129FA6DA5"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F70192E7E6CDB60"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:auto_mechanic_table"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Automechanic Table Rear Attachment"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12EF2840E2C5D428"]
+			hide: true
+			id: "36907C0DF332C403"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "187D7CB8B458BE5E"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CF707BBB686CF45"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:chest"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Chest Rear Attachment"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["36907C0DF332C403"]
+			hide: true
+			id: "530C80025D677358"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C9F1D3CFB6EBA00"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08CF34864EC3FF0F"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:ender_chest"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Ender Chest Rear Attachment"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["530C80025D677358"]
+			hide: true
+			id: "6E4508C9CED59266"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E315F5BB4225F5"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B6484BD6FCA2D2C"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:saddled_barrel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Saddled Barrel Rear Attachment"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E4508C9CED59266"]
+			hide: true
+			id: "689F745DB391133A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D0CB6B38E10093F"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70E033D26C34BDE5"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:banner_post"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Banner Post Rear Attachment"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["689F745DB391133A"]
+			hide: true
+			id: "45385352E65D6D06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "390E93BB717961EA"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4861F2005E08B010"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:backhoe"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Backhoe Rear Attachment"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["45385352E65D6D06"]
+			hide: true
+			id: "1E74DE6F7386D46E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07C5EB7BBB7C0B51"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "165B92E263205DC0"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:paver"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Paver Rear Attachment"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70FCEDF8F3C78326"]
+			hide: true
+			id: "7BE1A15F3EAFA248"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "005A0C3A397E9415"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "260B3DAD650B8223"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:stone"
+							frame: "automobility:wooden_motorcar"
+							isPrefab: 1b
+							wheels: "automobility:carriage"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.wooden_motorcar\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Wooden Motorcar"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BE1A15F3EAFA248"]
+			hide: true
+			id: "0342AC47D0267720"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AB9BE46AA0145E1"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "723D375E971600E6"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:copper"
+							frame: "automobility:copper_motorcar"
+							isPrefab: 1b
+							wheels: "automobility:plated"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.copper_motorcar\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Copper Motorcar"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0342AC47D0267720"]
+			hide: true
+			id: "44C234FD55E1D89D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66833C0A97DEE25A"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14B9CDEEA75E807C"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:iron"
+							frame: "automobility:steel_motorcar"
+							isPrefab: 1b
+							wheels: "automobility:street"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.steel_motorcar\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Steel Motorcar"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44C234FD55E1D89D"]
+			hide: true
+			id: "291EE7A5247E3EB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4946AD2BCAEB2563"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D4F3BDABBEA18C9"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:gold"
+							frame: "automobility:golden_motorcar"
+							isPrefab: 1b
+							wheels: "automobility:gilded"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.golden_motorcar\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Golden Motorcar"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["291EE7A5247E3EB4"]
+			hide: true
+			id: "385B3203530A8E03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "177BF8FF4147660E"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32F48EFF1B2932CF"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:diamond"
+							frame: "automobility:bejeweled_motorcar"
+							isPrefab: 1b
+							wheels: "automobility:bejeweled"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.bejeweled_motorcar\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Bejeweled Motorcar"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33C73587BB028AA1"]
+			hide: true
+			id: "460BFFF1CACB3180"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D377D78FD56B62F"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "295558E580C68B81"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:iron"
+							frame: "automobility:standard_white"
+							isPrefab: 1b
+							wheels: "automobility:standard"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.standard_white\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Standart White Car"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["385B3203530A8E03"]
+			hide: true
+			id: "378C71DD7D0A029E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2402FC4C19D395C0"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D539C9E2B7D738C"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:stone"
+							frame: "automobility:amethyst_rickshaw"
+							isPrefab: 1b
+							wheels: "automobility:bejeweled"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.amethyst_rickshaw\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Amethyst Rickshaw"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["378C71DD7D0A029E"]
+			hide: true
+			id: "12DEF5440302DC71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "067274F197D996E9"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67723C643560B8C1"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:gold"
+							frame: "automobility:quartz_rickshaw"
+							isPrefab: 1b
+							wheels: "automobility:gilded"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.quartz_rickshaw\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Quartz Rickshaw"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12DEF5440302DC71"]
+			hide: true
+			id: "306C61701935F142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2343CA788D6142B1"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AF502282E0EC7EF"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:copper"
+							frame: "automobility:prismarine_rickshaw"
+							isPrefab: 1b
+							wheels: "automobility:plated"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.prismarine_rickshaw\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Prismarine Rickshaw"
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["306C61701935F142"]
+			hide: true
+			id: "33C73587BB028AA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "032A0129EF24A656"
+				table_id: 108296034225301782L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50011755FA7D8410"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:diamond"
+							frame: "automobility:echo_rickshaw"
+							isPrefab: 1b
+							wheels: "automobility:street"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.echo_rickshaw\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Echo Rickshaw"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["460BFFF1CACB3180"]
+			hide: true
+			id: "6C0487A0FBDA05F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E273DDCB76887F"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EC4569222F825E2"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:copper"
+							frame: "automobility:red_tractor"
+							isPrefab: 1b
+							wheels: "automobility:tractor"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.red_tractor\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Red Tractor"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0487A0FBDA05F6"]
+			hide: true
+			id: "41EAFDD8E975C2E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A078D0602096272"
+				table_id: 7271492818930180673L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15A8B73209C7E943"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:stone"
+							frame: "automobility:shopping_cart"
+							isPrefab: 1b
+							wheels: "automobility:steel"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.shopping_cart\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Shopping Cart"
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41EAFDD8E975C2E7"]
+			hide: true
+			id: "3159C0AC7AA8FBF4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20D39BCB6ECE8557"
+					table_id: 108296034225301782L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47D5DFE1A629460F"
+					table_id: 108296034225301782L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6C4427C9C4DA1E70"
+				item: {
+					Count: 1
+					id: "automobility:automobile"
+					tag: {
+						Automobile: {
+							engine: "automobility:gold"
+							frame: "automobility:pineapple"
+							isPrefab: 1b
+							wheels: "automobility:tractor"
+						}
+						display: {
+							Name: "{\"translate\":\"prefab.automobility.pineapple\",\"italic\":\"false\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "PINEAPPLE"
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44DDF92B8745A6AF"]
+			id: "43061CF82DC9338F"
+			tasks: [{
+				id: "5C6B753E03CBD4AB"
+				item: {
+					Count: 1
+					id: "anim_guns:smg_rapid"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Kriss Vector"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["43061CF82DC9338F"]
+			id: "22F983F1B6A9880A"
+			tasks: [{
+				id: "086D651595C05890"
+				item: {
+					Count: 1
+					id: "anim_guns:amr_classic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Anti Material Rifle"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["22F983F1B6A9880A"]
+			id: "073D579B548E5353"
+			tasks: [{
+				id: "076FE1A628B0A79F"
+				item: {
+					Count: 1
+					id: "anim_guns:sniper_marksman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Marksman Rifle"
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["124985045ED2A721"]
+			id: "2D25C7F210E42B6F"
+			tasks: [{
+				id: "7227C953E3D6FD34"
+				item: "anim_guns:blueprint_smg_rapid"
+				type: "item"
+			}]
+			title: "Craft a Kriss Vector Blueprint"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D25C7F210E42B6F"]
+			id: "15D1368087809888"
+			tasks: [{
+				id: "753924592212C2F6"
+				item: "anim_guns:blueprint_amr_classic"
+				type: "item"
+			}]
+			title: "Craft an Anti Material Rifle Blueprint"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15D1368087809888"]
+			id: "4D5D1EF99B537828"
+			tasks: [{
+				id: "0FC025823A6FF0C4"
+				item: "anim_guns:blueprint_sniper_marksman"
+				type: "item"
+			}]
+			title: "Craft a Marksman Rifle Blueprint"
+			x: -6.5d
+			y: -6.0d
+		}
+	]
+	title: "&8Technology"
+}

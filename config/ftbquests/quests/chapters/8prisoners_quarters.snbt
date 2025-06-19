@@ -1,0 +1,614 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8prisoners_quarters"
+	group: "6CE50F1BA3E6325C"
+	icon: {
+		Count: 1
+		id: "minecells:prison_doorway"
+		tag: {
+			BlockEntityTag: { }
+		}
+	}
+	id: "3FF2E5E73C292CBE"
+	images: [
+		{
+			height: 1.0d
+			image: "minecells:item/reset_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/charged_interdimensional_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/conjunctivius_respawn_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/interdimensional_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/cage"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/broken_cage"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/spikes_bloody"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/kingdom_portal_core"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D306585ED1ECAA9"]
+			hide: true
+			id: "44B29EF60E60D91F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "699F5E35263C0757"
+					table_id: 2286845252973204709L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CAF2728F5C48A27"
+					table_id: 2286845252973204709L
+					type: "random"
+				}
+			]
+			subtitle: "Enter by going into one of the new portals that randomly spawn in your world, you have to have obtained a diamond for the portal to be activated"
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "minecells:prison_stone"
+				id: "27551887975D04E6"
+				type: "dimension"
+			}]
+			title: "Visit the Prisoners Quarters"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44B29EF60E60D91F"]
+			hide: true
+			icon: "minecraft:slime_ball"
+			id: "7E5897D592DE1074"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "514625466E202769"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecells:leaping_zombie"
+				id: "525858055233B873"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Kill 15 Leaping Zombies"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44B29EF60E60D91F"]
+			hide: true
+			id: "2FA983D7AD4C6C0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520166A20DDF4C12"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecells:grenadier"
+				id: "2D85B6DB32F9C158"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Kill 15 Grenadiers"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44B29EF60E60D91F"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AEABA0E2B13B227"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31DC6E80FB9588F8"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecells:undead_archer"
+				id: "4682574A07085027"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Kill 15 Undead Archers"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44B29EF60E60D91F"]
+			hide: true
+			id: "6746C056149EB78E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4993C7A0AF191F03"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecells:shieldbearer"
+				icon: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "66D3261059B859E3"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Kill 15 Shieldbearers"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5462E8B9380B4EBB"]
+			hide: true
+			hide_dependency_lines: false
+			id: "29AC4A4870ABD7E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522CE4210A51897C"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14AAC22A7766D95C"
+				item: {
+					Count: 1
+					id: "minecells:assassins_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Assasin`s Dagger"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44B29EF60E60D91F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3AF8EB3BFBC0D550"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BAFF9F57B10A71B"
+				table_id: 19754349203778468L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E05D6DB2B397A03"
+				item: {
+					Count: 1
+					id: "minecells:hattoris_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Hattori`s Katana"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29AC4A4870ABD7E6"]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "5C6D9A8A5B1CB05B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39CF35B8612943BE"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23EEDEE5355FD6FC"
+				item: {
+					Count: 1
+					id: "minecells:blood_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain the Blood Sword"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C6D9A8A5B1CB05B"]
+			hide: true
+			id: "55790BF4CABCACAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CEFD4D043E6279A"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A7AE5B1D26B3DA2"
+				item: {
+					Count: 1
+					id: "minecells:broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Broadsword"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55790BF4CABCACAC"]
+			hide: true
+			id: "6F38A99DA5E7564E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07533B00D9CDA70A"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DC0E5AF098AA80B"
+				item: {
+					Count: 1
+					id: "minecells:balanced_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Balanced Blade"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			hide: true
+			id: "0B99CECDB3666F24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "361D44103CAAC2B5"
+				table_id: 2286845252973204709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07A65020C53BEBEE"
+				item: "minecells:reset_rune"
+				type: "item"
+			}]
+			title: "Obtain a Reset Rune"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0B99CECDB3666F24"]
+			hide: true
+			id: "43A62855032ADD06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A2EF67C047EB632"
+				table_id: 2286845252973204709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4690EAEE5B08B429"
+				item: "minecells:conjunctivius_respawn_rune"
+				type: "item"
+			}]
+			title: "Obtain a Conjunctivious Respawn Rune"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6F38A99DA5E7564E"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1FB6AA867B4C2372"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78B165F2EC1CC4AA"
+				table_id: 7665362973560135477L
+				type: "random"
+			}]
+			subtitle: "Go as Deep as possible in the Prisoners Quarters"
+			tasks: [{
+				dimension: "minecells:insufferable_crypt"
+				icon: "minecells:red_wilted_wall_leaves"
+				id: "2D6B57E7EAE7AECC"
+				type: "dimension"
+			}]
+			title: "Enter the Ensufferable Crypt"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1FB6AA867B4C2372"]
+			hide: true
+			icon: "minecells:monsters_eye"
+			id: "4081502B660779A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "217701A424872036"
+					table_id: 7665362973560135477L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1963A9B951C1859B"
+					table_id: 2286845252973204709L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C5CA83B60D8A31"
+					table_id: 6091099394526333521L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BBB96EC77DC88EC"
+					table_id: 19754349203778468L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				id: "33BB803A728F7331"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Conjunctivious"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			hide: true
+			id: "7D306585ED1ECAA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F8E5CFAA4C766A0"
+				table_id: 2286845252973204709L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecells:hardstone"
+				id: "7C24F413531B078F"
+				structure: "minecells:overworld_portal"
+				type: "structure"
+			}]
+			title: "Discover an Overworld Portal"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4081502B660779A3"]
+			hide: true
+			id: "4B63C71BD58FE3A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2339C688C3C94E6B"
+				table_id: 2286845252973204709L
+				type: "random"
+			}]
+			subtitle: "Careful when wielding this weapon it might not end well for you...."
+			tasks: [{
+				id: "7506D8110E8F584B"
+				item: {
+					Count: 1
+					id: "minecells:cursed_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a &cCursed Sword"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3AF8EB3BFBC0D550"]
+			hide: true
+			id: "5462E8B9380B4EBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D92155103602C88"
+				table_id: 19754349203778468L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67E1A35B9DF1D400"
+				item: {
+					Count: 1
+					id: "minecells:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Crowbar"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F38A99DA5E7564E"]
+			hide: true
+			id: "212CBBB76F29DFE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "183F729CCF842E5E"
+				table_id: 19754349203778468L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D72767DAB9FFA98"
+				item: {
+					Count: 1
+					id: "minecells:nutcracker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Nutcracker"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["44B29EF60E60D91F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "76AC47100F42B15E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BD84E28C82EA907"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:wilted_grass_block"
+				id: "679CAC28EF6ED356"
+				type: "dimension"
+			}]
+			title: "Explore the Promenade of the Condemned!"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["76AC47100F42B15E"]
+			hide: true
+			id: "5DFAEBECF30B8DAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4916DFF57B06EA5E"
+				table_id: 2286845252973204709L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecells:putrid_planks"
+				id: "20379E8197F8C19A"
+				structure: "minecells:promenade_overground"
+				type: "structure"
+			}]
+			title: "Discover a forgotten Village"
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6017585613BD40DA"]
+			hide: true
+			id: "5F5F9C26B0586AFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "615AE859F7EEA02B"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecells:spikes"
+				id: "32B871E5CD36FF5B"
+				structure: "minecells:promenade_underground"
+				type: "structure"
+			}]
+			title: "Discover an Underground Dungeon"
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5DFAEBECF30B8DAB"]
+			hide: true
+			id: "6017585613BD40DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B15141A7909D256"
+				table_id: 6091099394526333521L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecells:runner"
+				id: "02D425F6A8D71A82"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill 10 Runners"
+			x: 0.0d
+			y: -12.5d
+		}
+	]
+	subtitle: ["A Collection of Ancient, Dangerous Structures Bosses and Dimensions. Dangerous but Rewarding"]
+	title: "&4Minecells"
+}
